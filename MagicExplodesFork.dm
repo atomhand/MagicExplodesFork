@@ -276,12 +276,6 @@
 #ap 9
 #end
 
-#selectmonster 2096 -- Kenzoku
-#noleader
-#nomagicleader
-#immortal
-#end
-
 #selectmonster 512 -- Fall Bear
 #size 7
 #hp 69
@@ -365,39 +359,25 @@
 
 --------Clockwork--------
 
-#newspell
-#name "Clockwork Commander"
-#school -1
-#effect 10021
-#damage 2321
-#end
 #selectspell 1085 --Clockwork Soldiers
-#fatiguecost 20
+#fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
 #nreff 4002
 #damage 2321
-#nextspell "Clockwork Commander"
 #end
 
-#newspell
-#name "Clockwork Horror Commander"
-#school -1
-#effect 10021
-#damage -1338
-#end
 #selectspell 1088 --Clockwork Horrors
-#fatiguecost 20
+#fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
 #nreff 4002
 #damage -1338
-#nextspell "Clockwork Horror Commander"
 #end
 --------End Clockwork--------
 
 #selectspell 974 --Summon Cave Drake
-#fatiguecost 9
+#fatiguecost 100
 #nreff 3001
 #researchlevel 3
 #pathlevel 0 1
@@ -410,11 +390,13 @@
 #inanimate
 #reinvigoration -5
 #end
+
 #newspell
 #name "Forge Frog"
 #school 3
 #path 0 3
 #effect 10021
+#fatiguecost 100
 #damagemon "Clockwork Frog"
 #descr "Summons a frog that gets tired like clockwork does. No practical use."
 #end
@@ -457,21 +439,22 @@
 #end
 
 #newspell
+#name "Call Great Hawk"
+#school -1
+#path 0 1
+#effect 10021
+#damage 1380
+#end
+
+#newspell
 #name "Call of the Winds"
 #school 0
 #path 0 1
 #effect 10001
 #damage 517
 #nreff 5010
-#end
-
-
-#newspell
-#name "Call Great Hawk"
-#school 0
-#path 0 1
-#effect 10021
-#damage 1380
+#fatiguecost 100
+#nextspell "Call Great Hawk
 #end
 
 #selectspell 942 --Call of the Winds
@@ -481,24 +464,11 @@
 #farsumcom 1380
 #end
 
-#newspell 
-#name "Frankenstein's Monster"
-#path 0
-#school -1
-#effect 10021
-#damage 534
-#end
-
-#selectmonster 534
-#okundeadleader
-#end
-
 #selectspell 1084 --Corpse Man Construction
 #nreff 2000
 #fatiguecost 99
 #researchlevel 0
 #path 1 -1
-#nextspell "Frankenstein's Monster"
 #end
 
 --------End 0Air--------
@@ -509,24 +479,16 @@
 #name "Scorpion King"
 #path 0
 #school 0
+#fatiguecost 100
 #effect 10021
 #damage 1649
 #end
 
-#newspell 
-#name "Fire Ant King"
-#path 0
-#school -1
-#effect 10021
-#damage 2225
-#end
-
 #selectspell 926 --Summon Fire Ants
 #nreff 3002
-#fatiguecost 30
+#fatiguecost 100
 #researchlevel 0
 #path 1 -1
-#nextspell "Fire Ant King"
 #end
 
 #selectmonster 2225
@@ -537,19 +499,10 @@
 #okmagicleader
 #end
 
-#newspell 
-#name "Fire Snake King"
-#path 0
-#school -1
-#effect 10021
-#damage 814
-#end
-
 #selectspell 1025 --Summon Fire Snakes
 #nreff 3002
-#fatiguecost 30
+#fatiguecost 100
 #researchlevel 0
-#nextspell "Fire Snake King"
 #end
 
 #selectspell 1273 --Bonds of Fire
@@ -604,25 +557,11 @@
 #spec 8404992
 #end
 
-#selectmonster 2159
-#okmagicleader
-#fixedname "Picasso"
-#end
-
-#newspell 
-#name "Gelatinous Cubist"
-#path 0
-#school -1
-#effect 10021
-#damage 2159
-#end
-
 #selectspell 1155 --Vile Water
 #nreff 2000
-#fatiguecost 10
+#fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
-#nextspell "Gelatinous Cubist"
 #end
 
 #newmonster
@@ -646,7 +585,7 @@
 #path 0 2 -- water now
 #path 1 -1
 #nreff 15015
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 0
 #nextspell "Dogmother"
 #end
@@ -657,22 +596,13 @@
 
 #selectspell 1113 --Reanimation
 #nreff 13013
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 0
-#nextspell "Revive King"
 #end
 
 #selectspell 1123 --Revive King
 #researchlevel 0
-#fatiguecost 10
-#end
-
-#newspell 
-#name "Ghoul King"
-#path 0
-#school -1
-#effect 10021
-#damage 198
+#fatiguecost 100
 #end
 
 #newspell
@@ -682,7 +612,7 @@
 #effect 10001
 #nreff 5005
 #damage 198
-#nextspell "Ghoul King"
+#fatiguecost 100
 #end
 
 #selectspell 682 --Bolt of Unlife
@@ -723,36 +653,18 @@
 #okmagicleader
 #end
 
-#newspell 
-#name "Slightly Bigger Ivy"
-#path 0
-#school -1
-#effect 10021
-#damage 361
-#end
-
 #selectspell 932 --Awaken Vine Men
 #nreff 5045
 #path 0 4
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 0
-#nextspell "Slightly Bigger Ivy"
-#end
-
-#newspell 
-#name "Algal Leader"
-#path 0
-#school -1
-#effect 10021
-#damage 2976
 #end
 
 #selectspell 933 --Awaken Algae Men free summon
 #nreff 5045
 #path 0 4
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 0
-#nextspell "Algal Leader"
 #end
 
 #newmonster
@@ -767,6 +679,7 @@
 #school 0
 #effect 10021
 #damagemon "Ether Vanguard"
+#fatiguecost 100
 #end
 
 
@@ -775,41 +688,16 @@
 --------0Glamour-------
 
 
-#selectspell 962 --Summon Fay Folk
-#school -1
-#end
-#newspell 
-#name "Fay Baron"
-#path 0
-#school -1
-#effect 10021
-#damage 3917
-#end
-
-
 #newspell
 #name "Summon Fay Folk"
 #nreff 11014
-#fatiguecost 30
+#fatiguecost 100
 #researchlevel 0
 #school 0
 #path 0 7
 #pathlevel 0 1
 #effect 10001
 #damage -26
-#nextspell "Fay Baron"
-#end
-
-#newspell 
-#name "Alpha Phantasmal Beast"
-#path 0
-#school -1
-#effect 10021
-#damage 3626
-#end
-
-#selectmonster 3626
-#okmagicleader
 #end
 
 #newspell 
@@ -821,31 +709,17 @@
 #effect 10001
 #damage 3626
 #nreff 4000
-#nextspell "Alpha Phantasmal Beast"
-#end
-
-#newspell 
-#name "Alpha Phantasmal Wolf"
-#path 0
-#school -1
-#effect 10021
-#damage 3625
-#end
-
-#selectmonster 3625
-#okmagicleader
 #end
 
 #newspell 
 #name "Phantasmal Pack"
-#fatiguecost 40
+#fatiguecost 100
 #path 0 7
 #pathlevel 0 1
 #school 0
 #effect 10001
 #damage 3625
 #nreff 5010
-#nextspell "Alpha Phantasmal Wolf"
 #end
 
 #selectspell 1270 --Fascination
@@ -877,18 +751,6 @@
 
 --------0Nature--------
 
-#newspell 
-#name "Slightly Bigger Mantis"
-#path 0
-#school -1
-#effect 10021
-#damage 2226
-#end
-
-#selectmonster 2226
-#okmagicleader
-#end
-
 #selectweapon 742 --Mantis Claw
 #magic
 #end
@@ -897,7 +759,6 @@
 #fatiguecost 200
 #researchlevel 0
 #pathlevel 0 1
-#nextspell "Slightly Bigger Mantis"
 #end
 
 #selectspell 920 --Tangle Vines
@@ -908,7 +769,7 @@
 #end
 
 #selectspell 1024 --Awaken Sleeper
-#fatiguecost 50
+#fatiguecost 100
 #researchlevel 0
 #pathlevel 0 2
 #path 0 6
@@ -920,19 +781,19 @@
 
 
 #selectspell 925 --Shadow Servant
-#fatiguecost 10
+#fatiguecost 100
 #pathlevel 0 1
 #researchlevel 0
 #school 5
 #end
 
 #selectspell 954 --Revive Bane
-#fatiguecost 10
+#fatiguecost 100
 #researchlevel 1
 #end
 
 #selectspell 1011 --Revive Bane Lord
-#fatiguecost 20
+#fatiguecost 100
 #researchlevel 3
 #pathlevel 0 3
 #end
@@ -945,18 +806,11 @@
 #school 5
 #end
 
-#newspell
-#name "Lampad Commander"
-#school -1
-#effect 10021
-#damage 3210
-#end
 #selectspell 369 --Procession of the Underworld
 #fatiguecost 200
 #researchlevel 2
 #pathlevel 0 1
 #nreff 6004
-#nextspell "Lampad Commander"
 #end
 
 #selectspell 953 --Revive Wights
@@ -967,7 +821,7 @@
 
 #selectspell 1008 --Spirit Mastery
 #nreff 30
-#fatiguecost 2
+#fatiguecost 100
 #researchlevel 3
 #school 5
 #end
@@ -1053,18 +907,11 @@
 #school 5
 #end
 
-#newspell
-#name "Bane Lord"
-#school -1
-#effect 10021
-#damage 998
-#end
 #selectspell 1079 --Legion of Wights
 #nreff 9009
 #fatiguecost 1300
 #researchlevel 5
 #pathlevel 0 4
-#nextspell "Bane Lord"
 #end
 
 --TODO: ghoul variants
@@ -1078,9 +925,10 @@
 #newspell
 #copyspell 1113
 #name "Royal Reanimation"
-#fatiguecost 10
+#fatiguecost 100
+#pathlevel 0 2
 #researchlevel 2
-#nextspell "Reanimation"
+#nextspell "Revive King"
 #end
 
 #selectspell 1160 --Behemoth
@@ -1112,7 +960,7 @@
 #end
 
 #selectspell 1227 --Carrion Reanimation
-#fatiguecost 10
+#fatiguecost 100
 #researchlevel 3
 #pathlevel 0 2
 #school 1
@@ -1165,14 +1013,15 @@
 #command 50
 #end
 #newspell
+
 #name "Packleader"
 #school -1
 #effect 10021
-#damage 1224
+#damage 633 -- werewolf
 #end
 #selectspell 935 --Pack of Wolves
 #nreff 9021
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 0
 #damage -1340
 #nextspell "Packleader"
@@ -1186,29 +1035,15 @@
 #school -1
 #end
 
-#newspell
-#name "Marionette"
-#school -1
-#effect 10021
-#damage 314
-#end
-
-#selectmonster 314
-#okmagicleader
-#okundeadleader
-#end
-
-
 #selectspell 1087 --Construct Manikin
-#fatiguecost 3
+#fatiguecost 100
 #researchlevel 0
 #path 1 -1
 #nreff 12000
-#nextspell "Marionette"
 #end
 
 #selectspell 1092 --Construct Mandragora
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #nreff 5000
 #pathlevel 0 2
@@ -1220,18 +1055,11 @@
 
 --------Summon Animals Workshop--------
 
-#newspell
-#name "Fay Folk Commander"
-#school -1
-#effect 10021
-#damage -26
-#end
 #selectspell 921 --Summon Animals
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 0
 #pathlevel 0 2
 #nreff 10020
-#nextspell "Fay Folk Commander"
 #end
 
 
@@ -1242,13 +1070,13 @@
 #end
 
 #selectspell 979 --Summon Spine Frog
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 2
 #nreff 5
 #end
 
 #selectspell 961 --Summon Bog Beasts
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 2
 #nreff 6008
 #end
@@ -2376,7 +2204,7 @@
 #selectspell 611 --Attentive Statues
 #clear
 #name "Attentive Statues"
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 1
 #path 0 3
 #path 1 -1
@@ -2645,7 +2473,7 @@
 
 #selectspell 1138 --Claymen
 #nreff 4016
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #end
 
@@ -2692,7 +2520,7 @@
 #selectspell 620 --Flame Corpse Construction
 #clear
 #name "Flame Corpse Construction"
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 2
 #path 0 0
 #path 1 5
@@ -2731,27 +2559,12 @@
 #nreff 1002
 #end
 
-#newspell
-#name "Terracotta Commander"
-#fatiguecost 200
-#researchlevel 1
-#path 0 0
-#path 1 -1
-#pathlevel 0 1
-#pathlevel 1 1
-#school -1
-#effect 10021
-#damage 2134
-#nreff 1
-#end
-
 #selectspell 1149 --Terracotta Army
 #nreff 5008
 #fatiguecost 200
 #researchlevel 3
 #path 0 0
 #pathlevel 1
-#nextspell "Terracotta Commander"
 #end
 
 #selectspell 1166 --Gift of Splendor
@@ -4533,20 +4346,11 @@
 #casttime 185
 #end
 
-#newspell
-#name "Hotter Imp"
-#school -1
-#effect 10021
-#damage 2286
-#end
-
-
 #selectspell 1386 --Bind Fiery Imps free summon
 #nreff 4008
-#fatiguecost 99
+#fatiguecost 200
 #researchlevel 0
 #path 1 -1
-#nextspell "Hotter Imp"
 #end
 
 #selectspell 1387 --Blood Boil
@@ -4556,12 +4360,12 @@
 #end
 
 #selectspell 271 --Orgy
-#fatiguecost 99
+#fatiguecost 500
 #researchlevel 0
 #end
 
 #selectspell 510 --Bind Beast Bats
-#fatiguecost 10
+#fatiguecost 100
 #researchlevel 1
 #nreff 2003
 #end
@@ -4603,7 +4407,7 @@
 #end
 
 #selectspell 1391 --Bind Spine Devil
-#fatiguecost 99
+#fatiguecost 200
 #nreff 2004
 #researchlevel 1
 #end
@@ -4699,7 +4503,7 @@
 #end
 
 #selectspell 1402 --Bind Serpent Fiend
-#fatiguecost 99
+#fatiguecost 200
 #researchlevel 3
 #nreff 8002
 #end
@@ -4926,7 +4730,7 @@
 #end
 
 #selectspell 1423 --Ritual of Five Gates
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 2
 #pathlevel 0 3
 #end
@@ -6014,7 +5818,7 @@
 #end
 
 #selectspell 854 --Manifest Vitriol
-#fatiguecost 50
+#fatiguecost 100
 #researchlevel 5
 #nreff 2000
 #end
@@ -6431,7 +6235,7 @@
 
 #selectspell 504 --Summon Jaguar Toads
 #nreff 5000
-#fatiguecost 10
+#fatiguecost 100
 #researchlevel 0
 #end
 
@@ -6501,29 +6305,12 @@
 #end
 
 #selectspell 438 --Summon Black Dogs
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 1
 #pathlevel 0 1
 #nreff 7013
 #end
 
-#selectmonster 2135
-#okleader
-#berserk 3
-#end
-#newspell
-#name "Ogre Commander"
-#fatiguecost 200
-#researchlevel 1
-#path 0 0
-#path 1 -1
-#pathlevel 0 1
-#pathlevel 1 1
-#school -1
-#effect 10021
-#damage 2135
-#nreff 1
-#end
 #selectspell 930 --Summon Ogres
 #name "Incite Ogres"
 #nreff 5005
@@ -6531,7 +6318,6 @@
 #researchlevel 1
 #school 5
 #path 0 0
-#nextspell "Ogre Commander"
 #end
 
 #selectspell 937 --Tapestry of Dreams
@@ -6555,19 +6341,13 @@
 #selectmonster 1264
 #coldpower 1
 #end
-#newspell
-#name "Ao-Oni Commander"
-#school -1
-#effect 10021
-#damage 1264
-#end
+
 #selectspell 588 --Summon Ao-Oni
-#fatiguecost 300
+#fatiguecost 300o
 #researchlevel 1
 #nreff 6010
 #restricted 23
 #school 5
-#nextspell "Ao-Oni Commander"
 #end
 
 
@@ -6609,13 +6389,13 @@
 #end
 
 #selectspell 600 --Bind Penumbral
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #nreff 1001
 #end
 
 #selectspell 601 --Summon Penumbrals
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #nreff 1001
 #end
@@ -6679,21 +6459,14 @@
 #nreff 2001
 #end
 
-#newspell
-#name "Cyclops Commander"
-#school -1
-#effect 10021
-#damage 3381
-#end
 #selectspell 536 --Call Cyclops Tribe
 #nreff 5005
 #fatiguecost 300
 #researchlevel 2
-#nextspell "Cyclops Commander"
 #end
 
 #selectspell 609 --Barathrus Pact
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #nreff 2000
 #end
@@ -6714,30 +6487,24 @@
 #selectmonster 1266
 #firepower 1
 #end
-#newspell
-#name "Aka-Oni Commander"
-#school -1
-#effect 10021
-#damage 1266
-#end
+
 #selectspell 590 --Summon Aka-Oni
 #fatiguecost 300
 #researchlevel 2
 #nreff 6010
 #restricted 23
 #school 5
-#nextspell "Aka-Oni Commander"
 #end
 
 #selectspell 608 --Rhuax Pact
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #nreff 5000
 #end
 
 #selectspell 940 --Bind Scorpion Beast
 #nreff 2002
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 2
 #end
 
@@ -6832,7 +6599,7 @@
 #end
 
 #selectspell 557 --Summon Apsaras
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 2
 #nreff 1008
 #end
@@ -6844,24 +6611,12 @@
 #researchlevel 2
 #end
 
-#newspell
-#name "Heavenly Rivers Commander"
-#effect 10021
-#damage 904
-#end
 #selectspell 530 --Heavenly Rivers
 #fatiguecost 400
 #researchlevel 2
 #nreff 2003
-#nextspell "Heavenly Rivers Commander"
 #end
 
-#newspell
-#name "Yeti Commander"
-#school -1
-#effect 10021
-#damage 2231 --TODO: yeti rider that throws snowballs
-#end
 #selectspell 946 --Summon Yetis
 #path 0 1
 #path 1 -1
@@ -6869,7 +6624,6 @@
 #pathlevel 1 1
 #fatiguecost 500
 #nreff 5005
-#nextspell "Yeti Commander"
 #end
 
 #newspell
@@ -6901,7 +6655,7 @@
 #end
 
 #selectspell 945 --Call Krakens
-#fatiguecost 99
+#fatiguecost 100
 #nreff 1005
 #researchlevel 2
 #pathlevel 0 1
@@ -6915,7 +6669,7 @@
 
 #selectspell 967 --Summon Wyverns
 #nreff 2001
-#fatiguecost 1
+#fatiguecost 100
 #researchlevel 3
 #end
 
@@ -6933,12 +6687,6 @@
 #armor 172
 #montagweight 1
 #end
-#newspell
-#name "Gryphon Commander"
-#school -1
-#effect 10021
-#damagemon "Armored Gryphon"
-#end
 
 #selectspell 969 --Summon Gryphons
 #nreff 2003
@@ -6946,7 +6694,6 @@
 #researchlevel 2
 #pathlevel 0 1
 #damage -1339
-#nextspell "Gryphon Commander"
 #end
 
 #selectspell 328 --Summon Likho
@@ -7003,25 +6750,11 @@
 #researchlevel 3
 #end
 
-#newspell
-#name "Oni Commander"
-#fatiguecost 200
-#researchlevel 1
-#path 0 0
-#path 1 -1
-#pathlevel 0 1
-#pathlevel 1 1
-#school -1
-#effect 10021
-#damage 1272
-#nreff 1
-#end
 #selectspell 593 --Summon Oni
 #fatiguecost 300
 #researchlevel 3
 #school 5
 #nreff 6010
-#nextspell "Oni Commander"
 #restricted 23
 #end
 
@@ -7347,7 +7080,7 @@
 #end
 
 #selectspell 310 --Summon Kenzoku
-#fatiguecost 20
+#fatiguecost 100
 #researchlevel 3
 #end
 
@@ -7610,43 +7343,22 @@
 #pathlevel 0 3
 #end
 
-#newspell
-#name "Yazad Commander"
-#school -1
-#effect 10021
-#damage 1607
-#end
 #selectspell 466 --Summon Yazatas
 #fatiguecost 400
 #researchlevel 4
 #nreff 2004
-#nextspell "Yazad Commander"
 #end
 
-#newspell
-#name "Huaca Commander"
-#school -1
-#effect 10021
-#damage 2697
-#end
 #selectspell 475 --Summon Huacas
 #fatiguecost 400
 #researchlevel 4
 #nreff 2004
-#nextspell "Huaca Commander"
 #end
 
-#newspell
-#name "Gandharva Commander"
-#school -1
-#effect 10021
-#damage 1335
-#end
 #selectspell 562 --Summon Gandharvas
 #fatiguecost 400
 #researchlevel 4
 #nreff 2004
-#nextspell "Gandharva Commander"
 #end
 
 #selectspell 1012 --Acashic Record
@@ -7789,17 +7501,10 @@
 #researchlevel 5
 #end
 
-#newspell
-#copyspell 1123 -- Revine King
-#damage 902 
-#name "Celestial Soldier Commander"
-#school -1
-#end
 #selectspell 533 --Call Celestial Soldiers
 #fatiguecost 700
 #researchlevel 4
 #nreff 2004
-#nextspell "Celestial Soldier Commander"
 #end
 
 #selectspell 449 -- Send Aatxe
@@ -7860,7 +7565,7 @@
 #end
 
 #selectspell 311 --Summon Gozu Mezu
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 4
 #pathlevel 0 2
 #nreff 505
@@ -8022,7 +7727,7 @@
 #end
 
 #selectspell 479 --Angelic Choir
-#fatiguecost 99
+#fatiguecost 100
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -9910,6 +9615,7 @@
 #copyspell "Fireball"
 #name "Wild Fire"
 #aoe 1
+#school -1
 #end
 #selectitem 48 --Wand of Wild Fire
 #constlevel 3
