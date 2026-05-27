@@ -10003,6 +10003,7 @@
 
 #selectitem 62 --Skull Staff
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectweapon 297
@@ -10023,6 +10024,7 @@
 
 #selectitem 65 --Thistle Mace
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 66 --Whip of Command
@@ -10186,6 +10188,7 @@
 
 #selectitem 192 --Flame Helmet
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 193 --Helmet of Heroes
@@ -10203,6 +10206,7 @@
 
 #selectitem 195 --Winged Helmet
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 196 --Crown of Command
@@ -10235,6 +10239,7 @@
 
 #selectitem 201 --Gossamer Veil
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 202 --Crown of the Whispering Dead
@@ -10305,6 +10310,7 @@
 
 #selectitem 251 --Robe of the Sea
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 252 --Shroud of the Battle Saint
@@ -10338,6 +10344,7 @@
 
 #selectitem 257 --Armor of Souls
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 282 --Salamander Silk Garments
@@ -10360,6 +10367,7 @@
 #selectitem 295 --Earth Boots
 #constlevel 3
 #mapspeed 6
+#itemcost1 -20
 #end
 
 #selectitem 296 --Boots of Stone
@@ -10419,6 +10427,7 @@
 
 #selectitem 357 --Horn of Storms
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 358 --Dancing Shield
@@ -10493,6 +10502,8 @@
 
 #selectitem 372 --Coin of Meteoritic Iron
 #constlevel 3
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 373 --Amulet of the Dead
@@ -10608,6 +10619,7 @@
 
 #selectitem 394 --Brazen Vessel
 #constlevel 3
+#itemcost1 -20
 #end
 
 #selectitem 395 --The Heart of Life
@@ -10622,6 +10634,8 @@
 
 #selectitem 397 --Blood Stone
 #constlevel 3
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 398 --Slave's Heart
@@ -10693,6 +10707,8 @@
 
 #selectitem 528 --Armor of Twisting Thorns
 #constlevel 3
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectweapon 171 -- this is on other things too not checking all of them teehee
@@ -10718,6 +10734,8 @@
 
 #selectitem 76 --Staff of Elemental Mastery
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 77 --Carmine Cleaver
@@ -10758,6 +10776,8 @@
 
 #selectitem 82 --Staff of Elemental Mastery
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 83 --Demon Bane
@@ -10816,6 +10836,7 @@
 
 #selectitem 92 --Treelord's Staff
 #constlevel 5
+#itemcost1 -20
 #end
 
 #selectitem 93 --Singing Sword
@@ -10825,6 +10846,7 @@
 
 #selectitem 94 --Blood Thorn
 #constlevel 5
+#itemcost1 -20
 #end
 
 #selectitem 95 --Hell Sword
@@ -10934,6 +10956,7 @@ mainlevel 1
 
 #selectitem 207 --Starshine Skullcap
 #constlevel 5
+#itemcost1 -20
 #end
 
 #selectitem 208 --Crown of the Magi
@@ -10944,6 +10967,7 @@ mainlevel 1
 
 #selectitem 209 --Skullface
 #constlevel 5
+#itemcost1 -20
 #end
 
 #selectitem 210 --Wraith Crown
@@ -10996,6 +11020,8 @@ mainlevel 1
 
 #selectitem 264 --Robe of the Magi
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 265 --Robe of Invulnerability
@@ -11116,6 +11142,8 @@ mainlevel 1
 
 #selectitem 400 --Skull of Fire
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 401 --Barrel of Air
@@ -11132,7 +11160,7 @@ mainlevel 1
 
 #selectitem 403 --Water Bracelet
 #constlevel 5
-#itemcost 100
+#itemcost1 -20
 #end
 
 #selectitem 404 --Bottle of Living Water
@@ -11213,6 +11241,8 @@ mainlevel 1
 
 #selectitem 417 --Moonvine Bracelet
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 418 --Eye of Innocence
@@ -11222,6 +11252,8 @@ mainlevel 1
 
 #selectitem 419 --Mirage Crystal
 #constlevel 5
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 421 --Ring of Invisibility
