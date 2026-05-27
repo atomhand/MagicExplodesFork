@@ -9864,6 +9864,7 @@
 #selectitem 349 --Witches' Ointment 
 #constlevel 1
 #itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 365 --Enchanted Salt
@@ -9912,7 +9913,7 @@
 #end
 #selectitem 48 --Wand of Wild Fire
 #constlevel 3
-#itemcost1 -80
+#itemcost1 -100
 #spell "Wild Fire"
 #end
 
@@ -9984,7 +9985,7 @@
 
 #selectitem 59 --Starfire Staff
 #constlevel 3
-#itemcost1 -80
+#itemcost1 -100
 #end
 
 #selectitem 60 --Herald Lance
@@ -10046,8 +10047,8 @@
 
 #selectitem 69 --Summer Sword
 #constlevel 3
-#itemcost1 -70
-#itemcost2 -80
+#itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 70 --Unseen Sword
@@ -10378,7 +10379,7 @@
 
 #selectitem 297 --Boots of the Messenger
 #constlevel 3
-#itemcost1 -80
+#itemcost1 -100
 #end
 
 #selectitem 298 --Pixie Shoes
@@ -10641,6 +10642,7 @@
 #selectitem 398 --Slave's Heart
 #constlevel 3
 #itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 477 --Windcatcher Sail
@@ -10723,12 +10725,12 @@
 
 #selectitem 74 --Dragon Sceptre
 #constlevel 5
-#itemcost1 -50
+#itemcost1 -100
 #end
 
 #selectitem 75 --Rod of the Phoenix
 #constlevel 5
-#itemcost1 -50
+#itemcost1 -60
 #extralife
 #end
 
@@ -10764,6 +10766,7 @@
 
 #selectitem 80 --Staff of Storms
 #constlevel 5
+#itemcost1 -50
 #end
 
 #selectweapon 219
@@ -10788,7 +10791,7 @@
 
 #selectitem 84 --Wave Breaker
 #constlevel 5
-#itemcost1 -40
+#itemcost1 -100
 #end
 
 #selectweapon 687
@@ -10818,12 +10821,12 @@
 
 #selectitem 89 --Standard of the Damned
 #constlevel 5
-#itemcost1 -50
+#itemcost1 -60
 #end
 
 #selectitem 90 --Banner of the Nothern Star
 #constlevel 5
-#itemcost1 -50
+#itemcost1 -60
 #end
 
 #selectweappon 413
@@ -11014,8 +11017,8 @@ mainlevel 1
 
 #selectitem 263 --Rainbow Armor
 #constlevel 5
-#itemcost1 -40
-#itemcost2 -60
+#itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 264 --Robe of the Magi
