@@ -101,10 +101,6 @@
 #clearmagic
 #end
 
-#selectmonster 998 --Bane lord
-#undcommand 140
-#end
-
 #selectmonster 3354 --Jinn Warrior
 #clearmagic
 #end
@@ -190,6 +186,7 @@
 #undcommand 200
 #goodmagicleader
 #cold 30
+#undisleader 1
 #end
 
 #selectmonster 3912 --fay folk start
@@ -795,6 +792,8 @@
 #fatiguecost 200
 #researchlevel 3
 #pathlevel 0 3
+#descr "With this ritual, the necromancer revives a Bane Lord, an ancient hero serving the Lord of the Underworld. Bane Lords are mighty warriors and skilled generals. Their brutal methods can impose discipline on even the most unruly creatures."
+#details "Undisciplined summoned creatures may attempt to assassinate the Bane Lord (10% chance per month, additional check if at least 5 of the same undisciplined creature are in the province)"
 #end
 
 #selectspell 976 --Summon Shade Beasts
@@ -11901,6 +11900,1286 @@ mainlevel 1
 --#end
 --
 --
+
+-- Bane rebel events
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 284  -- Wolf
+#req_pop0ok
+#msg "A Wolf has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 284  -- Wolf
+#assassin 284  -- Wolf
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 403  -- Horned Serpent
+#req_pop0ok
+#msg "A Horned Serpent has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 403  -- Horned Serpent
+#assassin 403  -- Horned Serpent
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 435  -- Maenad
+#req_pop0ok
+#msg "A Maenad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 435  -- Maenad
+#assassin 435  -- Maenad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 514  -- Kithaironic Lion
+#req_pop0ok
+#msg "A Kithaironic Lion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 514  -- Kithaironic Lion
+#assassin 514  -- Kithaironic Lion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 517  -- Black Hawk
+#req_pop0ok
+#msg "A Black Hawk has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 517  -- Black Hawk
+#assassin 517  -- Black Hawk
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 522  -- Cave Drake
+#req_pop0ok
+#msg "A Cave Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 522  -- Cave Drake
+#assassin 522  -- Cave Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 523  -- Fire Drake
+#req_pop0ok
+#msg "A Fire Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 523  -- Fire Drake
+#assassin 523  -- Fire Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 524  -- Scorpion Beast
+#req_pop0ok
+#msg "A Scorpion Beast has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 524  -- Scorpion Beast
+#assassin 524  -- Scorpion Beast
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 565  -- Sea Serpent
+#req_pop0ok
+#msg "A Sea Serpent has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 565  -- Sea Serpent
+#assassin 565  -- Sea Serpent
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 578  -- Bog Beast
+#req_pop0ok
+#msg "A Bog Beast has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 578  -- Bog Beast
+#assassin 578  -- Bog Beast
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 579  -- Ice Drake
+#req_pop0ok
+#msg "A Ice Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 579  -- Ice Drake
+#assassin 579  -- Ice Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 628  -- Great Lion
+#req_pop0ok
+#msg "A Great Lion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 628  -- Great Lion
+#assassin 628  -- Great Lion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 694  -- Great Bear
+#req_pop0ok
+#msg "A Great Bear has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 694  -- Great Bear
+#assassin 694  -- Great Bear
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 814  -- Fire Snake
+#req_pop0ok
+#msg "A Fire Snake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 814  -- Fire Snake
+#assassin 814  -- Fire Snake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 859  -- Jaguar
+#req_pop0ok
+#msg "A Jaguar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 859  -- Jaguar
+#assassin 859  -- Jaguar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 884  -- Great Spider
+#req_pop0ok
+#msg "A Great Spider has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 884  -- Great Spider
+#assassin 884  -- Great Spider
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1058  -- Hippocampus
+#req_pop0ok
+#msg "A Hippocampus has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1058  -- Hippocampus
+#assassin 1058  -- Hippocampus
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1063  -- Leocampus
+#req_pop0ok
+#msg "A Leocampus has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1063  -- Leocampus
+#assassin 1063  -- Leocampus
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1064  -- Sea Dog
+#req_pop0ok
+#msg "A Sea Dog has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1064  -- Sea Dog
+#assassin 1064  -- Sea Dog
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1084  -- Moose
+#req_pop0ok
+#msg "A Moose has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1084  -- Moose
+#assassin 1084  -- Moose
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1084  -- Moose
+#req_pop0ok
+#msg "A Moose has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1084  -- Moose
+#assassin 1084  -- Moose
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1140  -- Tiger
+#req_pop0ok
+#msg "A Tiger has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1140  -- Tiger
+#assassin 1140  -- Tiger
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1224  -- Dire Wolf
+#req_pop0ok
+#msg "A Dire Wolf has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1224  -- Dire Wolf
+#assassin 1224  -- Dire Wolf
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1260  -- Ko-Oni
+#req_pop0ok
+#msg "A Ko-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1260  -- Ko-Oni
+#assassin 1260  -- Ko-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1264  -- Ao-Oni
+#req_pop0ok
+#msg "An Ao-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1264  -- Ao-Oni
+#assassin 1264  -- Ao-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1266  -- Aka-Oni
+#req_pop0ok
+#msg "An Aka-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1266  -- Aka-Oni
+#assassin 1266  -- Aka-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1272  -- Oni
+#req_pop0ok
+#msg "A Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1272  -- Oni
+#assassin 1272  -- Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1274  -- Kuro-oni
+#req_pop0ok
+#msg "A Kuro-oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1274  -- Kuro-oni
+#assassin 1274  -- Kuro-oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1358  -- Monster Toad
+#req_pop0ok
+#msg "A Monster Toad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1358  -- Monster Toad
+#assassin 1358  -- Monster Toad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1359  -- Jaguar Toad
+#req_pop0ok
+#msg "A Jaguar Toad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1359  -- Jaguar Toad
+#assassin 1359  -- Jaguar Toad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1412  -- Amphiptere
+#req_pop0ok
+#msg "An Amphiptere has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1412  -- Amphiptere
+#assassin 1412  -- Amphiptere
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1664  -- Monster Fish
+#req_pop0ok
+#msg "A Monster Fish has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1664  -- Monster Fish
+#assassin 1664  -- Monster Fish
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 1807  -- Great Boar
+#req_pop0ok
+#msg "A Great Boar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1807  -- Great Boar
+#assassin 1807  -- Great Boar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2131  -- Gryphon
+#req_pop0ok
+#msg "A Gryphon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2131  -- Gryphon
+#assassin 2131  -- Gryphon
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2132  -- Leogryph
+#req_pop0ok
+#msg "A Leogryph has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2132  -- Leogryph
+#assassin 2132  -- Leogryph
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2185  -- Crocodile
+#req_pop0ok
+#msg "A Crocodile has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2185  -- Crocodile
+#assassin 2185  -- Crocodile
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2186  -- Sacred Crocodile
+#req_pop0ok
+#msg "A Sacred Crocodile has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2186  -- Sacred Crocodile
+#assassin 2186  -- Sacred Crocodile
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2196  -- Swamp Drake
+#req_pop0ok
+#msg "A Swamp Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2196  -- Swamp Drake
+#assassin 2196  -- Swamp Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2225  -- Fire Ant
+#req_pop0ok
+#msg "A Fire Ant has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2225  -- Fire Ant
+#assassin 2225  -- Fire Ant
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2226  -- Killer Mantis
+#req_pop0ok
+#msg "A Killer Mantis has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2226  -- Killer Mantis
+#assassin 2226  -- Killer Mantis
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2229  -- Forest Giant
+#req_pop0ok
+#msg "A Forest Giant has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2229  -- Forest Giant
+#assassin 2229  -- Forest Giant
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2230  -- Cave Cow
+#req_pop0ok
+#msg "A Cave Cow has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2230  -- Cave Cow
+#assassin 2230  -- Cave Cow
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2514  -- Cave Crab
+#req_pop0ok
+#msg "A Cave Crab has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2514  -- Cave Crab
+#assassin 2514  -- Cave Crab
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2526  -- Cave Grub
+#req_pop0ok
+#msg "A Cave Grub has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2526  -- Cave Grub
+#assassin 2526  -- Cave Grub
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2690  -- Sacred Scorpion
+#req_pop0ok
+#msg "A Sacred Scorpion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2690  -- Sacred Scorpion
+#assassin 2690  -- Sacred Scorpion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 2929  -- Swan
+#req_pop0ok
+#msg "A Swan has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2929  -- Swan
+#assassin 2929  -- Swan
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3003  -- Great Bear
+#req_pop0ok
+#msg "A Great Bear has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3003  -- Great Bear
+#assassin 3003  -- Great Bear
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3142  -- Great Mouflon
+#req_pop0ok
+#msg "A Great Mouflon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3142  -- Great Mouflon
+#assassin 3142  -- Great Mouflon
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3381  -- Cyclops
+#req_pop0ok
+#msg "A Cyclops has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3381  -- Cyclops
+#assassin 3381  -- Cyclops
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3684  -- Calydonian Boar
+#req_pop0ok
+#msg "A Calydonian Boar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3684  -- Calydonian Boar
+#assassin 3684  -- Calydonian Boar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3712  -- Spine Frog
+#req_pop0ok
+#msg "A Spine Frog has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3712  -- Spine Frog
+#assassin 3712  -- Spine Frog
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 3991  -- Storm Drake
+#req_pop0ok
+#msg "A Storm Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3991  -- Storm Drake
+#assassin 3991  -- Storm Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_monster 4145  -- Armored Gryphon
+#req_pop0ok
+#msg "An Armored Gryphon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 4145  -- Armored Gryphon
+#assassin 4145  -- Armored Gryphon
+#nolog
+#end
+
+-- 5 monsters version
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 284  -- Wolf
+#req_pop0ok
+#msg "A Wolf has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 284  -- Wolf
+#assassin 284  -- Wolf
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 403  -- Horned Serpent
+#req_pop0ok
+#msg "A Horned Serpent has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 403  -- Horned Serpent
+#assassin 403  -- Horned Serpent
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 435  -- Maenad
+#req_pop0ok
+#msg "A Maenad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 435  -- Maenad
+#assassin 435  -- Maenad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 514  -- Kithaironic Lion
+#req_pop0ok
+#msg "A Kithaironic Lion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 514  -- Kithaironic Lion
+#assassin 514  -- Kithaironic Lion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 517  -- Black Hawk
+#req_pop0ok
+#msg "A Black Hawk has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 517  -- Black Hawk
+#assassin 517  -- Black Hawk
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 522  -- Cave Drake
+#req_pop0ok
+#msg "A Cave Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 522  -- Cave Drake
+#assassin 522  -- Cave Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 523  -- Fire Drake
+#req_pop0ok
+#msg "A Fire Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 523  -- Fire Drake
+#assassin 523  -- Fire Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 524  -- Scorpion Beast
+#req_pop0ok
+#msg "A Scorpion Beast has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 524  -- Scorpion Beast
+#assassin 524  -- Scorpion Beast
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 565  -- Sea Serpent
+#req_pop0ok
+#msg "A Sea Serpent has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 565  -- Sea Serpent
+#assassin 565  -- Sea Serpent
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 578  -- Bog Beast
+#req_pop0ok
+#msg "A Bog Beast has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 578  -- Bog Beast
+#assassin 578  -- Bog Beast
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 579  -- Ice Drake
+#req_pop0ok
+#msg "A Ice Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 579  -- Ice Drake
+#assassin 579  -- Ice Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 628  -- Great Lion
+#req_pop0ok
+#msg "A Great Lion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 628  -- Great Lion
+#assassin 628  -- Great Lion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 694  -- Great Bear
+#req_pop0ok
+#msg "A Great Bear has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 694  -- Great Bear
+#assassin 694  -- Great Bear
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 814  -- Fire Snake
+#req_pop0ok
+#msg "A Fire Snake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 814  -- Fire Snake
+#assassin 814  -- Fire Snake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 859  -- Jaguar
+#req_pop0ok
+#msg "A Jaguar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 859  -- Jaguar
+#assassin 859  -- Jaguar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 884  -- Great Spider
+#req_pop0ok
+#msg "A Great Spider has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 884  -- Great Spider
+#assassin 884  -- Great Spider
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1058  -- Hippocampus
+#req_pop0ok
+#msg "A Hippocampus has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1058  -- Hippocampus
+#assassin 1058  -- Hippocampus
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1063  -- Leocampus
+#req_pop0ok
+#msg "A Leocampus has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1063  -- Leocampus
+#assassin 1063  -- Leocampus
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1064  -- Sea Dog
+#req_pop0ok
+#msg "A Sea Dog has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1064  -- Sea Dog
+#assassin 1064  -- Sea Dog
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1084  -- Moose
+#req_pop0ok
+#msg "A Moose has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1084  -- Moose
+#assassin 1084  -- Moose
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1084  -- Moose
+#req_pop0ok
+#msg "A Moose has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1084  -- Moose
+#assassin 1084  -- Moose
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1140  -- Tiger
+#req_pop0ok
+#msg "A Tiger has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1140  -- Tiger
+#assassin 1140  -- Tiger
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1224  -- Dire Wolf
+#req_pop0ok
+#msg "A Dire Wolf has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1224  -- Dire Wolf
+#assassin 1224  -- Dire Wolf
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1260  -- Ko-Oni
+#req_pop0ok
+#msg "A Ko-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1260  -- Ko-Oni
+#assassin 1260  -- Ko-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1264  -- Ao-Oni
+#req_pop0ok
+#msg "An Ao-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1264  -- Ao-Oni
+#assassin 1264  -- Ao-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1266  -- Aka-Oni
+#req_pop0ok
+#msg "An Aka-Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1266  -- Aka-Oni
+#assassin 1266  -- Aka-Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1272  -- Oni
+#req_pop0ok
+#msg "A Oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1272  -- Oni
+#assassin 1272  -- Oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1274  -- Kuro-oni
+#req_pop0ok
+#msg "A Kuro-oni has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1274  -- Kuro-oni
+#assassin 1274  -- Kuro-oni
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1358  -- Monster Toad
+#req_pop0ok
+#msg "A Monster Toad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1358  -- Monster Toad
+#assassin 1358  -- Monster Toad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1359  -- Jaguar Toad
+#req_pop0ok
+#msg "A Jaguar Toad has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1359  -- Jaguar Toad
+#assassin 1359  -- Jaguar Toad
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1412  -- Amphiptere
+#req_pop0ok
+#msg "An Amphiptere has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1412  -- Amphiptere
+#assassin 1412  -- Amphiptere
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1664  -- Monster Fish
+#req_pop0ok
+#msg "A Monster Fish has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1664  -- Monster Fish
+#assassin 1664  -- Monster Fish
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 1807  -- Great Boar
+#req_pop0ok
+#msg "A Great Boar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 1807  -- Great Boar
+#assassin 1807  -- Great Boar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2131  -- Gryphon
+#req_pop0ok
+#msg "A Gryphon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2131  -- Gryphon
+#assassin 2131  -- Gryphon
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2132  -- Leogryph
+#req_pop0ok
+#msg "A Leogryph has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2132  -- Leogryph
+#assassin 2132  -- Leogryph
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2185  -- Crocodile
+#req_pop0ok
+#msg "A Crocodile has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2185  -- Crocodile
+#assassin 2185  -- Crocodile
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2186  -- Sacred Crocodile
+#req_pop0ok
+#msg "A Sacred Crocodile has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2186  -- Sacred Crocodile
+#assassin 2186  -- Sacred Crocodile
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2196  -- Swamp Drake
+#req_pop0ok
+#msg "A Swamp Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2196  -- Swamp Drake
+#assassin 2196  -- Swamp Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2225  -- Fire Ant
+#req_pop0ok
+#msg "A Fire Ant has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2225  -- Fire Ant
+#assassin 2225  -- Fire Ant
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2226  -- Killer Mantis
+#req_pop0ok
+#msg "A Killer Mantis has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2226  -- Killer Mantis
+#assassin 2226  -- Killer Mantis
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2229  -- Forest Giant
+#req_pop0ok
+#msg "A Forest Giant has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2229  -- Forest Giant
+#assassin 2229  -- Forest Giant
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2230  -- Cave Cow
+#req_pop0ok
+#msg "A Cave Cow has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2230  -- Cave Cow
+#assassin 2230  -- Cave Cow
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2514  -- Cave Crab
+#req_pop0ok
+#msg "A Cave Crab has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2514  -- Cave Crab
+#assassin 2514  -- Cave Crab
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2526  -- Cave Grub
+#req_pop0ok
+#msg "A Cave Grub has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2526  -- Cave Grub
+#assassin 2526  -- Cave Grub
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2690  -- Sacred Scorpion
+#req_pop0ok
+#msg "A Sacred Scorpion has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2690  -- Sacred Scorpion
+#assassin 2690  -- Sacred Scorpion
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 2929  -- Swan
+#req_pop0ok
+#msg "A Swan has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 2929  -- Swan
+#assassin 2929  -- Swan
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3003  -- Great Bear
+#req_pop0ok
+#msg "A Great Bear has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3003  -- Great Bear
+#assassin 3003  -- Great Bear
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3142  -- Great Mouflon
+#req_pop0ok
+#msg "A Great Mouflon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3142  -- Great Mouflon
+#assassin 3142  -- Great Mouflon
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3381  -- Cyclops
+#req_pop0ok
+#msg "A Cyclops has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3381  -- Cyclops
+#assassin 3381  -- Cyclops
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3684  -- Calydonian Boar
+#req_pop0ok
+#msg "A Calydonian Boar has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3684  -- Calydonian Boar
+#assassin 3684  -- Calydonian Boar
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3712  -- Spine Frog
+#req_pop0ok
+#msg "A Spine Frog has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3712  -- Spine Frog
+#assassin 3712  -- Spine Frog
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 3991  -- Storm Drake
+#req_pop0ok
+#msg "A Storm Drake has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 3991  -- Storm Drake
+#assassin 3991  -- Storm Drake
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_rare 10
+#req_targmnr 998 -- Bane Lord
+#req_5monsters 4145  -- Armored Gryphon
+#req_pop0ok
+#msg "An Armored Gryphon has rebelled against your Bane Lord's oppressive leadership!"
+#killmon 4145  -- Armored Gryphon
+#assassin 4145  -- Armored Gryphon
+#nolog
+#end
+
+--
+--
+-- Disable awake pretender
 
 #selectnation	5
 #minprison 1	

@@ -28,7 +28,14 @@ Changes
  * Arco-connected nations only: Bind Keres
  * Remote summons
  * Rituals which summon a mage commander
+* Major buffs and changes
 * Other changes to ritual summons
+ * Amalgamation spells:
+  * Re-added astral crosspath, reduced main path requirement to 1
+  * Spells produce an alchemical rebate of 50 gold
+ * Revive Bane Lord:
+  * Cost set to 2 gems
+  * Bane Lord gains Tight Rein tag, but his presence can cause undisciplined creatures to rebel and try to assassinate him
  * Awaken Vine Men path reverted to Nature
  * Awaken Algae Men path reverted to Nature.
  * Construct Manikin path reverted to Nature and Death.
@@ -37,9 +44,6 @@ Changes
  * Contact Scorpion Men swapped Fire and Earth paths
  * Heavenly Wrath swap primary path to Fire
  * Remove magic command from Bane commander
- * Bane Lord cost set to 2 gems
- * Re-added astral crosspath to Amalgmation spells, reduced main path requirement to 1
- * Amalgamation spells produce an alchemical rebate of 50 gold
 * New spells
  * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
  * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
