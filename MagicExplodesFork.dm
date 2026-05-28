@@ -142,19 +142,12 @@
 
 #selectmonster 982 --clockwork horror
 #reinvigoration 5
-#okmagicleader
 #montag 1338
 #humanoid
 #end
 
-#selectmonster 1380 --Great Hawk
-#okmagicleader
-#end
-
 #selectmonster 534 --Corpse Construct
 #clear
-#okleader
-#okmagicleader
 #magicbeing
 #hp 25
 #size 4
@@ -185,12 +178,10 @@
 #selectmonster 559 --Sleeper
 #sleepaura 10
 #superiorleader
-#stealthy 15
 #end
 
 #selectmonster 185 --Bane
 #undcommand 150
-#okmagicleader
 #cold 15
 #end
 
@@ -247,7 +238,6 @@
 #end
 
 #selectmonster 2134 --Terracotta Soldier
-#okmagicleader
 #hp 14
 #end
 
@@ -317,7 +307,6 @@
 #end
 
 #selectmonster 2321 -- clockwork soldier
-#okmagicleader
 #reinvigoration 5
 #cleararmor
 #armor 3 -- kite shield
@@ -476,12 +465,30 @@
 --------0Fire--------
 
 #newspell 
-#name "Scorpion King"
-#path 0
+#name "Contact War Master"
+#path 0 0
+#pathlevel 0 2
 #school 0
 #fatiguecost 100
 #effect 10021
-#damage 1649
+#damage 118
+#end
+
+#selectmonster 440 -- Paladin
+#okmagicleader
+#end
+
+#newspell
+#name "Anoint Paladin"
+#path 0 0
+#path 1 9
+#pathlevel 0 1
+#pathlevel 1 2
+#school 5
+#effect 10021
+#damagemon "Paladin"
+#fatiguecost 100
+#restricted 61 --MA Marigon
 #end
 
 #selectspell 926 --Summon Fire Ants
@@ -489,14 +496,6 @@
 #fatiguecost 100
 #researchlevel 0
 #path 1 -1
-#end
-
-#selectmonster 2225
-#okmagicleader
-#end
-
-#selectmonster 814
-#okmagicleader
 #end
 
 #selectspell 1025 --Summon Fire Snakes
@@ -603,6 +602,7 @@
 #selectspell 1123 --Revive King
 #researchlevel 0
 #fatiguecost 100
+#school -1
 #end
 
 #newspell
@@ -649,36 +649,25 @@
 
 --------0Astral--------
 
-#selectmonster 361
-#okmagicleader
-#end
-
-#selectspell 932 --Awaken Vine Men
-#nreff 5045
-#path 0 4
-#fatiguecost 100
-#researchlevel 0
-#end
-
-#selectspell 933 --Awaken Algae Men free summon
-#nreff 5045
-#path 0 4
-#fatiguecost 100
-#researchlevel 0
-#end
-
-#newmonster
-#copystats 737
-#name "Ether Vanguard"
-#copyspr 737
-#clearmagic
-#end
 #newspell
-#name "Summon Ether Vanguard"
+#name "Dominate Thralls"
+#fatiguecost 100
+#researchlevel 0
 #path 0 4
+#pathlevel 0 1
+#school 5
+#effect 10001
+#damage 1022
+#nreff 13013
+#end
+
+#newspell
+#name "Contact Grey Lord"
+#path 0 4
+#pathlevel 0 2
 #school 0
 #effect 10021
-#damagemon "Ether Vanguard"
+#damagemon "Grey Lord"
 #fatiguecost 100
 #end
 
@@ -687,6 +676,11 @@
 
 --------0Glamour-------
 
+#selectspell 1024 --Awaken Sleeper
+#fatiguecost 100
+#researchlevel 0
+#pathlevel 0 2
+#end
 
 #newspell
 #name "Summon Fay Folk"
@@ -751,6 +745,18 @@
 
 --------0Nature--------
 
+#selectspell 932 --Awaken Vine Men
+#nreff 5045
+#fatiguecost 100
+#researchlevel 0
+#end
+
+#selectspell 933 --Awaken Algae Men free summon
+#nreff 5045
+#fatiguecost 100
+#researchlevel 0
+#end
+
 #selectweapon 742 --Mantis Claw
 #magic
 #end
@@ -766,13 +772,6 @@
 #range 5030
 #fatiguecost 10
 #researchlevel 0
-#end
-
-#selectspell 1024 --Awaken Sleeper
-#fatiguecost 100
-#researchlevel 0
-#pathlevel 0 2
-#path 0 6
 #end
 
 --------End 0Nature--------
@@ -793,7 +792,7 @@
 #end
 
 #selectspell 1011 --Revive Bane Lord
-#fatiguecost 100
+#fatiguecost 200
 #researchlevel 3
 #pathlevel 0 3
 #end
@@ -1038,7 +1037,6 @@
 #selectspell 1087 --Construct Manikin
 #fatiguecost 100
 #researchlevel 0
-#path 1 -1
 #nreff 12000
 #end
 
@@ -2563,8 +2561,6 @@
 #nreff 5008
 #fatiguecost 200
 #researchlevel 3
-#path 0 0
-#pathlevel 1
 #end
 
 #selectspell 1166 --Gift of Splendor
@@ -5316,19 +5312,27 @@
 #school -1
 #end
 
+#newspell
+#name "Alchemical Rebate"
+#school -1
+#effect 10164
+#damage 50
+#end
+
 #selectspell 487 --Amalgamation of Air and Flesh 
 #clear
 #name "Amalgamation of Air and Flesh"
 #fatiguecost 500
 #researchlevel 3
 #path 0 1
-#path 1 -1
-#pathlevel 0 2
+#path 1 4
+#pathlevel 0 1
 #pathlevel 1 1
 #school 1
 #effect 10001
 #damage 3865
 #nreff 5010
+#nextspell "Alchemical Rebate"
 #end
 
 #selectspell 489 --Amalgamation of Earth and Flesh 
@@ -5337,13 +5341,14 @@
 #fatiguecost 500
 #researchlevel 3
 #path 0 3
-#path 1 -1
-#pathlevel 0 2
+#path 1 4
+#pathlevel 0 1
 #pathlevel 1 1
 #school 1
 #effect 10001
 #damage 3867
 #nreff 5010
+#nextspell "Alchemical Rebate"
 #end
 
 #selectspell 486 --Amalgamation of Fire and Flesh
@@ -5352,13 +5357,14 @@
 #fatiguecost 500
 #researchlevel 3
 #path 0 0
-#path 1 -1
-#pathlevel 0 2
+#path 1 4
+#pathlevel 0 1
 #pathlevel 1 1
 #school 1
 #effect 10001
 #damage 3864
 #nreff 5010
+#nextspell "Alchemical Rebate"
 #end
 
 #selectspell 488 --Amalgamation of Water and Flesh
@@ -5367,13 +5373,14 @@
 #fatiguecost 500
 #researchlevel 3
 #path 0 2
-#path 1 -1
-#pathlevel 0 2
+#path 1 4
+#pathlevel 0 1
 #pathlevel 1 1
 #school 1
 #effect 10001
 #damage 3866
 #nreff 5010
+#nextspell "Alchemical Rebate"
 #end
 
 #selectspell 814 --Destruction
@@ -7119,17 +7126,14 @@
 #selectmonster 518 -- Troll
 #gcost 0
 #okleader
-#okmagicleader
 #end
 #selectmonster 1037 -- War Troll
 #gcost 0
 #goodleader
-#okmagicleader
 #end
 #selectmonster 1086 -- Troll Moose Knight
 #gcost 0
 #goodleader
-#okmagicleader
 #end
 
 #newspell
@@ -7951,6 +7955,8 @@
 #selectspell 481 --Heavenly Wrath
 #fatiguecost 500
 #researchlevel 5
+#path 0 0
+#path 1 4
 #pathlevel 0 2
 #effect 10001
 #nreff 1002
@@ -8112,8 +8118,8 @@
 #descr "Scorpion Men are some of the most frightening beasts that wander the desert. It is said that when a Scorpion Man looks at a mountain, the mountain shivers in fear." 
 #school	0
 #researchlevel 3
-#path 0 3
-#path 1 0
+#path 0 0
+#path 1 3
 #pathlevel 0 2
 #pathlevel 1 1
 #fatiguecost 300

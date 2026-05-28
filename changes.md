@@ -6,7 +6,7 @@ Changes
  * Banner of the Northern Star reduced to 10 gems (from 12)
  * Standard of the Damned reduced to 5 gems (from 12)
  * Thorn Staff unchanged
-* Increased cost of all ritual summons to a minimum of 1 gem, with the following  exceptions:
+* Increased cost of all ritual summons to a minimum of 1 gem, with the following exceptions:
  * Corpse Man Construction
  * Awaken Vine Ogres
  * Cross Breeding
@@ -28,8 +28,26 @@ Changes
  * Arco-connected nations only: Bind Keres
  * Remote summons
  * Rituals which summon a mage commander
+* Other changes to ritual summons
+ * Awaken Vine Men path reverted to Nature
+ * Awaken Algae Men path reverted to Nature.
+ * Construct Manikin path reverted to Nature and Death.
+ * Terracotta Army paths reverted to Fire and Earth
+ * Awaken Sleeper path reverted to Glamour. Sleepers are no longer stealthy.
+ * Contact Scorpion Men swapped Fire and Earth paths
+ * Heavenly Wrath swap primary path to Fire
+ * Remove magic command from Bane commander
+ * Bane Lord cost set to 2 gems
+ * Re-added astral crosspath to Amalgmation spells, reduced main path requirement to 1
+ * Amalgamation spells produce an alchemical rebate of 50 gold
+* New spells
+ * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
+ * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
+ * Dominate Thralls (Thaum 0 S1) - troop summon
+ * MA Marignon - Anoint Paladin (Thaum0 F1H2) - commander summon. Paladin is also buffed with a little magic leadership.
 * Other spell changes
  * Kenzoku: Restore to vanilla stats (ldr 100, mldr 100, not immortal)
 * The following spells are no longer researchable
  * Call Great Hawk
  * Wild Fire
+ * Revive King
