@@ -280,6 +280,15 @@
 #weapon 562
 #end
 
+#selectmonster 542 -- Stone Monstra
+#humanoid
+#okmagicleader
+-- replace slotless claw with 1 hand claw
+#clearweapons
+#weapon 29 - claw (1 hand)
+#weapon 29 - claw (1 hand)
+#end
+
 #selectmonster 3381--cyclops
 #okleader
 #end
@@ -424,6 +433,18 @@
 #descr "Summons a frog that gets tired like clockwork does. No practical use."
 #end
 
+#newspell
+#name "Enliven Stone Monstra"
+#school 4
+#researchlevel 5
+#path 0 3
+#pathlevel 0 2
+#path 1 1
+#pathlevel 1 1
+#fatiguecost 300
+#effect 10021
+#damage 542 -- Stone Monstra
+#end
 
 --------End 0Earth--------
 

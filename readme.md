@@ -37,6 +37,7 @@ Changes
   * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
   * Dominate Thralls (Thaum0 S1) - troop summon
   * Infernal Promotion (Blood4 B3) - promote a non mindless demon to a commander
+  * Enliven Stone Monstra (Enchantment5 E2A1) - commander summon
   * MA Marignon - Anoint Paladin (Thaum0 F1H2) - commander summon. Paladin is also buffed with a little magic leadership.
 * The following spells are no longer researchable
   * Call Great Hawk
