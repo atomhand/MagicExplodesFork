@@ -810,6 +810,22 @@
 
 --------End 0Nature--------
 
+--------0Blood--------
+
+#newspell
+#copyspell "Gift of Reason"
+#name "Infernal Promotion"
+#descr "The caster offers ten pure souls to a lesser demon under his control. A demon so gifted will rise in the demonic hierarchy, and will be able to command other demons on the field of battle. Mindless demonic servants can never be promoted in this way."
+#fatiguecost 1000
+#school 6
+#researchlevel 4
+#path 0 8
+#pathlevel 0 3
+#spec 655368  -- Demons only, No effect on mindless or undead
+#end
+
+--------End 0Blood--------
+
 --------Death Summons--------
 
 
