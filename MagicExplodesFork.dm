@@ -81,6 +81,43 @@
 #deathfire 20
 #end
 
+-- Alchemical Amalgamation buffs (copied from DE)
+
+#selectmonster 3864 -- fire amalgam
+#end
+
+#newweapon 1832 -- Lightning Sword
+#name "Lightning Sword"
+#def 1
+#dmg 5
+#att 0
+#len 1
+#magic
+#slash
+#secondaryeffect 738 -- shock
+#sound 24
+#end
+
+#selectmonster 3865 -- air amalgam
+#mapmove 20
+#shockres 10
+#clearweapons
+#weapon 1832
+#end
+
+#selectmonster 3866 -- water amalgam
+#def 15
+#slashres
+#pierceres
+#bluntres
+#end
+
+#selectmonster 3867 -- earth amalgam
+#descr "The alchemists of Marignon have, with the possible aid of infernal tutors, devised means to fuse human bodies with elemental essence. The Alchemical Amalgam of Earth is a living amalgam of flesh and earth. Amalgams of Earth are very strong and durable fighters. When killed the elemental essence contained in their bodies erupts in an explosion of grasping earth. Earth Amalgams are able to control the earth below their feet and so hostile effects cannot affect it."
+#float
+#end
+
+-- End amalgam buffs
 
 #selectbless "Blood Vengeance"
 #name "Null"

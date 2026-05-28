@@ -28,11 +28,14 @@ Changes
  * Arco-connected nations only: Bind Keres
  * Remote summons
  * Rituals which summon a mage commander
-* Major buffs and changes
 * Other changes to ritual summons
  * Amalgamation spells:
   * Re-added astral crosspath, reduced main path requirement to 1
   * Spells produce an alchemical rebate of 50 gold
+  * Buff Amalgams (except Fire) - changes copied from Dominions Enhanced
+   * Amalgamations of Air gain better map move, shockres and a better weapon
+   * Amalgamations of Water gain physres and better defence
+   * Amalgamations of Earth gain the floating tag
  * Revive Bane Lord:
   * Cost set to 2 gems
   * Bane Lord gains Tight Rein tag, but his presence can cause undisciplined creatures to rebel and try to assassinate him
