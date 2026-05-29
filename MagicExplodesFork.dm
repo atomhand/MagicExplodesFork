@@ -266,9 +266,10 @@
 #okmagicleader
 #end
 
-#selectmonster 1440
+#selectmonster 1440 --Iron Ancestor
 #poormagicleader
 #goodleader
+#goodundeadleader
 #end
 
 #selectmonster 2134 --Terracotta Soldier
@@ -555,8 +556,8 @@
 
 #selectspell 1025 --Summon Fire Snakes
 #nreff 4004
-#fatiguecost 300
-#researchlevel 0
+#fatiguecost 200
+#researchlevel 1
 #end
 
 #selectspell 1273 --Bonds of Fire
@@ -737,7 +738,7 @@
 #pathlevel 0 2
 #end
 
-#newspell
+#selectspell 962
 #name "Summon Fay Folk"
 #nreff 17034
 #fatiguecost 100
@@ -745,8 +746,13 @@
 #school 0
 #path 0 7
 #pathlevel 0 1
+#pathlevel 1 0
 #effect 10001
 #damage -26
+#end
+
+#selectspell 1468 --Summon Unseelie Folk
+#school -1
 #end
 
 #newspell 
@@ -755,6 +761,7 @@
 #path 0 7
 #pathlevel 0 2
 #school 0
+#researchlevel 1
 #effect 10001
 #damage 3626
 #nreff 4004
@@ -818,7 +825,7 @@
 #selectspell 934 --Summon Killer Mantis
 #nreff 9009
 #fatiguecost 200
-#researchlevel 0
+#researchlevel 1
 #pathlevel 0 1
 #end
 
@@ -832,6 +839,19 @@
 --------End 0Nature--------
 
 --------0Blood--------
+
+-- Traits to make more attractive promotion candidates
+#selectmonster 489 --Demon Knight
+#goodleader
+#end
+
+#selectmonster 449 --Frost Fiend
+#okmagicleader
+#end
+
+#selectmonster 304 --Devil
+#superiorundeadleader
+#end
 
 #newspell
 #copyspell "Gift of Reason"
@@ -1047,7 +1067,7 @@
 #selectspell 1207 --Ziz
 #nreff 2002
 #fatiguecost 300
-#researchlevel 3
+#researchlevel 4
 #pathlevel 1 1
 #end
 
@@ -1191,6 +1211,18 @@
 #fatiguecost 300
 #researchlevel 2
 #nreff 5005
+#end
+
+#selectspell 1466 --Herd of Moose
+#fatiguecost 300
+#researchlevel 2
+#nreff 5010
+#end
+
+#selectspell 1473 --Herd of Gnus
+#fatiguecost 100
+#researchlevel 2
+#nreff 5010
 #end
 
 #selectspell 980 --Summon Leogryphs
@@ -2392,11 +2424,18 @@
 #nextspell "Reanimate Ancestor"
 #end
 
+#newspell
+#copyspell 619 --Reanimate Ancestor
+#name "Ktonian Legate"
+#school -1
+#nextspell 619 --Reanimate Ancestor
+#end
+
 #selectspell 621 --Ktonian Legion
-#fatiguecost 500
+#fatiguecost 300
 #researchlevel 5
-#nreff 20040
-#nextspell "Reanimate Ancestor"
+#nreff 25050
+#nextspell "Ktonian Legate"
 #end
 
 #selectspell 1118 --Ignite Arrows
@@ -4574,7 +4613,7 @@
 #pathlevel 0 4
 #end
 
-#selectspell 551 --Feast of Ghuls
+#selectspell 551 --Feast for Ghuls
 #researchlevel 3
 #nreff 9030
 #fatiguecost 500
@@ -6182,7 +6221,6 @@
 
 --------CONJURATION--------
 
-
 #selectspell 697 --Cave Collapse
 #end
 
@@ -6374,7 +6412,7 @@
 #selectspell 317 --Summon Spectral Infantry
 #clear
 #name "Summon Spectral Infantry"
-#fatiguecost 100
+#fatiguecost 200
 #researchlevel 1
 #path 0 0
 #pathlevel 0 1
@@ -6403,8 +6441,8 @@
 #selectspell 930 --Summon Ogres
 #name "Incite Ogres"
 #nreff 5005
-#fatiguecost 100
-#researchlevel 1
+#fatiguecost 200
+#researchlevel 0
 #school 5
 #path 0 0
 #end
@@ -6490,11 +6528,22 @@
 #nreff 2002
 #end
 
+#selectspell 602 --Summons Umbrals
+#fatiguecost 200
+#researchlevel 4
+#nreff 12
+#end
 
 #selectspell 605 --Revive Cavern Wights
 #fatiguecost 300
 #researchlevel 2
 #nreff 8016
+#end
+
+#selectspell 606 --Bind Umbral
+#fatiguecost 10
+#researchlevel 4
+#nreff 1
 #end
 
 #selectspell 622 --Awaken Shard Wights
@@ -6765,7 +6814,7 @@
 
 #selectspell 968 --Summon Storm Drake
 #nreff 3003
-#fatiguecost 400
+#fatiguecost 500
 #researchlevel 3
 #end
 
@@ -6861,7 +6910,7 @@
 
 #selectspell 965 --Summon Fire Drake
 #nreff 2002
-#fatiguecost 400
+#fatiguecost 500
 #researchlevel 3
 #end
 
@@ -6909,7 +6958,25 @@
 #selectspell 990 --Summon Fay Footfolk
 #fatiguecost 500
 #nreff 9009
-#researchlevel 4
+#researchlevel 3
+#end
+
+#selectspell 1469 --Summon Unseelie Soldiers
+#fatiguecost 500
+#nreff 9009
+#researchlevel 3
+#end
+
+#selectspell 1467 --Summon Fay Archers
+#fatiguecost 300
+#nreff 9009
+#researchlevel 3
+#end
+
+#selectspell 1470 --Summon Unseelie Archers
+#fatiguecost 300
+#nreff 9009
+#researchlevel 3
 #end
 
 #selectspell 447 --Herd of Morvarc'h
@@ -7060,7 +7127,7 @@
 
 #selectspell 972 --Summon Ice Drake
 #nreff 2002
-#fatiguecost 400
+#fatiguecost 500
 #researchlevel 3
 #end
 
@@ -7096,8 +7163,8 @@
 #end
 
 #selectspell 995 --Summon Spring Hawks
-#nreff 8008
-#fatiguecost 400
+#nreff 7007
+#fatiguecost 500
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7180,7 +7247,7 @@
 #end
 
 #selectspell 254 --Summon Hound of Twilight
-#fatiguecost 1
+#fatiguecost 100
 #effect 10021
 #researchlevel 3
 #pathlevel 0 1
@@ -7194,8 +7261,8 @@
 #end
 
 #selectspell 1006 --Summon Fall Bears
-#nreff 7007
-#fatiguecost 400
+#nreff 6006
+#fatiguecost 500
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7306,8 +7373,8 @@
 #end
 
 #selectspell 993 --Summon Summer Lions
-#fatiguecost 400
-#nreff 7007
+#fatiguecost 500
+#nreff 6006
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7330,6 +7397,10 @@
 #researchlevel 4
 #pathlevel 0 2
 #path 1 -1
+#end
+
+#selectspell 1471 --Summon Unseelie Knights
+#school -1
 #end
 
 #selectspell 275 --Contact Lar
@@ -7442,6 +7513,12 @@
 #nreff 6012
 #end
 
+#selectspell 476 --Summon Supayas
+#fatiguecost 100
+#researchlevel 4
+#nreff 5
+#end
+
 #selectspell 562 --Summon Gandharvas
 #fatiguecost 400
 #researchlevel 4
@@ -7549,8 +7626,8 @@
 #end
 
 #selectspell 1002 --Summon Winter Wolves
-#nreff 7007
-#fatiguecost 400
+#nreff 6006
+#fatiguecost 300
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7745,6 +7822,13 @@
 #end
 
 #selectspell 1044 --Summon Fay Prince
+#ainocast 1
+#fatiguecost 2500
+#researchlevel 5
+#pathlevel 0 3
+#end
+
+#selectspell 1472 --Summon Unseelie Prince
 #ainocast 1
 #fatiguecost 2500
 #researchlevel 5
