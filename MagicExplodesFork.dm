@@ -661,14 +661,18 @@
 #school -1
 #end
 
+#selectmonster 198 -- Ghoul
+#undisciplined
+#end
+
 #newspell
-#name "Bind Ghouls"
+#name "Infect Ghouls"
 #path 0 5
-#school 0
+#school 1
 #effect 10001
-#nreff 20020
+#nreff 8000
 #damage 198
-#fatiguecost 200
+#fatiguecost 10
 #end
 
 #selectspell 682 --Bolt of Unlife
@@ -714,7 +718,7 @@
 #school 5
 #effect 10001
 #damage 1022
-#nreff 13013
+#nreff 25025
 #end
 
 #newspell
@@ -1178,7 +1182,7 @@
 #selectspell 961 --Summon Bog Beasts
 #fatiguecost 100
 #researchlevel 2
-#nreff 6006
+#nreff 8008
 #end
 
 
@@ -4503,9 +4507,9 @@
 #end
 
 #selectspell 1393 --Bind Bone Fiends
-#fatiguecost 1200
+#fatiguecost 1000
 #researchlevel 1
-#nreff 18018
+#nreff 16016
 #end
 
 #selectspell 575 --Feast of Flesh
@@ -4524,14 +4528,14 @@
 #end
 
 #selectspell 1391 --Bind Spine Devil
-#fatiguecost 200
-#nreff 6006
+#fatiguecost 600
+#nreff 5005
 #researchlevel 1
 #end
 
 #selectspell 1392 --Bind Fiend
 #fatiguecost 2000
-#researchlevel 1
+#researchlevel 2
 #nreff 6012
 #end
 
@@ -4561,7 +4565,7 @@
 
 #selectspell 1400 -- Cross breeding
 #fatiguecost 0
-#nreff 9029
+#nreff 9018
 #researchlevel 0
 #end
 
@@ -4595,14 +4599,14 @@
 
 #selectspell 1398 --Bind Devil
 #fatiguecost 1000
-#researchlevel 2
+#researchlevel 3
 #nreff 3003
 #pathlevel 1 1
 #end
 
 #selectspell 1399 --Bind Frost Fiend
 #fatiguecost 1000
-#researchlevel 2
+#researchlevel 3
 #nreff 3004
 #pathlevel 1 1
 #end
@@ -4621,7 +4625,7 @@
 
 #selectspell 1402 --Bind Serpent Fiend
 #fatiguecost 200
-#researchlevel 3
+#researchlevel 1
 #nreff 6006
 #end
 
@@ -4847,7 +4851,7 @@
 #end
 
 #selectspell 1423 --Ritual of Five Gates
-#fatiguecost 100
+#fatiguecost 10
 #researchlevel 2
 #pathlevel 0 3
 #end
@@ -5007,7 +5011,7 @@
 
 #selectspell 1440 --Blood Vortex
 #fatiguecost 6800
-#researchlevel 8
+#researchlevel 6
 #pathlevel 0 6
 #end
 
@@ -5024,35 +5028,35 @@
 #end
 
 #selectspell 1452 --Infernal Tempest
-#fatiguecost 4000
+#fatiguecost 3900
 #researchlevel 7
 #pathlevel 0 4
 #nreff 8008
 #end
 
 #selectspell 1454 --Infernal Crusade
-#fatiguecost 5200
+#fatiguecost 4200
 #researchlevel 7
 #pathlevel 0 4
 #nreff 8008
 #end
 
 #selectspell 1451 --Infernal Forces
-#fatiguecost 3200
+#fatiguecost 3600
 #researchlevel 7
 #pathlevel 0 4
 #nreff 8008
 #end
 
 #selectspell 1453 --Forces of Ice
-#fatiguecost 3200
+#fatiguecost 3600
 #researchlevel 7
 #pathlevel 0 4
 #nreff 8008
 #end
 
 #selectspell 1448 --Forces of Darkness
-#fatiguecost 3200
+#fatiguecost 3500
 #researchlevel 7
 #pathlevel 0 5
 #nreff 8008
@@ -5060,7 +5064,7 @@
 
 #selectspell 1456 --Astral Corruption
 #fatiguecost 12000
-#researchlevel 6
+#researchlevel 7
 #pathlevel 0 5
 #pathlevel 1 2
 #end
@@ -5452,7 +5456,7 @@
 #school 1
 #effect 10001
 #damage 3865
-#nreff 10020
+#nreff 8016
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5468,7 +5472,7 @@
 #school 1
 #effect 10001
 #damage 3867
-#nreff 10020
+#nreff 8016
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5484,7 +5488,7 @@
 #school 1
 #effect 10001
 #damage 3864
-#nreff 10020
+#nreff 8016
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5500,7 +5504,7 @@
 #school 1
 #effect 10001
 #damage 3866
-#nreff 10020
+#nreff 8016
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5837,7 +5841,7 @@
 #end
 
 #selectspell 859 --Iron Pigs
-#nreff 9018
+#nreff 8016
 #fatiguecost 200
 #researchlevel 3
 #pathlevel 0 2
@@ -6366,11 +6370,42 @@
 #researchlevel 0
 #end
 
+#selectmonster 816 -- Shark
+#berserk 2
+#end
+
+#newspell
+#name "Shark Lord"
+#school -1
+#effect 10021
+#damage 545 --Shark Knight
+#spec 41943040  -- UW Only
+#end
+
+#newspell
+#name "Contact Sharks"
+#path 0 2
+#pathlevel 0 1
+#fatiguecost 100
+#school 0
+#effect 10001
+#damage 816 -- Shark
+#nreff 4004
+#spec 41943040  -- UW Only
+#nextspell "Shark Lord"
+#end
+
 #selectspell 587 --Summon Kappa
+#clear
+#name "Summon Kappa"
 #fatiguecost 100
 #researchlevel 0
+#path 0 2
+#pathlevel 0 1
+#school 0
+#effect 10001
+#damage 1482
 #nreff 7007
-#path 1 -1
 #end
 
 #selectspell 322 --Summon Simargl
@@ -7451,7 +7486,7 @@
 
 #selectspell 1018 --Summon Manticore
 #nreff 2004
-#fatiguecost 300
+#fatiguecost 400
 #researchlevel 4
 #end
 

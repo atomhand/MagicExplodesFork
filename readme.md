@@ -13,7 +13,7 @@ Changes
   * Standard of the Damned reduced to 5 gems (from 12)
   * Thorn Staff unchanged
 * Increased cost of all ritual summons to a minimum of 1 gem, with the following exceptions:
-  * Corpse Man Construction, Awaken Vine Ogres, Cross Breeding, Infernal Breeding, Bind Calydonian Boar, Celestial Servant, Ritual of Five Gates, Bind Umbral
+  * Corpse Man Construction, Awaken Vine Ogres, Cross Breeding, Infernal Breeding, Bind Calydonian Boar, Celestial Servant, Ritual of Five Gates, Bind Umbral, Infect Ghouls
 * Remove commanders from ritual troop summons, with the following exceptions:
   * Royal Reanimation (path requirement increased to 2), Pack of Wolves (now has Werewolf commander), Call of the Winds (now has Black Hawk commander), Summon Sea Dogs (may review later), Contact War Trolls (may review later), Contact Troll Moose Knights (may review later), Summon Shades, Summon Ghosts, Pale Riders, Iron Corpse Reanimation, Ktonian Legion (LA Agartha only), Flame Corpse Construction (LA Agartha only), Bind Keres (Arco-connected nations only)
   * Remote summons
@@ -22,6 +22,9 @@ Changes
   * Many rituals are significantly buffed
   * A small number of outliers are nerfed
 * Other changes to ritual summons
+  * ~~Bind Ghouls~~ -> Infect Ghouls
+    * Ghouls are now undisciplined (tradeoff for this summon remaining free)
+    * Moved to Alteration 0
   * Amalgamation spells:
     * Re-added astral crosspath, reduced main path requirement to 1
     * Spells produce an alchemical rebate of 50 gold
@@ -47,6 +50,7 @@ Changes
   * Heavenly Wrath swap primary path to Fire
   * Remove magic command from Bane commander
   * Kenzoku reverted to vanilla stats (ldr 100, mldr 100, not immortal)
+  * Summon Kappa is now available to all nations
 * New spells
   * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
   * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
@@ -54,6 +58,7 @@ Changes
   * Infernal Promotion (Blood4 B3) - promote a non mindless demon to a commander
   * Enliven Stone Monstra (Enchantment5 E2A1) - commander summon
   * MA Marignon - Anoint Paladin (Thaum0 F1H2) - commander summon. Paladin is also buffed with a little magic leadership.
+  * Contact Sharks (Conj0 F1) - Summon some sharks led by a Shark Knight commander. Sharks now have Berserk 2.
 * The following spells are no longer researchable
   * Call Great Hawk
   * Wild Fire
