@@ -395,7 +395,7 @@
 #fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
-#nreff 4002
+#nreff 7007
 #damage 2321
 #end
 
@@ -403,14 +403,14 @@
 #fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
-#nreff 4002
+#nreff 6006
 #damage -1338
 #end
 --------End Clockwork--------
 
 #selectspell 974 --Summon Cave Drake
 #fatiguecost 100
-#nreff 3001
+#nreff 5005
 #researchlevel 3
 #pathlevel 0 1
 #end
@@ -496,9 +496,9 @@
 #path 0 1
 #effect 10001
 #damage 517
-#nreff 5010
+#nreff 7014
 #fatiguecost 100
-#nextspell "Call Great Hawk
+#nextspell "Call Great Hawk"
 #end
 
 #selectspell 942 --Call of the Winds
@@ -509,7 +509,7 @@
 #end
 
 #selectspell 1084 --Corpse Man Construction
-#nreff 2000
+#nreff 2002
 #fatiguecost 99
 #researchlevel 0
 #path 1 -1
@@ -547,15 +547,15 @@
 #end
 
 #selectspell 926 --Summon Fire Ants
-#nreff 3002
-#fatiguecost 100
+#nreff 6006
+#fatiguecost 200
 #researchlevel 0
 #path 1 -1
 #end
 
 #selectspell 1025 --Summon Fire Snakes
-#nreff 3002
-#fatiguecost 100
+#nreff 4004
+#fatiguecost 300
 #researchlevel 0
 #end
 
@@ -612,7 +612,7 @@
 #end
 
 #selectspell 1155 --Vile Water
-#nreff 2000
+#nreff 2002
 #fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
@@ -639,7 +639,7 @@
 #path 0 2 -- water now
 #path 1 -1
 #nreff 15015
-#fatiguecost 100
+#fatiguecost 200
 #researchlevel 0
 #nextspell "Dogmother"
 #end
@@ -649,7 +649,7 @@
 --------0Death--------
 
 #selectspell 1113 --Reanimation
-#nreff 13013
+#nreff 17017
 #fatiguecost 100
 #researchlevel 0
 #end
@@ -665,9 +665,9 @@
 #path 0 5
 #school 0
 #effect 10001
-#nreff 5005
+#nreff 20020
 #damage 198
-#fatiguecost 100
+#fatiguecost 200
 #end
 
 #selectspell 682 --Bolt of Unlife
@@ -739,7 +739,7 @@
 
 #newspell
 #name "Summon Fay Folk"
-#nreff 11014
+#nreff 17034
 #fatiguecost 100
 #researchlevel 0
 #school 0
@@ -757,7 +757,7 @@
 #school 0
 #effect 10001
 #damage 3626
-#nreff 4000
+#nreff 4004
 #end
 
 #newspell 
@@ -768,7 +768,7 @@
 #school 0
 #effect 10001
 #damage 3625
-#nreff 5010
+#nreff 11022
 #end
 
 #selectspell 1270 --Fascination
@@ -801,13 +801,13 @@
 --------0Nature--------
 
 #selectspell 932 --Awaken Vine Men
-#nreff 5045
+#nreff 15015
 #fatiguecost 100
 #researchlevel 0
 #end
 
 #selectspell 933 --Awaken Algae Men free summon
-#nreff 5045
+#nreff 15015
 #fatiguecost 100
 #researchlevel 0
 #end
@@ -816,7 +816,7 @@
 #magic
 #end
 #selectspell 934 --Summon Killer Mantis
-#nreff 4008
+#nreff 9009
 #fatiguecost 200
 #researchlevel 0
 #pathlevel 0 1
@@ -882,12 +882,12 @@
 #fatiguecost 200
 #researchlevel 2
 #pathlevel 0 1
-#nreff 6004
+#nreff 6006
 #end
 
 #selectspell 953 --Revive Wights
-#nreff 3009
-#fatiguecost 400
+#nreff 5005
+#fatiguecost 500
 #researchlevel 2
 #end
 
@@ -908,7 +908,7 @@
 #damage 843
 #end
 #selectspell 931 --Summon Shades
-#nreff 5010
+#nreff 8008
 #fatiguecost 400
 #researchlevel 3
 #school 5
@@ -924,7 +924,7 @@
 #school 0
 #effect 10001
 #damage 3127
-#nreff 4004
+#nreff 5005
 #notfornation 5
 #notfornation 6
 #notfornation 42
@@ -966,7 +966,7 @@
 #end
 #selectspell 1037 --Summon Ghosts
 #nreff 5005
-#fatiguecost 600
+#fatiguecost 400
 #researchlevel 4
 #school 5
 #nextspell "Ghost Queen"
@@ -1004,15 +1004,15 @@
 #end
 
 #selectspell 1160 --Behemoth
-#nreff 1002
+#nreff 3003
 #fatiguecost 500
 #researchlevel 3
 #pathlevel 0 2
 #end
 
 #selectspell 1230 --Leviathan
-#nreff 1002
-#fatiguecost 600
+#nreff 3003
+#fatiguecost 500
 #researchlevel 3
 #pathlevel 0 2
 #end
@@ -1024,8 +1024,8 @@
 #damage 182
 #end
 #selectspell 1183 --Pale Riders
-#nreff 5015
-#fatiguecost 300
+#nreff 8008
+#fatiguecost 400
 #researchlevel 3
 #pathlevel 0 2
 #nextspell "Wraith Lord"
@@ -1039,13 +1039,13 @@
 #end
 
 #selectspell 1206 --Reanimate Archers
-#nreff 7014
+#nreff 10010
 #fatiguecost 300
 #researchlevel 2
 #end
 
 #selectspell 1207 --Ziz
-#nreff 1001
+#nreff 2002
 #fatiguecost 300
 #researchlevel 3
 #pathlevel 1 1
@@ -1084,19 +1084,28 @@
 #inspirational -1
 #command 50
 #end
-#newspell
 
-#name "Packleader"
+#newspell
+#name "Wolfpack Alpha Female"
 #school -1
 #effect 10021
 #damage 633 -- werewolf
 #end
+
+#newspell
+#name "Wolfpack Alpha Male"
+#school -1
+#effect 10021
+#damage 633 -- werewolf
+#nextspell "Wolfpack Alpha Female"
+#end
+
 #selectspell 935 --Pack of Wolves
-#nreff 9021
-#fatiguecost 100
+#nreff 9018
+#fatiguecost 200
 #researchlevel 0
 #damage -1340
-#nextspell "Packleader"
+#nextspell "Wolfpack Alpha Male"
 #end
 
 #selectspell 1015 --Spirits of the Wood
@@ -1110,13 +1119,13 @@
 #selectspell 1087 --Construct Manikin
 #fatiguecost 100
 #researchlevel 0
-#nreff 12000
+#nreff 20020
 #end
 
 #selectspell 1092 --Construct Mandragora
 #fatiguecost 100
 #researchlevel 2
-#nreff 5000
+#nreff 11011
 #pathlevel 0 2
 #end
 
@@ -1137,19 +1146,19 @@
 #selectspell 936 --Summon Horned Serpents
 #fatiguecost 100
 #researchlevel 1
-#nreff 7011
+#nreff 7007
 #end
 
 #selectspell 979 --Summon Spine Frog
 #fatiguecost 100
 #researchlevel 2
-#nreff 5
+#nreff 14
 #end
 
 #selectspell 961 --Summon Bog Beasts
 #fatiguecost 100
 #researchlevel 2
-#nreff 6008
+#nreff 6006
 #end
 
 
@@ -1157,23 +1166,23 @@
 #selectspell 955 --Sloth of Bears
 #fatiguecost 200
 #researchlevel 2
-#nreff 8000
+#nreff 8008
 #end
 
 #selectspell 956 --Pride of Lions
 #fatiguecost 200
 #researchlevel 2
-#nreff 7013
+#nreff 8008
 #end
 
 #selectspell 957 --Ambush of Tigers
 #fatiguecost 200
 #researchlevel 2
-#nreff 7013
+#nreff 8008
 #end
 
 #selectspell 958 --Herd of Buffaloes
-#nreff 4000
+#nreff 8008
 #fatiguecost 300
 #researchlevel 2
 #end
@@ -1181,7 +1190,7 @@
 #selectspell 340 --Herd of Elephants
 #fatiguecost 300
 #researchlevel 2
-#nreff 1003
+#nreff 5005
 #end
 
 #selectspell 980 --Summon Leogryphs
@@ -1191,8 +1200,8 @@
 #end
 
 #selectspell 1055 --Animal Horde
-#nreff 9091
-#fatiguecost 300
+#nreff 25050
+#fatiguecost 200
 #researchlevel 6
 #pathlevel 0 3
 #end
@@ -2284,7 +2293,7 @@
 #school 4
 #effect 10001
 #damage 1497
-#nreff 2002
+#nreff 6006
 #end
 
 #fatiguecost 99
@@ -2379,14 +2388,14 @@
 #school 4
 #effect 10001
 #damage 1439
-#nreff 5015
+#nreff 13013
 #nextspell "Reanimate Ancestor"
 #end
 
 #selectspell 621 --Ktonian Legion
 #fatiguecost 500
 #researchlevel 5
-#nreff 8060
+#nreff 20040
 #nextspell "Reanimate Ancestor"
 #end
 
@@ -2488,7 +2497,7 @@
 #selectspell 612 --Enliven Sentinel
 #fatiguecost 200
 #researchlevel 2
-#nreff 5000
+#nreff 4004
 #end
 
 #selectspell 1131 --Fire Shield
@@ -2543,7 +2552,7 @@
 #end
 
 #selectspell 1138 --Claymen
-#nreff 4016
+#nreff 14014
 #fatiguecost 100
 #researchlevel 2
 #end
@@ -2631,7 +2640,7 @@
 #end
 
 #selectspell 1149 --Terracotta Army
-#nreff 5008
+#nreff 14014
 #fatiguecost 200
 #researchlevel 3
 #end
@@ -2709,7 +2718,7 @@
 #end
 
 #selectspell 1171 --Watcher
-#nreff 1002
+#nreff 2002
 #fatiguecost 250
 #researchlevel 4
 #pathlevel 0 2
@@ -2729,9 +2738,9 @@
 #end
 
 #selectspell 346 --Memories of Stone
-#fatiguecost 500
+#fatiguecost 100
 #researchlevel 4
-#nreff 2005
+#nreff 5010
 #end
 
 #selectspell 371 --Send Tupilak
@@ -2739,14 +2748,14 @@
 #end
 
 #selectspell 316 --Reawaken Fossil
-#fatiguecost 500
+#fatiguecost 100
 #researchlevel 4
-#nreff 2005
+#nreff 5010
 #end
 
 #selectspell 613 --Enliven Granite Guard
 #fatiguecost 500
-#nreff 5000
+#nreff 3006
 #researchlevel 4
 #end
 
@@ -2756,7 +2765,7 @@
 #end
 
 #selectspell 1178 --Enliven Gargoyles
-#nreff 5012
+#nreff 8008
 #fatiguecost 600
 #researchlevel 4
 #pathlevel 0 2
@@ -2866,9 +2875,9 @@
 #end
 
 #selectspell 616 --Living Mercury
-#fatiguecost 300
+#fatiguecost 100
 #researchlevel 4
-#nreff 1001
+#nreff 2002
 #end
 
 #selectspell 1173 --Winter Ward
@@ -2909,7 +2918,7 @@
 #fatiguecost 200
 #researchlevel 4
 #pathlevel 0 2
-#nreff 1050
+#nreff 20020
 #end
 
 #selectspell 1205 --Rigor Mortis
@@ -2926,7 +2935,7 @@
 #end
 
 #selectspell 1200 --Enliven Statues
-#nreff 7009
+#nreff 15030
 #fatiguecost 500
 #researchlevel 5
 #pathlevel 0 2
@@ -3372,13 +3381,13 @@
 #fatiguecost 100
 #researchlevel 4
 #pathlevel 0 2
-#nreff 2001
+#nreff 5005
 #end
 
 #selectspell 1096 --Mechanical Men
-#fatiguecost 600
+#fatiguecost 300
 #researchlevel 6
-#nreff 8010
+#nreff 10010
 #end
 
 #selectspell 269 --Craft Keledone
@@ -3401,7 +3410,7 @@
 
 #selectspell 1093 --Iron Gryphon
 #fatiguecost 500
-#nreff 2001
+#nreff 3003
 #end
 
 #selectspell 270 --Forge Brass Bull
@@ -3425,10 +3434,10 @@
 #end
 
 #selectspell 1098 --Siege Golem
-#fatiguecost 1000
+#fatiguecost 600
 #researchlevel 6
 #pathlevel 0 2
-#nreff 1003
+#nreff 3003
 #end
 
 #selectspell 1099 --Iron Dragon
@@ -3436,7 +3445,7 @@
 #researchlevel 6
 #pathlevel 0 3
 #path 1 -1
-#nreff 1003
+#nreff 2002
 #end
 
 #selectspell 1100 --Mechanical Militia
@@ -3982,11 +3991,11 @@
 #end
 
 #selectspell 629 --Enslave Sea Trolls
-#fatiguecost 300
+#fatiguecost 200
 #researchlevel 4
 #pathlevel 0 2
 #path 1 -1
-#nreff 2005
+#nreff 3003
 #end
 
 #selectspell 1318 --Serenity
@@ -4368,7 +4377,7 @@
 #selectspell 574 --Summon Rakshasas
 #fatiguecost 700
 #researchlevel 0
-#nreff 2003
+#nreff 4008
 #end
 
 #selectspell 1379 --Blood Burst
@@ -4416,7 +4425,7 @@
 #end
 
 #selectspell 1386 --Bind Fiery Imps free summon
-#nreff 4008
+#nreff 10010
 #fatiguecost 200
 #researchlevel 0
 #path 1 -1
@@ -4436,7 +4445,7 @@
 #selectspell 510 --Bind Beast Bats
 #fatiguecost 100
 #researchlevel 1
-#nreff 2003
+#nreff 4008
 #end
 
 #selectspell 519 --Break the First Soul
@@ -4457,13 +4466,13 @@
 #selectspell 1393 --Bind Bone Fiends
 #fatiguecost 1200
 #researchlevel 1
-#nreff 6018
+#nreff 18018
 #end
 
 #selectspell 575 --Feast of Flesh
 #fatiguecost 3000
 #researchlevel 1
-#nreff 3018
+#nreff 12024
 #end
 
 #selectspell 1389 --Agony
@@ -4477,14 +4486,14 @@
 
 #selectspell 1391 --Bind Spine Devil
 #fatiguecost 200
-#nreff 2004
+#nreff 6006
 #researchlevel 1
 #end
 
 #selectspell 1392 --Bind Fiend
-#fatiguecost 3500
+#fatiguecost 2000
 #researchlevel 1
-#nreff 4012
+#nreff 6012
 #end
 
 #selectspell 1394 --Hell Power
@@ -4496,7 +4505,7 @@
 #selectspell 349 --Scapegoats
 #fatiguecost 700
 #researchlevel 2
-#nreff 2001
+#nreff 3006
 #end
 
 #selectspell 523 --Gift of the First Soul
@@ -4524,14 +4533,14 @@
 
 #selectspell 350 --Summon Se'irim
 #fatiguecost 1700
-#nreff 2005
+#nreff 4008
 #researchlevel 2
 #end
 
 #selectspell 576 --Summon Asrapas
 #fatiguecost 800
 #researchlevel 2
-#nreff 1003
+#nreff 4008
 #end
 
 #selectspell 1396 --Pain Transfer
@@ -4548,7 +4557,7 @@
 #selectspell 1398 --Bind Devil
 #fatiguecost 1000
 #researchlevel 2
-#nreff 3000
+#nreff 3003
 #pathlevel 1 1
 #end
 
@@ -4574,7 +4583,7 @@
 #selectspell 1402 --Bind Serpent Fiend
 #fatiguecost 200
 #researchlevel 3
-#nreff 8002
+#nreff 6006
 #end
 
 #selectspell 511 --Bind Jaguar Fiends
@@ -4598,7 +4607,7 @@
 #selectspell 577 --Summon Rakshasa Warriors
 #fatiguecost 1800
 #researchlevel 3
-#nreff 5005
+#nreff 7014
 #end
 
 #selectspell 1403 --Blood Lust
@@ -4607,9 +4616,9 @@
 #end
 
 #selectspell 1406 --Bind Storm Demon
-#fatiguecost 600
+#fatiguecost 1000
 #researchlevel 3
-#nreff 2002
+#nreff 3002
 #pathlevel 1 1
 #end
 
@@ -4632,7 +4641,7 @@
 
 #selectspell 351 --Summon Shedim
 #fatiguecost 2100
-#nreff 1003
+#nreff 5010
 #researchlevel 3
 #pathlevel 0 2
 #end
@@ -4644,10 +4653,10 @@
 #end
 
 #selectspell 1415 --Awaken Dark Vines
-#fatiguecost 1200
+#fatiguecost 1600
 #researchlevel 4
 #pathlevel 1 2
-#nreff 2016
+#nreff 4004
 #end
 
 #selectspell 1409 --Hellbind Heart
@@ -4659,7 +4668,7 @@
 #end
 
 #selectspell 578 --Summon Sandhyabalas
-#fatiguecost 2200
+#fatiguecost 600
 #researchlevel 4
 #end
 
@@ -4668,9 +4677,9 @@
 #end
 
 #selectspell 1414 --Bind Demon Knight
-#fatiguecost 600
+#fatiguecost 1000
 #researchlevel 4
-#nreff 1003
+#nreff 3001
 #pathlevel 1 1
 #end
 
@@ -4976,38 +4985,38 @@
 #end
 
 #selectspell 1452 --Infernal Tempest
-#fatiguecost 5700
+#fatiguecost 4000
 #researchlevel 7
 #pathlevel 0 4
-#nreff 4004
+#nreff 8008
 #end
 
 #selectspell 1454 --Infernal Crusade
-#fatiguecost 5700
+#fatiguecost 5200
 #researchlevel 7
 #pathlevel 0 4
-#nreff 4004
+#nreff 8008
 #end
 
 #selectspell 1451 --Infernal Forces
-#fatiguecost 5700
+#fatiguecost 3200
 #researchlevel 7
 #pathlevel 0 4
-#nreff 6006
+#nreff 8008
 #end
 
 #selectspell 1453 --Forces of Ice
-#fatiguecost 5700
+#fatiguecost 3200
 #researchlevel 7
 #pathlevel 0 4
-#nreff 6018
+#nreff 8008
 #end
 
 #selectspell 1448 --Forces of Darkness
-#fatiguecost 6400
+#fatiguecost 3200
 #researchlevel 7
 #pathlevel 0 5
-#nreff 6034
+#nreff 8008
 #end
 
 #selectspell 1456 --Astral Corruption
@@ -5404,7 +5413,7 @@
 #school 1
 #effect 10001
 #damage 3865
-#nreff 5010
+#nreff 10020
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5420,7 +5429,7 @@
 #school 1
 #effect 10001
 #damage 3867
-#nreff 5010
+#nreff 10020
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5436,7 +5445,7 @@
 #school 1
 #effect 10001
 #damage 3864
-#nreff 5010
+#nreff 10020
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5452,7 +5461,7 @@
 #school 1
 #effect 10001
 #damage 3866
-#nreff 5010
+#nreff 10020
 #nextspell "Alchemical Rebate"
 #end
 
@@ -5789,7 +5798,7 @@
 #end
 
 #selectspell 859 --Iron Pigs
-#nreff 7000
+#nreff 9018
 #fatiguecost 200
 #researchlevel 5
 #pathlevel 0 2
@@ -5900,7 +5909,7 @@
 #selectspell 854 --Manifest Vitriol
 #fatiguecost 100
 #researchlevel 5
-#nreff 2000
+#nreff 1002
 #end
 
 #selectspell 874 --Arrow Fend
@@ -6208,9 +6217,9 @@
 #end
 
 #selectspell 383 --Revive Lictor
-#fatiguecost 200
+#fatiguecost 100
 #researchlevel 0
-#nreff 2002
+#nreff 3003
 #end
 
 #selectspell 384 --Revive Censor
@@ -6296,7 +6305,7 @@
 #selectspell 919
 #clear
 #name "Summon Cave Grubs"
-#fatiguecost 100
+#fatiguecost 200
 #researchlevel 0
 #path 0 3
 #path 1 -1
@@ -6304,7 +6313,7 @@
 #school 0
 #effect 10001
 #damage 2526
-#nreff 3005
+#nreff 5005
 #end
 
 #selectspell 529 --Celestial Servant
@@ -6314,7 +6323,7 @@
 #end
 
 #selectspell 504 --Summon Jaguar Toads
-#nreff 5000
+#nreff 7007
 #fatiguecost 100
 #researchlevel 0
 #end
@@ -6322,7 +6331,7 @@
 #selectspell 587 --Summon Kappa
 #fatiguecost 100
 #researchlevel 0
-#nreff 4004
+#nreff 7007
 #path 1 -1
 #end
 
@@ -6348,7 +6357,7 @@
 #selectspell 584 --Host of Ganas
 #fatiguecost 200
 #researchlevel 1
-#nreff 8018
+#nreff 13013
 #end
 
 #selectspell 315 --Summon Abysian Ancestors
@@ -6357,7 +6366,7 @@
 #school 5
 #path 0 0
 #path 1 -1
-#nreff 5006
+#nreff 8008
 #restricted 16
 #restricted 63
 #end
@@ -6365,14 +6374,14 @@
 #selectspell 317 --Summon Spectral Infantry
 #clear
 #name "Summon Spectral Infantry"
-#fatiguecost 200
+#fatiguecost 100
 #researchlevel 1
 #path 0 0
 #pathlevel 0 1
 #school 5
 #effect 10001
 #damage 1656
-#nreff 5003
+#nreff 9009
 #notfornation 16
 #notfornation 63
 #notfornation 104
@@ -6388,13 +6397,13 @@
 #fatiguecost 100
 #researchlevel 1
 #pathlevel 0 1
-#nreff 7013
+#nreff 10010
 #end
 
 #selectspell 930 --Summon Ogres
 #name "Incite Ogres"
 #nreff 5005
-#fatiguecost 400
+#fatiguecost 100
 #researchlevel 1
 #school 5
 #path 0 0
@@ -6409,7 +6418,7 @@
 #fatiguecost 150
 #researchlevel 1
 #path 1 -1
-#nreff 2002
+#nreff 3003
 #end
 
 #selectspell 929 --Summon Water Power
@@ -6447,7 +6456,8 @@
 #end
 
 #selectspell 474 --Summon Condors
-#fatiguecost 400
+#fatiguecost 100
+#nreff 5005
 #researchlevel 2
 #end
 
@@ -6471,41 +6481,41 @@
 #selectspell 600 --Bind Penumbral
 #fatiguecost 100
 #researchlevel 2
-#nreff 1001
+#nreff 2002
 #end
 
 #selectspell 601 --Summon Penumbrals
 #fatiguecost 100
 #researchlevel 2
-#nreff 1001
+#nreff 2002
 #end
 
 
 #selectspell 605 --Revive Cavern Wights
 #fatiguecost 300
 #researchlevel 2
-#nreff 5005
+#nreff 8016
 #end
 
 #selectspell 622 --Awaken Shard Wights
 #fatiguecost 500
 #researchlevel 2
-#nreff 3005
+#nreff 8016
 #end
 
 #selectspell 391 --Lictorian Guard
 #fatiguecost 400
 #researchlevel 2
-#nreff 2007
+#nreff 8008
 #end
 
 #selectspell 495 --Summon Glosos
-#fatiguecost 400
+#fatiguecost 100
 #researchlevel 2
 #end
 
 #selectspell 501 --Summon Glosos
-#fatiguecost 400
+#fatiguecost 4100
 #researchlevel 2
 #end
 
@@ -6519,7 +6529,7 @@
 #selectspell 518 --Summon Sacred Scorpion
 #fatiguecost 100
 #researchlevel 2
-#nreff 1001
+#nreff 1002
 #end
 
 #selectspell 950 --Summon Cave Crab
@@ -6536,19 +6546,19 @@
 #school 0
 #effect 10001
 #damage 2514 --Cave Crab
-#nreff 2001
+#nreff 3003
 #end
 
 #selectspell 536 --Call Cyclops Tribe
-#nreff 5005
-#fatiguecost 300
+#nreff 6006
+#fatiguecost 200
 #researchlevel 2
 #end
 
 #selectspell 609 --Barathrus Pact
 #fatiguecost 100
 #researchlevel 2
-#nreff 2000
+#nreff 3003
 #end
 
 #selectspell 948 --Summon Earthpower
@@ -6579,7 +6589,7 @@
 #selectspell 608 --Rhuax Pact
 #fatiguecost 100
 #researchlevel 2
-#nreff 5000
+#nreff 7007
 #end
 
 #selectspell 940 --Bind Scorpion Beast
@@ -6599,7 +6609,7 @@
 #selectspell 555 --Summon Angiri
 #fatiguecost 100
 #researchlevel 2
-#nreff 2004
+#nreff 3006
 #end
 
 #selectspell 938 --Phoenix Power
@@ -6619,7 +6629,7 @@
 
 #selectspell 439 --Summon Cu Sidhe
 #fatiguecost 200
-#nreff 4009
+#nreff 7007
 #researchlevel 2
 #end
 
@@ -6631,7 +6641,7 @@
 
 #selectspell 358 --Summon Mazzikim
 #fatiguecost 100
-#nreff 4008
+#nreff 9018
 #researchlevel 2
 #end
 
@@ -6645,7 +6655,7 @@
 #end
 
 #selectspell 321 --Summon Bears
-#fatiguecost 400
+#fatiguecost 100
 #researchlevel 2
 #end
 
@@ -6655,7 +6665,7 @@
 #end
 
 #selectspell 505 --Summon Jaguars
-#fatiguecost 400
+#fatiguecost 200
 #nreff 5010
 #researchlevel 2
 #end
@@ -6681,7 +6691,7 @@
 #selectspell 557 --Summon Apsaras
 #fatiguecost 100
 #researchlevel 2
-#nreff 1008
+#nreff 5005
 #end
 
 #selectspell 944 --Summon Lesser Water Elemental
@@ -6694,7 +6704,7 @@
 #selectspell 530 --Heavenly Rivers
 #fatiguecost 400
 #researchlevel 2
-#nreff 2003
+#nreff 6006
 #end
 
 #selectspell 946 --Summon Yetis
@@ -6703,7 +6713,7 @@
 #researchlevel 1
 #pathlevel 1 1
 #fatiguecost 500
-#nreff 5005
+#nreff 6006
 #end
 
 #newspell
@@ -6724,19 +6734,19 @@
 
 
 #selectspell 556 --Summon Nagas
-#fatiguecost 300
+#fatiguecost 100
 #researchlevel 2
 #end
 
 #selectspell 947 --Summon Cave Cows
-#nreff 6000
+#nreff 7007
 #fatiguecost 150
 #researchlevel 2
 #end
 
 #selectspell 945 --Call Krakens
-#fatiguecost 100
-#nreff 1005
+#fatiguecost 200
+#nreff 3003
 #researchlevel 2
 #pathlevel 0 1
 #end
@@ -6744,18 +6754,18 @@
 #selectspell 531 --Celestial Hounds
 #fatiguecost 200
 #researchlevel 3
-#nreff 2003
+#nreff 5005
 #end
 
 #selectspell 967 --Summon Wyverns
-#nreff 2001
+#nreff 3003
 #fatiguecost 100
 #researchlevel 3
 #end
 
 #selectspell 968 --Summon Storm Drake
-#nreff 2003
-#fatiguecost 300
+#nreff 3003
+#fatiguecost 400
 #researchlevel 3
 #end
 
@@ -6782,25 +6792,25 @@
 #end
 
 #selectspell 301 --Summon Shikome
-#fatiguecost 300
+#fatiguecost 200
 #researchlevel 3
-#nreff 4000
+#nreff 6006
 #end
 
 #selectspell 440 --Summon Barghests
 #fatiguecost 200
-#nreff 5009
+#nreff 6012
 #researchlevel 3
 #end
 
 #selectspell 493 --Awaken Draugar
 #fatiguecost 400
 #researchlevel 3
-#nreff 5000
+#nreff 10020
 #end
 
 #selectspell 497 --Awaken Jotun Draugar
-#nreff 2001
+#nreff 7014
 #fatiguecost 500
 #researchlevel 3
 #end
@@ -6808,7 +6818,7 @@
 #selectspell 503 --Command Draugar
 #fatiguecost 400
 #researchlevel 3
-#nreff 5000
+#nreff 10020
 #end
 
 #selectspell 977 --Summon Lammashtas
@@ -6825,8 +6835,8 @@
 #end
 
 #selectspell 360 --Summon Kusarikkus
-#nreff 1004
-#fatiguecost 300
+#nreff 3003
+#fatiguecost 200
 #researchlevel 3
 #end
 
@@ -6850,14 +6860,14 @@
 #end
 
 #selectspell 965 --Summon Fire Drake
-#nreff 1000
+#nreff 2002
 #fatiguecost 400
 #researchlevel 3
 #end
 
 #selectspell 966 --Summon Flame Jelly
-#nreff 6004
-#fatiguecost 300
+#nreff 7007
+#fatiguecost 100
 #researchlevel 3
 #end
 
@@ -6867,7 +6877,7 @@
 
 #selectspell 989 --Summon Cave Kobolds
 #fatiguecost 300
-#nreff 5035
+#nreff 10010
 #researchlevel 3
 #end
 
@@ -6891,15 +6901,15 @@
 #end
 
 #selectspell 283 --Herd of Unicorns
-#nreff 5009
+#nreff 5010
 #researchlevel 3
-#fatiguecost 500
+#fatiguecost 100
 #end
 
 #selectspell 990 --Summon Fay Footfolk
-#fatiguecost 600
-#nreff 5015
-#researchlevel 3
+#fatiguecost 500
+#nreff 9009
+#researchlevel 4
 #end
 
 #selectspell 447 --Herd of Morvarc'h
@@ -6923,9 +6933,9 @@
 #end
 
 #selectspell 496 --Brood of Garm
-#fatiguecost 500
+#fatiguecost 100
 #researchlevel 3
-#nreff 2001
+#nreff 2002
 #end
 
 #selectspell 1457 --Tangle Thicket
@@ -6955,7 +6965,7 @@
 #end
 
 #selectspell 982 --Summon Swamp Drake
-#nreff 2001
+#nreff 5005
 #fatiguecost 500
 #researchlevel 3
 #end
@@ -6963,7 +6973,7 @@
 #selectspell 339 --Sacred Crocodile
 #fatiguecost 100
 #researchlevel 3
-#nreff 1002
+#nreff 6006
 #end
 
 #selectspell 981 --Awaken Vine Ogres
@@ -6974,7 +6984,7 @@
 #end
 
 #selectspell 983 --Summon Kithaironic Lion
-#nreff 2001
+#nreff 3003
 #fatiguecost 300
 #researchlevel 3
 #pathlevel 0 2
@@ -7003,7 +7013,7 @@
 #end
 
 #selectspell 585 -- Summon Vetalas -- Glimbur buff alert
-#fatiguecost 500
+#fatiguecost 100
 #researchlevel 4
 #end
 
@@ -7032,7 +7042,7 @@
 #selectspell 506 --Summon Jade Serpent
 #fatiguecost 200
 #researchlevel 3
-#nreff 2002
+#nreff 3006
 #end
 
 #selectspell 970 --School of Sharks
@@ -7050,13 +7060,13 @@
 
 #selectspell 972 --Summon Ice Drake
 #nreff 2002
-#fatiguecost 500
+#fatiguecost 400
 #researchlevel 3
 #end
 
 #selectspell 973 --Summon Sea Serpent
 #nreff 1001
-#fatiguecost 200
+#fatiguecost 100
 #researchlevel 3
 #pathlevel 0 1
 #end
@@ -7086,8 +7096,8 @@
 #end
 
 #selectspell 995 --Summon Spring Hawks
-#nreff 4006
-#fatiguecost 600
+#nreff 8008
+#fatiguecost 400
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7143,7 +7153,7 @@
 #selectspell 467 --Call Daevas
 #fatiguecost 400
 #researchlevel 4
-#nreff 2004
+#nreff 6012
 #end
 
 #selectspell 596 --Summon Kuro-Oni
@@ -7156,7 +7166,7 @@
 #fatiguecost 400
 #researchlevel 4
 #pathlevel 0 2
-#nreff 3010
+#nreff 9009
 #end
 
 #selectspell 310 --Summon Kenzoku
@@ -7184,7 +7194,7 @@
 #end
 
 #selectspell 1006 --Summon Fall Bears
-#nreff 4000
+#nreff 7007
 #fatiguecost 400
 #researchlevel 4
 #pathlevel 0 2
@@ -7216,8 +7226,8 @@
 #damage 518
 #end
 #selectspell 1007 --Contact Trolls
-#nreff 5007
-#fatiguecost 500
+#nreff 6006
+#fatiguecost 400
 #researchlevel 1
 #pathlevel 0 1
 #nextspell "Troll Commander"
@@ -7272,19 +7282,19 @@
 #end
 
 #selectspell 532 --Heavenly Fires
-#fatiguecost 300
+#fatiguecost 100
 #researchlevel 4
 #end
 
 #selectspell 330 --Summon Zmey
 #fatiguecost 200
 #researchlevel 4
-#nreff 1002
+#nreff 2002
 #end
 
 #selectspell 540 --Summon Jinn Warriors
 #fatiguecost 500
-#nreff 4002
+#nreff 5010
 #researchlevel 4
 #end
 
@@ -7296,8 +7306,8 @@
 #end
 
 #selectspell 993 --Summon Summer Lions
-#fatiguecost 600
-#nreff 4006
+#fatiguecost 400
+#nreff 7007
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7315,8 +7325,8 @@
 #end
 
 #selectspell 1023 --Summon Fay Knights
-#fatiguecost 500
-#nreff 5000
+#fatiguecost 700
+#nreff 5005
 #researchlevel 4
 #pathlevel 0 2
 #path 1 -1
@@ -7346,23 +7356,23 @@
 #selectspell 459 --Summon Monster Toads
 #fatiguecost 200
 #researchlevel 4
-#nreff 1002
+#nreff 4004
 #end
 
 #selectspell 507 --Summon Monster Toad
 #fatiguecost 200
 #researchlevel 4
-#nreff 1002
+#nreff 4004
 #end
 
 #selectspell 1018 --Summon Manticore
-#nreff 1004
+#nreff 2004
 #fatiguecost 300
 #researchlevel 4
 #end
 
 #selectspell 563 --Summon Kimpurushas
-#nreff 4006
+#nreff 8008
 #fatiguecost 1000
 #researchlevel 4
 #end
@@ -7423,19 +7433,19 @@
 #selectspell 466 --Summon Yazatas
 #fatiguecost 400
 #researchlevel 4
-#nreff 2004
+#nreff 6012
 #end
 
 #selectspell 475 --Summon Huacas
 #fatiguecost 400
 #researchlevel 4
-#nreff 2004
+#nreff 6012
 #end
 
 #selectspell 562 --Summon Gandharvas
 #fatiguecost 400
 #researchlevel 4
-#nreff 2004
+#nreff 6012
 #end
 
 #selectspell 1012 --Acashic Record
@@ -7455,14 +7465,14 @@
 #end
 
 #selectspell 477 --Contact Angel of the Host
-#fatiguecost 300
-#nreff 1000
+#fatiguecost 200
+#nreff 2002
 #researchlevel 4
 #end
 
 #selectspell 1013 --Summon Ether Warriors
-#nreff 1003
-#fatiguecost 400
+#nreff 4
+#fatiguecost 100
 #pathlevel 0 2
 #path 1 -1
 #researchlevel 4
@@ -7478,7 +7488,7 @@
 #school 0
 #effect 10001
 #damage 3420
-#nreff 5010
+#nreff 10010
 #end
 
 #selectspell 999 --Voice of Tiamat
@@ -7519,7 +7529,7 @@
 #end
 
 #selectspell 1001 --Contact Sea Trolls
-#nreff 6004
+#nreff 6006
 #fatiguecost 800
 #researchlevel 4
 #pathlevel 0 2
@@ -7539,8 +7549,8 @@
 #end
 
 #selectspell 1002 --Summon Winter Wolves
-#nreff 4006
-#fatiguecost 200
+#nreff 7007
+#fatiguecost 400
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7565,7 +7575,7 @@
 #end
 
 #selectspell 542 --Summon Hinn
-#nreff 5020
+#nreff 10020
 #researchlevel 5
 #end
 
@@ -7579,9 +7589,9 @@
 #end
 
 #selectspell 533 --Call Celestial Soldiers
-#fatiguecost 700
+#fatiguecost 500
 #researchlevel 4
-#nreff 2004
+#nreff 5010
 #end
 
 #selectspell 449 -- Send Aatxe
@@ -7598,14 +7608,14 @@
 #school 0
 #effect 10001
 #damage 3629
-#nreff 4004
+#nreff 6006
 #restricted 14
 #restricted 62
 #end
 
 #selectspell 1027 --Summon Great Eagles
-#nreff 5000
-#fatiguecost 400
+#nreff 5005
+#fatiguecost 500
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7625,7 +7635,7 @@
 #selectspell 256 --Bind Keres
 #fatiguecost 400
 #researchlevel 4
-#nreff 4004
+#nreff 5005
 #nextspell "Ker Commander"
 #end
 
@@ -7645,11 +7655,11 @@
 #fatiguecost 100
 #researchlevel 4
 #pathlevel 0 2
-#nreff 505
+#nreff 1005
 #end
 
-#selectspell 92
-#nreff 505
+#selectspell 92 -- Horse-face
+#nreff 1005
 #end
 
 #selectspell 1036 --Summon Spectre
@@ -7768,12 +7778,12 @@
 #end
 
 #selectspell 1039 --Contact Forest Giants
-#nreff 2000
+#nreff 2004
 #researchlevel 5
 #end
 
 #selectspell 1041 --Contact Lamias
-#nreff 3000
+#nreff 5005
 #fatiguecost 300
 #researchlevel 5
 #pathlevel 0 2
@@ -7797,10 +7807,10 @@
 #nreff 6008
 #end
 
-#selectspell 566 --Summon Garudas
+#selectspell 566 --Summon Maruts
 #researchlevel 5
 #fatiguecost 500
-#nreff 3004
+#nreff 4004
 #end
 
 #selectspell 479 --Angelic Choir
@@ -7845,7 +7855,7 @@
 #end
 
 #selectspell 553 --Summon Binn
-#nreff 5000
+#nreff 7007
 #fatiguecost 100
 #researchlevel 5
 #end
@@ -7917,9 +7927,9 @@
 #end
 
 #selectspell 313 --Summon Araburu-kami
-#fatiguecost 300
+#fatiguecost 200
 #researchlevel 4
-#nreff 2002
+#nreff 4004
 #end
 
 #selectspell 1052 --Summon Mound Fiend
@@ -7938,7 +7948,7 @@
 #fatiguecost 800
 #researchlevel 6
 #pathlevel 0 4
-#nreff 6015
+#nreff 10020
 #end
 
 #selectspell 314 --Contact Yama-no-kami
@@ -8032,7 +8042,7 @@
 #path 1 4
 #pathlevel 0 2
 #effect 10001
-#nreff 1002
+#nreff 2004
 #end
 
 #selectspell 569 --Summon Siddha
@@ -8056,7 +8066,7 @@
 #selectspell 362 --Call Anzus
 #fatiguecost 200
 #researchlevel 4
-#nreff 1000
+#nreff 1001
 #end
 
 #newspell
@@ -8070,7 +8080,7 @@
 #school 0
 #effect 10001
 #damage 3064
-#nreff 1000
+#nreff 1001
 #notfornation 19
 #notfornation 66
 #end
@@ -8083,8 +8093,8 @@
 #end
 
 #selectspell 1050 --Summon Catoblepas
-#nreff 2000
-#fatiguecost 700
+#nreff 2002
+#fatiguecost 600
 #researchlevel 6
 #pathlevel 0 2
 #end
@@ -8172,6 +8182,7 @@
 
 #selectspell 625 --Hall of the Dead
 #fatiguecost 1250
+#nreff 16032
 #researchlevel 7
 #pathlevel 0 4
 #end
@@ -8190,15 +8201,15 @@
 #name "Contact Scorpion Men"
 #descr "Scorpion Men are some of the most frightening beasts that wander the desert. It is said that when a Scorpion Man looks at a mountain, the mountain shivers in fear." 
 #school	0
-#researchlevel 3
+#researchlevel 5
 #path 0 0
 #path 1 3
 #pathlevel 0 2
 #pathlevel 1 1
-#fatiguecost 300
+#fatiguecost 600
 #effect 10001
 #damage 1649
-#nreff 1000
+#nreff 2002
 #end
 
 #selectspell 1067 --Earth Attack

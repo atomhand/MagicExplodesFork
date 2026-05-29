@@ -7,11 +7,14 @@ Changes
   * Standard of the Damned reduced to 5 gems (from 12)
   * Thorn Staff unchanged
 * Increased cost of all ritual summons to a minimum of 1 gem, with the following exceptions:
-  * Corpse Man Construction, Awaken Vine Ogres, Cross Breeding, Infernal Breeding, Bind Calydonian Boar, Celestial Servant
+  * Corpse Man Construction, Awaken Vine Ogres, Cross Breeding, Infernal Breeding, Bind Calydonian Boar, Celestial Servant, Ritual of Five Gates
 * Remove commanders from ritual troop summons, with the following exceptions:
   * Royal Reanimation (path requirement increased to 2), Pack of Wolves (now has Werewolf commander), Call of the Winds (now has Black Hawk commander), Summon Sea Dogs (may review later), Contact War Trolls (may review later), Contact Troll Moose Knights (may review later), Summon Shades, Summon Ghosts, Pale Riders, Iron Corpse Reanimation, Ktonian Legion (LA Agartha only), Flame Corpse Construction (LA Agartha only), Bind Keres (Arco-connected nations only)
   * Remote summons
   * Rituals which summon a mage commander
+* Rebalance cost, quantity and scaling for all troop summoning rituals (generic and national)
+  * Most rituals are buffed
+  * A small number of outliers are nerfed
 * Other changes to ritual summons
   * Amalgamation spells:
     * Re-added astral crosspath, reduced main path requirement to 1
