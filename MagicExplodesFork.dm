@@ -6503,7 +6503,7 @@
 #nreff 3003
 #pathlevel 0 1
 #fatiguecost 200
-#researchlevel 2
+#researchlevel 1
 #end
 
 #selectspell 262 --Curse Tablet
@@ -6756,13 +6756,18 @@
 #nreff 6006
 #end
 
+#selectmonster 2642 --Yeti Shaman
+#magicskill 1 0
+#magicskill 2 0
+#custommagic 256 50
+#custommagic 256 25
+#custommagic 512 50
+#custommagic 512 25
+#okleader
+#end
+
 #selectspell 946 --Summon Yetis
-#path 0 1
-#path 1 -1
-#researchlevel 1
-#pathlevel 1 1
-#fatiguecost 500
-#nreff 6006
+#school -1
 #end
 
 #newspell
@@ -6771,13 +6776,19 @@
 #effect 10021
 #damage 2642
 #end
+
 #newspell
-#copyspell 946
 #name "Summon Yeti Tribe"
-#nreff 5010
-#pathlevel 1 2
-#fatiguecost 2000
-#researchlevel 4
+#school 0
+#path 0 1
+#path 1 2
+#pathlevel 0 2
+#pathlevel 1 1
+#nreff 5005
+#fatiguecost 800
+#researchlevel 3
+#effect 10001
+#damage 2231 --Yeti
 #nextspell "Yeti Shaman"
 #end
 

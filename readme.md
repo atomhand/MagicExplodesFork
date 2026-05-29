@@ -29,6 +29,9 @@ Changes
       * Amalgams of Air gain better map move, shockres and a much better weapon
       * Amalgams of Water gain physres and better defence
       * Amalgams of Earth gain the floating tag
+  * Summon Yeti Tribe is cheaper and lower tech, but the Yeti Shaman has lower and random paths
+    * Add W1 crosspath requirement
+    * Summon Yetis removed
   * Update recently added rituals to Mex standards
   * Hide some redundant Unseelie rituals
   * Rearrange research levels for some rituals, particularly in Blood
