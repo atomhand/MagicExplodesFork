@@ -4988,7 +4988,7 @@
 
 #selectspell 1439 --Three Red Seconds
 #fatiguecost 10000
-#researchlevel 3
+#researchlevel 5
 #pathlevel 0 4
 #end
 
@@ -5444,7 +5444,7 @@
 #clear
 #name "Amalgamation of Air and Flesh"
 #fatiguecost 500
-#researchlevel 3
+#researchlevel 4
 #path 0 1
 #path 1 4
 #pathlevel 0 1
@@ -5460,7 +5460,7 @@
 #clear
 #name "Amalgamation of Earth and Flesh"
 #fatiguecost 500
-#researchlevel 3
+#researchlevel 4
 #path 0 3
 #path 1 4
 #pathlevel 0 1
@@ -5476,7 +5476,7 @@
 #clear
 #name "Amalgamation of Fire and Flesh"
 #fatiguecost 500
-#researchlevel 3
+#researchlevel 4
 #path 0 0
 #path 1 4
 #pathlevel 0 1
@@ -5492,7 +5492,7 @@
 #clear
 #name "Amalgamation of Water and Flesh"
 #fatiguecost 500
-#researchlevel 3
+#researchlevel 4
 #path 0 2
 #path 1 4
 #pathlevel 0 1
@@ -5839,7 +5839,7 @@
 #selectspell 859 --Iron Pigs
 #nreff 9018
 #fatiguecost 200
-#researchlevel 5
+#researchlevel 3
 #pathlevel 0 2
 #end
 

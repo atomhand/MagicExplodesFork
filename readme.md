@@ -21,10 +21,13 @@ Changes
   * Amalgamation spells:
     * Re-added astral crosspath, reduced main path requirement to 1
     * Spells produce an alchemical rebate of 50 gold
-    * Buff Amalgams (except Fire) - changes copied from Dominions Enhanced
+    * Buff Amalgams (except Fire) - (cribbed from Dominions Enhanced)
       * Amalgams of Air gain better map move, shockres and a much better weapon
-      * Amalgamsof Water gain physres and better defence
+      * Amalgams of Water gain physres and better defence
       * Amalgams of Earth gain the floating tag
+  * Update recently added rituals to Mex standards
+  * Hide some redundant Unseelie rituals
+  * Rearrange research levels for some rituals, particularly in Blood
   * Revive Bane Lord:
     * Cost set to 2 gems
     * Bane Lord gains Tight Rein tag, but his presence can cause undisciplined creatures to rebel and try to assassinate him
