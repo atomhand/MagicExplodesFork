@@ -7272,7 +7272,9 @@
 #gcost 0
 #expertleader
 #expertmagicleader
+#mason
 #end
+
 #selectmonster 518 -- Troll
 #gcost 0
 #okleader
@@ -13719,6 +13721,3329 @@ mainlevel 1
 #selectnation	127
 #minprison 1	
 #end	
+
+
+
+
+-- FASTER FORTS INTEGRATION --
+
+#newsite 2331 -- Fort turn 1
+#clear
+#name "First Month of Fort Construction"
+#rarity 5
+#level 9
+#path 9 -- holy fort
+#look 1
+--#path 3 -- earth fort
+--#look 3
+#end
+
+#newsite 2332 -- Fort turn 2
+#clear
+#name "Second Month of Fort Construction"
+#rarity 5
+#level 9
+#path 9 -- holy fort
+#look 1
+--#path 3 -- earth fort
+--#look 3
+#end
+
+#newsite 2333 -- Fort turn 3
+#clear
+#name "Third Month of Fort Construction"
+#rarity 5
+#level 9
+#path 9 -- holy fort
+#look 1
+--#path 3 -- earth fort
+--#look 3
+#end
+
+#newsite 2334 -- Fort turn 4
+#clear
+#name "Fourth Month of Fort Construction"
+#rarity 5
+#level 9
+#path 9 -- holy fort
+#look 1
+--#path 3 -- earth fort
+--#look 3
+#end
+
+#newsite 2335 -- Fort turn 5
+#clear
+#name "Fifth Month of Fort Construction"
+#rarity 5
+#level 9
+#path 9 -- holy fort
+#look 1
+--#path 3 -- earth fort
+--#look 3
+#end
+
+
+
+
+
+#selectnation 6 -- EA Mekone
+#uwbuild 1
+#end
+
+#selectnation 19 -- EA Ur
+#uwbuild 1
+#end
+
+#selectnation 25 -- EA Mictlan
+#uwbuild 1
+#end
+
+#selectnation 66 -- MA Uruk
+#uwbuild 1
+#end
+
+#selectnation 73 -- MA Mictlan
+#uwbuild 1
+#end
+
+#selectnation 111 -- LA Mictlan
+#uwbuild 1
+#end
+
+#selectnation 10 -- EA Fomoria
+#uwbuild 1
+#end
+
+#selectnation 17 -- EA Hinnom
+#uwbuild 1
+#end
+
+#selectnation 33 -- EA Niefelheim
+#uwbuild 1
+#end
+
+#selectnation 34 -- EA Muspelheim
+#uwbuild 1
+#end
+
+#selectnation 51 -- MA Phlegra
+#uwbuild 1
+#end
+
+#selectnation 64 -- MA Ashdod
+#uwbuild 1
+#end
+
+#selectnation 65 -- MA Na'Ba
+#uwbuild 1
+#end
+
+#selectnation 80 -- MA Jotunheim
+#uwbuild 1
+#end
+
+#selectnation 107 -- LA Gath
+#uwbuild 1
+#end
+
+#selectnation 117 -- LA Utgard
+#uwbuild 1
+#end
+
+#selectnation 185 -- EA Albion
+#uwbuild 1
+#end
+
+#selectnation 71 -- MA Caelum
+#uwbuild 1
+#end
+
+#selectnation 126 -- -- !! LA Atlantis
+#uwbuild 1
+#end
+
+#selectnation 5 -- EA Arco
+#uwbuild 1
+#end
+
+#selectnation 7 -- EA Panganea
+#uwbuild 1
+#end
+
+#selectnation 8 -- EA Ermor
+#uwbuild 1
+#end
+
+#selectnation 9 -- EA Sauromatia
+#uwbuild 1
+#end
+
+#selectnation 11 -- EA Tir'na'Og
+#uwbuild 1
+#end
+
+#selectnation 12 -- EA Marverni
+#uwbuild 1
+#end
+
+#selectnation 13 -- EA Ulm
+#uwbuild 1
+#end
+
+#selectnation 14 -- EA Pyrene
+#uwbuild 1
+#end
+
+#selectnation 15 -- EA Agartha
+#uwbuild 1
+#end
+
+#selectnation 16 -- EA Abysia
+#uwbuild 1
+#end
+
+#selectnation 18 -- EA Ubar
+#uwbuild 1
+#end
+
+#selectnation 20 -- EA Kailasa
+#uwbuild 1
+#end
+
+#selectnation 21 -- EA Lanka
+#uwbuild 1
+#end
+
+#selectnation 22 -- EA TC
+#uwbuild 1
+#end
+
+#selectnation 23 -- EA Yomi
+#uwbuild 1
+#end
+
+#selectnation 24 -- EA Caelum
+#uwbuild 1
+#end
+
+#selectnation 26 -- EA Xibalba
+#uwbuild 1
+#end
+
+#selectnation 27 -- EA C'tis
+#uwbuild 1
+#end
+
+#selectnation 28 -- EA Machaka
+#uwbuild 1
+#end
+
+#selectnation 29 -- EA Berytos
+#uwbuild 1
+#end
+
+#selectnation 30 -- EA Vanheim
+#uwbuild 1
+#end
+
+#selectnation 31 -- EA Helheim
+#uwbuild 1
+#end
+
+#selectnation 32 -- EA Rus
+#uwbuild 1
+#end
+
+#selectnation 50 -- MA Arco
+#uwbuild 1
+#end
+
+#selectnation 52 -- MA Panganea
+#uwbuild 1
+#end
+
+#selectnation 53 -- MA Asphodel
+#uwbuild 1
+#end
+
+#selectnation 54 -- MA Ermor
+#uwbuild 1
+#end
+
+#selectnation 55 -- MA Sceleria
+#uwbuild 1
+#end
+
+#selectnation 56 -- MA Pythium
+#uwbuild 1
+#end
+
+#selectnation 57 -- MA Man
+#uwbuild 1
+#end
+
+#selectnation 58 -- MA Eriu
+#uwbuild 1
+#end
+
+#selectnation 59 -- MA Agartha
+#uwbuild 1
+#end
+
+#selectnation 60 -- MA Ulm
+#uwbuild 1
+#end
+
+#selectnation 61 -- MA Marignon
+#uwbuild 1
+#end
+
+#selectnation 62 -- MA Pyrene
+#uwbuild 1
+#end
+
+#selectnation 63 -- MA Abysia
+#uwbuild 1
+#end
+
+#selectnation 67 -- MA Ind
+#uwbuild 1
+#end
+
+#selectnation 68 -- MA Bandar Log
+#uwbuild 1
+#end
+
+#selectnation 69 -- MA TC
+#uwbuild 1
+#end
+
+#selectnation 70 -- MA Shinuyama
+#uwbuild 1
+#end
+
+#selectnation 72 -- MA Nazca
+#uwbuild 1
+#end
+
+#selectnation 74 -- MA Xibalba
+#uwbuild 1
+#end
+
+#selectnation 75 -- MA C'tis
+#uwbuild 1
+#end
+
+#selectnation 76 -- MA Machaka
+#uwbuild 1
+#end
+
+#selectnation 77 -- MA Phaecia
+#uwbuild 1
+#end
+
+#selectnation 78 -- MA Vanheim
+#uwbuild 1
+#end
+
+#selectnation 79 -- MA Vanarus
+#uwbuild 1
+#end
+
+#selectnation 81 -- MA Nidavangr
+#uwbuild 1
+#end
+
+#selectnation 95 -- LA Arco
+#uwbuild 1
+#end
+
+#selectnation 96 -- LA Phlegra
+#uwbuild 1
+#end
+
+#selectnation 97 -- LA Panganea
+#uwbuild 1
+#end
+
+#selectnation 98 -- LA Pythium
+#uwbuild 1
+#end
+
+#selectnation 99 -- LA Lemuria
+#uwbuild 1
+#end
+
+#selectnation 100 -- LA Man
+#uwbuild 1
+#end
+
+#selectnation 101 -- LA Ulm
+#uwbuild 1
+#end
+
+#selectnation 102 -- LA Agartha
+#uwbuild 1
+#end
+
+#selectnation 103 -- LA Marignon
+#uwbuild 1
+#end
+
+#selectnation 104 -- LA Abysia
+#uwbuild 1
+#end
+
+#selectnation 105 -- LA Ragha
+#uwbuild 1
+#end
+
+#selectnation 106 -- LA Caelum
+#uwbuild 1
+#end
+
+#selectnation 108 -- LA Patala
+#uwbuild 1
+#end
+
+#selectnation 109 -- LA TC
+#uwbuild 1
+#end
+
+#selectnation 110 -- LA Jomon
+#uwbuild 1
+#end
+
+#selectnation 112 -- LA Xibalba
+#uwbuild 1
+#end
+
+#selectnation 113 -- LA C'tis
+#uwbuild 1
+#end
+
+#selectnation 115 -- LA Midgard
+#uwbuild 1
+#end
+
+#selectnation 116 -- LA Bogarus
+#uwbuild 1
+#end
+
+#selectnation 118 -- LA Vaettiheim
+#uwbuild 1
+#end
+
+#selectnation 119 -- LA Feminie
+#uwbuild 1
+#end
+
+#selectnation 120 -- LA Piconye
+#uwbuild 1
+#end
+
+#selectnation 121 -- LA Andramania
+#uwbuild 1
+#end
+
+#selectnation 123 -- LA Pyrene
+#uwbuild 1
+#end
+
+#selectnation 124 -- LA Zemaitia
+#uwbuild 1
+#end
+
+#selectnation 125 -- LA Erytheia
+#uwbuild 1
+#end
+
+#selectnation 182 -- MA Ongtupqa
+#uwbuild 1
+#end
+
+#selectnation 183 -- LA Ongtupqa
+#uwbuild 1
+#end
+
+#selectnation 184 -- EA Sitecah
+#uwbuild 1
+#end
+
+#selectnation 186 -- EA Zion
+#uwbuild 1
+#end
+
+#selectnation 187 -- EA Bhod
+#uwbuild 1
+#end
+
+#selectnation 188 -- MA Shambhala
+#uwbuild 1
+#end
+
+#selectnation 190 -- LA Rotterland
+#uwbuild 1
+#end
+
+#selectnation 191 -- MA Tartary
+#uwbuild 1
+#end
+
+#selectnation 192 -- LA Great Arrada
+#uwbuild 1
+#end
+
+#selectnation 194 -- MA Sawaiiki
+#uwbuild 1
+#end
+
+#selectnation 197 -- LA Iram
+#uwbuild 1
+#end
+
+#selectnation 198 -- EA Nihuala
+#uwbuild 1
+#end
+
+#selectnation 199 -- MA Nihuala
+#uwbuild 1
+#end
+
+#selectnation 200 -- LA Nihuala
+#uwbuild 1
+#end
+
+#selectnation 201 -- LA Venedia
+#uwbuild 1
+#end
+
+#selectnation 202 -- LA Gondwana
+#uwbuild 1
+#end
+
+#selectnation 205 -- LA Houssa
+#uwbuild 1
+#end
+
+#selectnation 181 -- EA Chaco
+#uwbuild 1
+#end
+
+#selectnation 189 -- EA Fennoscandia
+#uwbuild 1
+#end
+
+#selectnation 193 -- EA Alchera
+#uwbuild 1
+#end
+
+
+
+
+-- Mason fort skip
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 748 --Master Mason
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 1072 --Engineer
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 1073 --Maker of the Maze
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 1606 --Mage Engineer
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 1644 --Magister
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 1848 --Mason of the Underworld
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 3010 --Architect
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 3011 --Architect
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 3059 --Magister Supreme
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr 519 --Troll King
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targitem 467 -- Tome of the Forgotten Masons
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2233233
+#fort 2
+#end
+
+-- end
+
+
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 0
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Rock Walls in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 5
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 0
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Rock Walls in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 5
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 0
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Rock Walls in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 5
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 0
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Rock Walls in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 5
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The City Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 11
+#req_fornation 6
+#req_fornation 19
+#req_fornation 25
+#req_fornation 66
+#req_fornation 73
+#req_fornation 111
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The City Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 11
+#req_fornation 6
+#req_fornation 19
+#req_fornation 25
+#req_fornation 66
+#req_fornation 73
+#req_fornation 111
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The City Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 11
+#req_fornation 6
+#req_fornation 19
+#req_fornation 25
+#req_fornation 66
+#req_fornation 73
+#req_fornation 111
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 15
+#req_fornation 10
+#req_fornation 17
+#req_fornation 33
+#req_fornation 34
+#req_fornation 51
+#req_fornation 64
+#req_fornation 65
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 15
+#req_fornation 10
+#req_fornation 17
+#req_fornation 33
+#req_fornation 34
+#req_fornation 51
+#req_fornation 64
+#req_fornation 65
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 15
+#req_fornation 10
+#req_fornation 17
+#req_fornation 33
+#req_fornation 34
+#req_fornation 51
+#req_fornation 64
+#req_fornation 65
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 15
+#req_fornation 10
+#req_fornation 17
+#req_fornation 33
+#req_fornation 34
+#req_fornation 51
+#req_fornation 64
+#req_fornation 65
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 15
+#req_fornation 80
+#req_fornation 107
+#req_fornation 117
+#req_fornation 185
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 15
+#req_fornation 80
+#req_fornation 107
+#req_fornation 117
+#req_fornation 185
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 15
+#req_fornation 80
+#req_fornation 107
+#req_fornation 117
+#req_fornation 185
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Giant Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 15
+#req_fornation 80
+#req_fornation 107
+#req_fornation 117
+#req_fornation 185
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 20
+#req_fornation 71
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 20
+#req_fornation 71
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 20
+#req_fornation 71
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 20
+#req_fornation 71
+#end
+
+
+#newevent -- Finish Fort LAtlantis Normal
+#rarity 5
+#req_coast 0
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 126
+#end
+
+
+#newevent -- Finish Fort LAtlantis Ice
+#rarity 5
+#req_coast 1
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 20
+#req_fornation 126
+#end
+
+#newevent -- Finish Fort LAtlantis Normal
+#rarity 5
+#req_coast 0
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 126
+#end
+
+
+#newevent -- Finish Fort LAtlantis Ice
+#rarity 5
+#req_coast 1
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 20
+#req_fornation 126
+#end
+
+#newevent -- Finish Fort LAtlantis Normal
+#rarity 5
+#req_coast 0
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 126
+#end
+
+
+#newevent -- Finish Fort LAtlantis Ice
+#rarity 5
+#req_coast 1
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 20
+#req_fornation 126
+#end
+
+#newevent -- Finish Fort LAtlantis Normal
+#rarity 5
+#req_coast 0
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 126
+#end
+
+
+#newevent -- Finish Fort LAtlantis Ice
+#rarity 5
+#req_coast 1
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Ice Walls in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 20
+#req_fornation 126
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 5
+#req_fornation 7
+#req_fornation 8
+#req_fornation 9
+#req_fornation 11
+#req_fornation 12
+#req_fornation 13
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 5
+#req_fornation 7
+#req_fornation 8
+#req_fornation 9
+#req_fornation 11
+#req_fornation 12
+#req_fornation 13
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 5
+#req_fornation 7
+#req_fornation 8
+#req_fornation 9
+#req_fornation 11
+#req_fornation 12
+#req_fornation 13
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 5
+#req_fornation 7
+#req_fornation 8
+#req_fornation 9
+#req_fornation 11
+#req_fornation 12
+#req_fornation 13
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 14
+#req_fornation 15
+#req_fornation 16
+#req_fornation 18
+#req_fornation 20
+#req_fornation 21
+#req_fornation 22
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 14
+#req_fornation 15
+#req_fornation 16
+#req_fornation 18
+#req_fornation 20
+#req_fornation 21
+#req_fornation 22
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 14
+#req_fornation 15
+#req_fornation 16
+#req_fornation 18
+#req_fornation 20
+#req_fornation 21
+#req_fornation 22
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 14
+#req_fornation 15
+#req_fornation 16
+#req_fornation 18
+#req_fornation 20
+#req_fornation 21
+#req_fornation 22
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 23
+#req_fornation 24
+#req_fornation 26
+#req_fornation 27
+#req_fornation 28
+#req_fornation 29
+#req_fornation 30
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 23
+#req_fornation 24
+#req_fornation 26
+#req_fornation 27
+#req_fornation 28
+#req_fornation 29
+#req_fornation 30
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 23
+#req_fornation 24
+#req_fornation 26
+#req_fornation 27
+#req_fornation 28
+#req_fornation 29
+#req_fornation 30
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 23
+#req_fornation 24
+#req_fornation 26
+#req_fornation 27
+#req_fornation 28
+#req_fornation 29
+#req_fornation 30
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 31
+#req_fornation 32
+#req_fornation 50
+#req_fornation 52
+#req_fornation 53
+#req_fornation 54
+#req_fornation 55
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 31
+#req_fornation 32
+#req_fornation 50
+#req_fornation 52
+#req_fornation 53
+#req_fornation 54
+#req_fornation 55
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 31
+#req_fornation 32
+#req_fornation 50
+#req_fornation 52
+#req_fornation 53
+#req_fornation 54
+#req_fornation 55
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 31
+#req_fornation 32
+#req_fornation 50
+#req_fornation 52
+#req_fornation 53
+#req_fornation 54
+#req_fornation 55
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 56
+#req_fornation 57
+#req_fornation 58
+#req_fornation 59
+#req_fornation 60
+#req_fornation 61
+#req_fornation 62
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 56
+#req_fornation 57
+#req_fornation 58
+#req_fornation 59
+#req_fornation 60
+#req_fornation 61
+#req_fornation 62
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 56
+#req_fornation 57
+#req_fornation 58
+#req_fornation 59
+#req_fornation 60
+#req_fornation 61
+#req_fornation 62
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 56
+#req_fornation 57
+#req_fornation 58
+#req_fornation 59
+#req_fornation 60
+#req_fornation 61
+#req_fornation 62
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 63
+#req_fornation 67
+#req_fornation 68
+#req_fornation 69
+#req_fornation 70
+#req_fornation 72
+#req_fornation 74
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 63
+#req_fornation 67
+#req_fornation 68
+#req_fornation 69
+#req_fornation 70
+#req_fornation 72
+#req_fornation 74
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 63
+#req_fornation 67
+#req_fornation 68
+#req_fornation 69
+#req_fornation 70
+#req_fornation 72
+#req_fornation 74
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 63
+#req_fornation 67
+#req_fornation 68
+#req_fornation 69
+#req_fornation 70
+#req_fornation 72
+#req_fornation 74
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 75
+#req_fornation 76
+#req_fornation 77
+#req_fornation 78
+#req_fornation 79
+#req_fornation 81
+#req_fornation 95
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 75
+#req_fornation 76
+#req_fornation 77
+#req_fornation 78
+#req_fornation 79
+#req_fornation 81
+#req_fornation 95
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 75
+#req_fornation 76
+#req_fornation 77
+#req_fornation 78
+#req_fornation 79
+#req_fornation 81
+#req_fornation 95
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 75
+#req_fornation 76
+#req_fornation 77
+#req_fornation 78
+#req_fornation 79
+#req_fornation 81
+#req_fornation 95
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 96
+#req_fornation 97
+#req_fornation 98
+#req_fornation 99
+#req_fornation 100
+#req_fornation 101
+#req_fornation 102
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 96
+#req_fornation 97
+#req_fornation 98
+#req_fornation 99
+#req_fornation 100
+#req_fornation 101
+#req_fornation 102
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 96
+#req_fornation 97
+#req_fornation 98
+#req_fornation 99
+#req_fornation 100
+#req_fornation 101
+#req_fornation 102
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 96
+#req_fornation 97
+#req_fornation 98
+#req_fornation 99
+#req_fornation 100
+#req_fornation 101
+#req_fornation 102
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 103
+#req_fornation 104
+#req_fornation 105
+#req_fornation 106
+#req_fornation 108
+#req_fornation 109
+#req_fornation 110
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 103
+#req_fornation 104
+#req_fornation 105
+#req_fornation 106
+#req_fornation 108
+#req_fornation 109
+#req_fornation 110
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 103
+#req_fornation 104
+#req_fornation 105
+#req_fornation 106
+#req_fornation 108
+#req_fornation 109
+#req_fornation 110
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 103
+#req_fornation 104
+#req_fornation 105
+#req_fornation 106
+#req_fornation 108
+#req_fornation 109
+#req_fornation 110
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 112
+#req_fornation 113
+#req_fornation 115
+#req_fornation 116
+#req_fornation 118
+#req_fornation 119
+#req_fornation 120
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 112
+#req_fornation 113
+#req_fornation 115
+#req_fornation 116
+#req_fornation 118
+#req_fornation 119
+#req_fornation 120
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 112
+#req_fornation 113
+#req_fornation 115
+#req_fornation 116
+#req_fornation 118
+#req_fornation 119
+#req_fornation 120
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 112
+#req_fornation 113
+#req_fornation 115
+#req_fornation 116
+#req_fornation 118
+#req_fornation 119
+#req_fornation 120
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 121
+#req_fornation 123
+#req_fornation 124
+#req_fornation 125
+#req_fornation 182
+#req_fornation 183
+#req_fornation 184
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 121
+#req_fornation 123
+#req_fornation 124
+#req_fornation 125
+#req_fornation 182
+#req_fornation 183
+#req_fornation 184
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 121
+#req_fornation 123
+#req_fornation 124
+#req_fornation 125
+#req_fornation 182
+#req_fornation 183
+#req_fornation 184
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 121
+#req_fornation 123
+#req_fornation 124
+#req_fornation 125
+#req_fornation 182
+#req_fornation 183
+#req_fornation 184
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 186
+#req_fornation 187
+#req_fornation 188
+#req_fornation 190
+#req_fornation 191
+#req_fornation 192
+#req_fornation 194
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 186
+#req_fornation 187
+#req_fornation 188
+#req_fornation 190
+#req_fornation 191
+#req_fornation 192
+#req_fornation 194
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 186
+#req_fornation 187
+#req_fornation 188
+#req_fornation 190
+#req_fornation 191
+#req_fornation 192
+#req_fornation 194
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 186
+#req_fornation 187
+#req_fornation 188
+#req_fornation 190
+#req_fornation 191
+#req_fornation 192
+#req_fornation 194
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 197
+#req_fornation 198
+#req_fornation 199
+#req_fornation 200
+#req_fornation 201
+#req_fornation 202
+#req_fornation 205
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 197
+#req_fornation 198
+#req_fornation 199
+#req_fornation 200
+#req_fornation 201
+#req_fornation 202
+#req_fornation 205
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 197
+#req_fornation 198
+#req_fornation 199
+#req_fornation 200
+#req_fornation 201
+#req_fornation 202
+#req_fornation 205
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 197
+#req_fornation 198
+#req_fornation 199
+#req_fornation 200
+#req_fornation 201
+#req_fornation 202
+#req_fornation 205
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Fortified Village in ##landname## has been completed. [First Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2331
+#fort 27
+#req_fornation 181
+#req_fornation 189
+#req_fornation 193
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Fortified Village in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 27
+#req_fornation 181
+#req_fornation 189
+#req_fornation 193
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Fortified Village in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 27
+#req_fornation 181
+#req_fornation 189
+#req_fornation 193
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Fortified Village in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 27
+#req_fornation 181
+#req_fornation 189
+#req_fornation 193
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Fortified Village in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 27
+#req_fornation 181
+#req_fornation 189
+#req_fornation 193
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 40
+#req_fornation 41
+#req_fornation 42
+#req_fornation 43
+#req_fornation 44
+#req_fornation 85
+#req_fornation 86
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 40
+#req_fornation 41
+#req_fornation 42
+#req_fornation 43
+#req_fornation 44
+#req_fornation 85
+#req_fornation 86
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 40
+#req_fornation 41
+#req_fornation 42
+#req_fornation 43
+#req_fornation 44
+#req_fornation 85
+#req_fornation 86
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 40
+#req_fornation 41
+#req_fornation 42
+#req_fornation 43
+#req_fornation 44
+#req_fornation 85
+#req_fornation 86
+#end
+
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 1
+#req_fornation 87
+#req_fornation 88
+#req_fornation 89
+#req_fornation 127
+#req_fornation 203
+#req_fornation 206
+#req_fornation 207
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Third Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2333
+#fort 1
+#req_fornation 87
+#req_fornation 88
+#req_fornation 89
+#req_fornation 127
+#req_fornation 203
+#req_fornation 206
+#req_fornation 207
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fourth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2334
+#fort 1
+#req_fornation 87
+#req_fornation 88
+#req_fornation 89
+#req_fornation 127
+#req_fornation 203
+#req_fornation 206
+#req_fornation 207
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "The Palisades in ##landname## has been completed. [Fifth Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2335
+#fort 1
+#req_fornation 87
+#req_fornation 88
+#req_fornation 89
+#req_fornation 127
+#req_fornation 203
+#req_fornation 206
+#req_fornation 207
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [River Fortress]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Azure Academy]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Firbolg Fortress]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Archaic Fortress]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [The Forgotten Fortress]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [The Jervellan Wall]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Castle Arcanum]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Citadel of the Mage King]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [The City of a Thousand Wonders]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Caer]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [The Crystal Citadel]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [The Blood Keep]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Torture Tower]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Academy Underneath]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Kelp Fortress]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [City of Dates]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+#newevent -- Reveal fort site - DE Alamut
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#header 2
+#req_targorder 20 -- Build Fort
+#msg "A hidden fortification has been found while surveying the province for a suitable location to begin construction.
+
+Some of the gold allocated for the construction effort has been returned to the coffers. [Alamut]"
+#req_hiddensite 1
+#forcegold 200
+#revealsite
+#end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newevent -- Place fort turn 5
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#req_targorder 20 -- Build Fort
+#msg "text [Fourth Month of Fort Construction]"
+#req_site 1
+#req_nositenbr 2335
+#removesite 2334
+#addsite 2335
+#req_varzero 6010
+#incvar 6010
+#end
+
+#newevent -- Place fort turn 4
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#req_targorder 20 -- Build Fort
+#msg "text [Third Month of Fort Construction]"
+#req_site 1
+#req_nositenbr 2334
+#removesite 2333
+#addsite 2334
+#req_varzero 6010
+#incvar 6010
+#end
+
+#newevent -- Place fort turn 3
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#req_targorder 20 -- Build Fort
+#msg "text [Second Month of Fort Construction]"
+#req_site 1
+#req_nositenbr 2333
+#removesite 2332
+#addsite 2333
+#req_varzero 6010
+#incvar 6010
+#end
+
+#newevent -- Place fort turn 2
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#req_targorder 20 -- Build Fort
+#msg "text [First Month of Fort Construction]"
+#req_site 1
+#req_nositenbr 2332
+#removesite 2331
+#addsite 2332
+#req_varzero 6010
+#incvar 6010
+#end
+
+#newevent -- Place fort turn 1
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targorder 20 -- Build Fort
+#req_nositenbr 2331
+#addsite 2331
+#req_varzero 6010
+#incvar 6010
+#end
+
+#newevent -- Clear var
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#req_targorder 20 -- Build Fort
+#msg "text"
+#req_varpos 6010
+#clearvar 6010
+#incvar 6011 --no mason
+#end
+
+#newevent -- Master Mason
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 748 --Master Mason
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Engineer
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 1072 --Engineer
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Maker of the Maze
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 1073 --Maker of the Maze
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Mage Engineer
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 1606 --Mage Engineer
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Magister
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 1644 --Magister
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Mason of the Underworld
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 1848 --Mason of the Underworld
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 3010 --Architect
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 3011 --Architect
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 3059 --Magister Supreme
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr 519 --Troll King
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targitem 467 --Tome of the Forgotten Masons
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Remove Fort 5
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text [Fifth Month of Fort Construction]"
+#req_fort 1
+#req_site 1
+#removesite 2335
+#clearvar 6010
+#clearvar 6011
+#end
+
+#newevent -- Remove Fort 4
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text [Fourth Month of Fort Construction]"
+#req_fort 1
+#req_site 1
+#removesite 2334
+#clearvar 6010
+#clearvar 6011
+#end
+
+#newevent -- Remove Fort 3
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text [Third Month of Fort Construction]"
+#req_fort 1
+#req_site 1
+#removesite 2333
+#clearvar 6010
+#clearvar 6011
+#end
+
+#newevent -- Remove Fort 2
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text [Second Month of Fort Construction]"
+#req_fort 1
+#req_site 1
+#removesite 2332
+#clearvar 6010
+#clearvar 6011
+#end
+
+#newevent -- Remove Fort 1
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text [First Month of Fort Construction]"
+#req_fort 1
+#req_site 1
+#removesite 2331
+#clearvar 6010
+#clearvar 6011
+#end
+
+-- END FASTER FORTS INTEGRATION --
 
 --------END OF FILE--------
 

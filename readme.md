@@ -2,6 +2,10 @@ A fork of the Magic Explodes mod for Dominions 6
 
 Changes
 * Reduce gem/slave cost of non-unique path-boosting items by 20%.
+* Integrated a modified version of Bluefire's Faster Forts mod
+  * Forts construction is 2 turns faster
+  * If a fort is built by a Mason (full construction duration only), pay 600 gold on completion to build a Fortress directly
+  * Troll Kings gain the Mason tag
 * Removed gem costs from most non-unique items that still have them, with the following exceptions:
   * Rod of the phoenix reduced to 10 gems (from 12)
   * Staff of Storms reduced to 20 gems (from 40)
