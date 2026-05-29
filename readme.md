@@ -1,3 +1,5 @@
+A fork of the Magic Explodes mod for Dominions 6
+
 Changes
 * Reduce gem/slave cost of non-unique path-boosting items by 20%.
 * Removed gem costs from most non-unique items that still have them, with the following exceptions:
