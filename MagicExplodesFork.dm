@@ -9862,8 +9862,8 @@
 #selectitem 52 --Staff of Corrosion
 #constlevel 3
 #mainlevel 1
-#itemcost1 -60
-#itemcost2 -60
+#itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 53 --Rune Smasher
@@ -10480,6 +10480,7 @@
 #constlevel 3
 #mainlevel 1
 #itemcost1 -100
+#nofind
 #end
 
 #selectitem 382 --Ring of Regeneration
