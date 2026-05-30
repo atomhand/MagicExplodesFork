@@ -1288,14 +1288,14 @@
 
 
 #selectspell 1035 --Ether Gate
-#fatiguecost 2500
+#fatiguecost 2400
 #researchlevel 5
 #school 5 --TODO move to thaum in the doc
 #pathlevel 0 3
 #end
 
 #selectspell 1031 --Streams from Hades
-#fatiguecost 3500
+#fatiguecost 2800
 #researchlevel 5
 #school 4 --TODO move to ench in the doc
 #pathlevel 0 3
@@ -2870,7 +2870,7 @@
 
 #selectspell 274 --Awaken hamadryad
 #researchlevel 4
-#fatiguecost 2000
+#fatiguecost 1800
 #pathlevel 0 3
 #researchlevel 4
 #end
@@ -2991,13 +2991,13 @@
 #end
 
 #selectspell 1201 --Hidden in Sand
-#fatiguecost 4000
+#fatiguecost 3000
 #researchlevel 5
 #pathlevel 0 2
 #end
 
-#selectspell 1202 --Hidden in Sand
-#fatiguecost 4000
+#selectspell 1202 --Hidden Underneath
+#fatiguecost 2700
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -3095,7 +3095,7 @@
 #end
 
 #selectspell 1197 --Hidden in Snow
-#fatiguecost 4000
+#fatiguecost 2400
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -3205,7 +3205,7 @@
 
 #selectspell 1233 --Awaken Treelord
 #fatiguecost 1700
-#researchlevel 6
+#researchlevel 5
 #pathlevel 0 4
 #end
 
@@ -3337,7 +3337,7 @@
 #end
 
 #selectspell 1245 --Lichcraft
-#fatiguecost 1500
+#fatiguecost 1000
 #researchlevel 7
 #pathlevel 0 4
 #end
@@ -3465,7 +3465,7 @@
 #end
 
 #selectspell 1097 --Golem Construction
-#fatiguecost 2800
+#fatiguecost 2000
 #researchlevel 6
 #pathlevel 0 2
 #end
@@ -4293,7 +4293,7 @@
 #end
 
 #selectspell 1366 --Call the Worm That Walks
-#fatiguecost 2600
+#fatiguecost 2100
 #researchlevel 7
 #pathlevel 0 4
 #end
@@ -4400,13 +4400,13 @@
 #pathlevel 1 2
 #end
 
-#selectspell 451 --Bind Incubus
+#selectspell 451 --Summon Incubus
 #fatiguecost 4200
 #researchlevel 4
 #pathlevel 0 3
 #end
 
-#selectspell 452 --Bind Succubus
+#selectspell 452 --Summon Succubus
 #fatiguecost 4200
 #researchlevel 4
 #pathlevel 0 3
@@ -6967,7 +6967,7 @@
 #end
 
 #selectspell 539 --Contact Jinn
-#researchlevel 3
+#researchlevel 4
 #end
 
 #selectspell 989 --Summon Cave Kobolds
@@ -7266,7 +7266,7 @@
 #selectspell 467 --Call Daevas
 #fatiguecost 400
 #researchlevel 4
-#nreff 6012
+#nreff 5010
 #end
 
 #selectspell 596 --Summon Kuro-Oni
@@ -7383,7 +7383,7 @@
 #end
 
 #selectspell 1033 --Troll King's Court
-#fatiguecost 5500
+#fatiguecost 3500
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -7428,7 +7428,7 @@
 #end
 
 #selectspell 1022 --Summon Bluecap
---#fatiguecost 2000
+#fatiguecost 1600
 #pathlevel 4
 #end
 
@@ -7552,13 +7552,13 @@
 #selectspell 466 --Summon Yazatas
 #fatiguecost 400
 #researchlevel 4
-#nreff 6012
+#nreff 5010
 #end
 
 #selectspell 475 --Summon Huacas
 #fatiguecost 400
 #researchlevel 4
-#nreff 6012
+#nreff 5010
 #end
 
 #selectspell 476 --Summon Supayas
@@ -7681,7 +7681,7 @@
 #end
 
 #selectspell 1003 --Contact Naiad
-#fatiguecost 2400
+#fatiguecost 2000
 #researchlevel 4
 #pathlevel 0 2
 #end
@@ -7711,6 +7711,78 @@
 #selectspell 541 --Contact Houri
 #fatiguecost 2000
 #researchlevel 5
+#end
+
+#newmonster
+#copystats 3375 --Houri
+#copyspr 3375
+#clearspec
+#magicbeing
+#ethereal
+#glamour
+#flying
+#stormimmune
+#wastesurvival
+#female
+#spiritsight
+#unseen
+#fireres 25
+#coldres -5
+#shockres 5
+#stealthy 40
+#seduce 9
+#name "Bound Houri"
+#end
+
+#newspell
+#name "Bind Houri"
+#school 0
+#researchlevel 5
+#path 0 1
+#pathlevel 0 3
+#path 1 7
+#pathlevel 1 2
+#effect 10021
+#damagemon "Bound Houri"
+#fatiguecost 2600
+#notfornation 18 --Na'ba
+#notfornation 65 --Ubar
+#descr "The mage seeks out a Houri and binds her to service with arcane rituals. Houris, The Fair Ones, were once concubines and entertainers of the Sultans of Old Ubar chosen for their beauty and exquisite manners."
+#end
+
+#newmonster
+#copystats 3353 --Jinn
+#copyspr 3353
+#clearspec
+#magicbeing
+#ethereal
+#glamour
+#flying
+#stormimmune
+#wastesurvival
+#spiritsight
+#unseen
+#fireres 25
+#coldres -5
+#shockres 5
+#stealthy 40
+#name "Bound Jinn"
+#descr "The mage seeks out a powerful Jinn and binds it to service with arcane rituals. Jinnun are spiritual beings born from Smokeless Flame in a distant past."
+#end
+
+#newspell
+#name "Bind Jinn"
+#school 0
+#researchlevel 4
+#path 0 0
+#pathlevel 0 3
+#path 1 1
+#pathlevel 1 2
+#effect 10021
+#damagemon "Bound Jinn"
+#fatiguecost 2400
+#notfornation 18 --Na'ba
+#notfornation 65 --Ubar
 #end
 
 #selectspell 533 --Call Celestial Soldiers
@@ -7788,7 +7860,7 @@
 #end
 
 #selectspell 1036 --Summon Spectre
-#fatiguecost 1900
+#fatiguecost 1600
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -7838,7 +7910,7 @@
 #end
 
 #selectspell 1026 --Summon Flame Spirit
---#fatiguecost 3000
+--#fatiguecost 2000
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -7850,7 +7922,7 @@
 #end
 
 #selectspell 265 --Contact Hesperide
-#fatiguecost 2700
+#fatiguecost 2200
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -7865,20 +7937,20 @@
 #end
 
 #selectspell 1045 --Summon Gnome
-#fatiguecost 3000
+#fatiguecost 2500
 #researchlevel 5
 #end
 
 #selectspell 1044 --Summon Fay Prince
 #ainocast 1
-#fatiguecost 2500
+#fatiguecost 1800
 #researchlevel 5
 #pathlevel 0 3
 #end
 
 #selectspell 1472 --Summon Unseelie Prince
 #ainocast 1
-#fatiguecost 2500
+#fatiguecost 1800
 #researchlevel 5
 #pathlevel 0 3
 #end
@@ -7904,7 +7976,7 @@
 #end
 
 #selectspell 1038 --Forest Troll Tribe
-#fatiguecost 2700
+#fatiguecost 1800
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -8065,7 +8137,7 @@
 #end
 
 #selectspell 1052 --Summon Mound Fiend
-#fatiguecost 2500
+#fatiguecost 2000
 #researchlevel 6
 #pathlevel 0 2
 #end
@@ -8141,7 +8213,7 @@
 #end
 
 #selectspell 1056 --Awaken Ivy King
-#fatiguecost 2500
+#fatiguecost 2200
 #researchlevel 6
 #pathlevel 0 3
 #end
@@ -8295,7 +8367,7 @@
 #end
 
 #selectspell 1054 --Call Wraith Lord
-#fatiguecost 3600
+#fatiguecost 2800
 #researchlevel 6
 #pathlevel 0 4
 #end
@@ -8385,7 +8457,7 @@
 #end
 
 #selectspell 1075 --Faerie Court
-#fatiguecost 4700
+#fatiguecost 3400
 #researchlevel 6
 #pathlevel 0 4
 #end
@@ -8498,7 +8570,7 @@
 
 #newspell 
 #name "Summon Seraph"
-#fatiguecost 3000
+#fatiguecost 3800
 #researchlevel 7
 #path 0 4
 #path 1 0

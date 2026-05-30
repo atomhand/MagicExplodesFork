@@ -19,8 +19,10 @@ Changes
   * Remote summons
   * Rituals which summon a mage commander
 * Comprehensively rebalance cost, quantity and scaling for all troop summoning rituals
-  * Many rituals are significantly buffed
-  * A small number of outliers are nerfed
+  * Many rituals are very significantly buffed
+  * A small number of outliers are slightly nerfed
+* Rebalance mage ritual summon costs
+  * Mostly buffs
 * Other changes to ritual summons
   * ~~Bind Ghouls~~ -> Infect Ghouls
     * Ghouls are now undisciplined (tradeoff for this summon remaining free)
@@ -59,6 +61,8 @@ Changes
   * Enliven Stone Monstra (Enchantment5 E2A1) - commander summon
   * MA Marignon - Anoint Paladin (Thaum0 F1H2) - commander summon. Paladin is also buffed with a little magic leadership.
   * Contact Sharks (Conj0 F1) - Summon some sharks led by a Shark Knight commander. Sharks now have Berserk 2.
+  * Bind Jinn (Conj4 F3A2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
+  * Bind Houri (Conj5 A3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
 * The following spells are no longer researchable
   * Call Great Hawk
   * Wild Fire
