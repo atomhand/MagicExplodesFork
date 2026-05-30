@@ -155,10 +155,6 @@
 #hp 244
 #end
 
-#selectmonster 2251 --Ancient Presence
-#clearmagic
-#end
-
 #selectmonster 3663 --Daitya
 #clearmagic
 #end
@@ -536,6 +532,7 @@
 #fatiguecost 100
 #effect 10021
 #damage 118
+#descr "The caster reignites the rage of a retired War Master, bringing him back to serve on the battlefield. The War Master "
 #end
 
 #selectmonster 440 -- Paladin
@@ -556,14 +553,14 @@
 #end
 
 #selectspell 926 --Summon Fire Ants
-#nreff 6006
+#nreff 6012
 #fatiguecost 200
 #researchlevel 0
 #path 1 -1
 #end
 
 #selectspell 1025 --Summon Fire Snakes
-#nreff 4004
+#nreff 4008
 #fatiguecost 200
 #researchlevel 1
 #end
@@ -677,8 +674,9 @@
 #name "Infect Ghouls"
 #path 0 5
 #school 1
+#researchlevel 0
 #effect 10001
-#nreff 8000
+#nreff 8004
 #damage 198
 #fatiguecost 10
 #end
@@ -1029,7 +1027,8 @@
 #newspell
 #copyspell 1113
 #name "Royal Reanimation"
-#fatiguecost 100
+#nreff 20028
+#fatiguecost 200
 #pathlevel 0 2
 #researchlevel 2
 #nextspell "Revive King"
@@ -1056,7 +1055,7 @@
 #damage 182
 #end
 #selectspell 1183 --Pale Riders
-#nreff 8008
+#nreff 120012
 #fatiguecost 400
 #researchlevel 3
 #pathlevel 0 2
@@ -1108,13 +1107,10 @@
 
 #selectmonster 284 --Wolf
 #montag 1340
-#montagweight 3
+#montagweight 2
 #end
 #selectmonster 1224 --Dire Wolf
 #montag 1340
-#beastmaster 3
-#inspirational -1
-#command 50
 #end
 
 #newspell
@@ -1133,8 +1129,9 @@
 #end
 
 #selectspell 935 --Pack of Wolves
-#nreff 9018
+#nreff 13026
 #fatiguecost 200
+#pathlevel 0 2
 #researchlevel 0
 #damage -1340
 #nextspell "Wolfpack Alpha Male"
@@ -1172,6 +1169,7 @@
 #researchlevel 0
 #pathlevel 0 2
 #nreff 10020
+#school -1
 #end
 
 
@@ -1244,9 +1242,9 @@
 #end
 
 #selectspell 1055 --Animal Horde
-#nreff 25050
+#nreff 30030
 #fatiguecost 200
-#researchlevel 6
+#researchlevel 2
 #pathlevel 0 3
 #end
 
@@ -3464,12 +3462,21 @@
 #nreff 3003
 #end
 
+#selectmonster 3171 --Khalkotauros
+#magicskill 0 1
+#combatcaster
+#mastersmith -2 
+#masterrit -2
+#inept_research -8
+#end
+
 #selectspell 270 --Forge Brass Bull
-#fatiguecost 600
+#fatiguecost 900
 #researchlevel 4
 #pathlevel 0 2
 #pathlevel 1 2
 #effect 10021
+#descr "The caster forges one of the fable Khalkotauroi, huge automatas appearing as fire breathing Brass Bulls. The Khalkotauros can cast fire magic in battle, but isn't capable of forging or magical rituals."
 #end
 
 #selectspell 1097 --Golem Construction
@@ -7124,7 +7131,7 @@
 #end
 
 #selectspell 352 --Call Malakh
-#fatiguecost 450
+#fatiguecost 200
 #researchlevel 3
 #end
 
@@ -7525,6 +7532,7 @@
 #fatiguecost 500
 #researchlevel 4
 #pathlevel 0 2
+#school -1
 #end
 
 #selectmonster 2219 -- Forest Troll
@@ -7655,23 +7663,56 @@
 #newspell
 #name "Troll Guard" -- Big stick
 #school	-1
+#pathlevel 0 3
 #researchlevel 0
 #effect 10001
 #damage 1425
-#nreff 1001
-#end
-
-#selectspell 1001 --Contact Sea Trolls
-#nreff 6006
-#fatiguecost 800
-#researchlevel 4
-#pathlevel 0 2
-#nextspell "Troll Guard"
+#nreff 4004
 #end
 
 #selectmonster 564 -- Sea Troll
 #gcost 0
 #end
+
+#newmonster
+#copystats 564 -- Sea Troll
+#copyspr 580 -- Sea King
+#clearweapons
+#humanoid
+#weapon 12 -- Mace
+#armor 148 --Crown
+#name "Sea Lord"
+#descr "While the Sea King is absent, imitators arise. The Sea Lord is a lesser Water Mage who may grant humans water-breathing abilities if they accompany him."
+#waterbreathing 60
+#magicskill 2 1
+#custommagic 512 50
+#mr 15
+#mor 14
+#okleader
+#okmagicleader
+#tmpwatergems 1
+#end
+
+#selectspell 1001 --Contact Sea Trolls
+#nreff 8008
+#fatiguecost 800
+#researchlevel 4
+#pathlevel 0 2
+#end
+
+#newspell
+#name "Sea Lord's Court"
+#school 0
+#researchlevel 5
+#path 0 2
+#pathlevel 0 3
+#fatiguecost 1800
+#descr "The caster contacts a Sea Lord and his mighty retinue of guards. The Sea Lords are a weaker imitator of the absent Sea Kings, nonetheless some of them are capable Water mages in their own right."
+#effect 10021
+#spec 41943040  -- UW Only
+#damagemon "Sea Lord"
+#nextspell "Troll Guard"
+#end 
 
 #selectmonster 1425 -- Troll Guard
 #gcost 0
@@ -7689,9 +7730,10 @@
 #end
 
 #selectspell 1003 --Contact Naiad
-#fatiguecost 2000
+#fatiguecost 2300
 #researchlevel 4
 #pathlevel 0 2
+#nextspell 1004 --Naiad Warriors
 #end
 
 #selectspell 1004 --Naiad Warriors
@@ -7699,6 +7741,7 @@
 #researchlevel 4
 #pathlevel 0 2
 #path 1 -1
+#school -1
 #end
 
 #selectspell 331 --Send Bukavac
@@ -7739,6 +7782,7 @@
 #shockres 5
 #stealthy 40
 #seduce 9
+#slave
 #name "Bound Houri"
 #end
 
@@ -7774,8 +7818,8 @@
 #coldres -5
 #shockres 5
 #stealthy 40
+#slave
 #name "Bound Jinn"
-#descr "The mage seeks out a powerful Jinn and binds it to service with arcane rituals. Jinnun are spiritual beings born from Smokeless Flame in a distant past."
 #end
 
 #newspell
@@ -7791,6 +7835,7 @@
 #fatiguecost 2400
 #notfornation 18 --Na'ba
 #notfornation 65 --Ubar
+#descr "The mage seeks out a powerful Jinn and binds it to service with arcane rituals. Jinnun are spiritual beings born from Smokeless Flame in a distant past."
 #end
 
 #selectspell 533 --Call Celestial Soldiers
@@ -7989,16 +8034,22 @@
 #pathlevel 0 2
 #end
 
+#selectspell 99 -- 15 Forest Trolls
+#nreff 6006
+#name "Troll Retinue"
+#path 0 6
+#pathlevel 0 2
+#end
+
 #selectspell 1039 --Contact Forest Giants
 #nreff 2004
 #researchlevel 5
 #end
 
 #selectspell 1041 --Contact Lamias
-#nreff 5005
-#fatiguecost 300
-#researchlevel 5
-#pathlevel 0 2
+#nreff 5010
+#pathlevel 0 4
+#school -1
 #end
 
 #selectspell 1042 --Locust Swarms
@@ -8008,9 +8059,10 @@
 #end
 
 #selectspell 1043 --Contact Lamia Queen
-#fatiguecost 2000
+#fatiguecost 2500
 #researchlevel 5
 #pathlevel 0 4
+#nextspell 1041 --Contact Lamias
 #end
 
 #selectspell 565 --Summon Garudas
@@ -8264,15 +8316,16 @@
 #end
 
 #selectspell 354 --Call Arel
-#fatiguecost 2800
-#researchlevel 6
+#fatiguecost 2000
+#researchlevel 5
 #pathlevel 0 3
 #end
 
 #selectspell 480 --Angelic Host
-#fatiguecost 3000
+#fatiguecost 2600
 #researchlevel 6
 #pathlevel 0 4
+#nreff 4000
 #end
 
 #selectspell 362 --Call Anzus
@@ -8513,7 +8566,7 @@
 
 #selectspell 355 --Call Ophan
 #fatiguecost 1000
-#researchlevel 7
+#researchlevel 6
 #pathlevel 0 4
 #end
 
@@ -8548,6 +8601,7 @@
 
 #selectspell 1081 --Awaken Tarrasque
 #fatiguecost 1250
+#effect 10021
 #researchlevel 6
 #pathlevel 0 5
 #end
@@ -8571,14 +8625,15 @@
 #end
 
 #selectspell 1077 --Call Abomination
-#fatiguecost 500
+#fatiguecost 600
 #researchlevel 8
 #pathlevel 0 4
+#effect 10021
 #end
 
 #newspell 
 #name "Summon Seraph"
-#fatiguecost 3800
+#fatiguecost 4000
 #researchlevel 7
 #path 0 4
 #path 1 0
@@ -8587,26 +8642,31 @@
 #school 0
 #effect 10021
 #damage 1368
+#notfornation 56
+#notfornation 61
+#notfornation 103
 #end
 
 #selectspell 482 --Heavenly Choir
-#fatiguecost 6000
-#researchlevel 8
-#pathlevel 0 6
+#fatiguecost 4000
+#researchlevel 7
+#pathlevel 0 4
+#pathlevel 1 1
 #end
 
 #selectspell 356 --Call Merkavah
-#fatiguecost 11100
+#fatiguecost 7700
 #researchlevel 8
 #pathlevel 0 6
 #pathlevel 1 2
 #end
 
 #selectspell 1076 --Call Ancient Presence
-#fatiguecost 1000
+#fatiguecost 2000
 #researchlevel 8
 #pathlevel 0 5
 #pathlevel 1 3
+#effect 10021
 #end
 
 

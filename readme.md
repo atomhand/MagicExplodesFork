@@ -34,9 +34,16 @@ Changes
       * Amalgams of Air gain better map move, shockres and a much better weapon
       * Amalgams of Water gain physres and better defence
       * Amalgams of Earth gain the floating tag
+  * Brass Bull: Khalkotauros is an F1 mage (has a forge and ritual penalty)
   * Summon Yeti Tribe is cheaper and lower tech, but the Yeti Shaman has lower and random paths
     * Add W1 crosspath requirement
-    * Summon Yetis removed
+  * Merge certain spells
+    * Summon Yetis -> Summon Yeti Tribe
+    * Contact Lamias -> Contact Lamia Queen
+    * Naiad Warriors -> Contact Naiad
+    * Contact Forest Trolls -> Forest Troll Tribe
+  * Abomination, Ancient Presence, and Tarrasque are now summoned as commander
+  * Ancient Presence got its magic paths back
   * Update recently added rituals to Mex standards
   * Hide some redundant Unseelie rituals
   * Rearrange research levels for some rituals, particularly in Blood
@@ -56,6 +63,7 @@ Changes
 * New spells
   * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
   * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
+  * Sea Lord's Court (Conj5 W3) - The Sea Lord is a lesser version of the Sea King and comes with a solid retinue of Troll Guards.
   * Dominate Thralls (Thaum0 S1) - troop summon
   * Infernal Promotion (Blood4 B3) - promote a non mindless demon to a commander
   * Enliven Stone Monstra (Enchantment5 E2A1) - commander summon
