@@ -63,6 +63,8 @@ Changes
   * Contact Sharks (Conj0 F1) - Summon some sharks led by a Shark Knight commander. Sharks now have Berserk 2.
   * Bind Jinn (Conj4 F3A2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * Bind Houri (Conj5 A3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
+* Buff sacred combat summons
+  * Sacred Flame, Sacred Sylph, Sacred Soil, Holy Water and Ancestral Spirits are always blessed
 * The following spells are no longer researchable
   * Call Great Hawk
   * Wild Fire

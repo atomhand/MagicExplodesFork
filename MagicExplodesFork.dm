@@ -17,6 +17,7 @@
 #copyspr 640
 #name "Sacred Flame"
 #holy
+#spreaddom 1
 #end
 
 #newmonster
@@ -24,6 +25,7 @@
 #copyspr 562
 #name "Sacred Sylph"
 #holy
+#spreaddom 1
 #end
 
 #newmonster
@@ -32,6 +34,7 @@
 #name "Sacred Soil"
 #prot 12
 #holy
+#spreaddom 1
 #end
 
 #newmonster
@@ -42,6 +45,11 @@
 #amphibian
 #regeneration 20
 #holy
+#spreaddom 1
+#end
+
+#selectmonster 1363 -- Ancestral Spirit
+#spreaddom 1
 #end
 
 #selectmonster 757 --Vile Thing
