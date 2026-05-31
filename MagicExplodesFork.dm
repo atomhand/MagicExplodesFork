@@ -8135,6 +8135,7 @@
 #effect 10001
 #damage 1664
 #nreff 1
+#spec 41943040  -- UW Only
 #end
 
 #fatiguecost 200
