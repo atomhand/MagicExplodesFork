@@ -60,7 +60,7 @@ Changes
   * Remove magic command from Bane commander
   * Kenzoku reverted to vanilla stats (ldr 100, mldr 100, not immortal)
   * Summon Kappa is now available to all nations
-* New spells
+* New rituals
   * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
   * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
   * Sea Lord's Court (Conj5 W3) - The Sea Lord is a lesser version of the Sea King and comes with a solid retinue of Troll Guards.
@@ -77,3 +77,11 @@ Changes
   * Call Great Hawk
   * Wild Fire
   * Revive King
+* Item changes
+  * Armor of Knights: Resistance to piercing and slashing damage
+  * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
+  * God-Slayer Spear: Bleses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
+  * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Elf Bane and Magebane area damage
+  * Enable Clam of Pearls, Sanguine Dowsing Rod, Mirror of Trapped Images, Amulet of the Dead
+  * #nofind to Lycanthropos amulet
+  * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garaments, Armor of the Five Elements

@@ -9293,6 +9293,7 @@
 
 #selectweapon 108
 #aoe 3
+#friendlyimmune
 #end
 #selectitem 22 --Greatsword of Sharpness
 #constlevel 1
@@ -9373,6 +9374,7 @@
 
 #selectweapon 41 -- 2h bane blade
 #aoe 3
+#friendlyimmune
 #end
 #selectitem 35 --Bane Blade
 #constlevel 1
@@ -9475,9 +9477,24 @@
 #itemcost1 -100
 #end
 
+#newweapon
+#copyweapon 509
+#name "Bane of Deities"
+#aoe 5
+#dmg 25
+#friendlyimmune
+#end
+
+#selectweapon 722 --God-Slayer Spear
+#secondaryeffectalways "Bane of Deities"
+#end
+
 #selectitem 133 --God-Slayer Spear
 #constlevel 1
 #itemcost1 -100
+#minsize 6
+#autobless
+#
 #end
 
 #selectitem 134 --Anemone Mace
@@ -9711,12 +9728,15 @@
 
 #selectitem 281 --Purple Silk Garments
 #constlevel 1
+#mr 2
 #itemcost1 -100
 #itemcost2 -100
 #end
 
 #selectitem 284 --Armor of the Five Elements
 #constlevel 1
+#mr 2
+#hpbonus 8
 #itemcost1 -100
 #itemcost2 -100
 #end
@@ -9815,7 +9835,9 @@
 #end
 
 #selectitem 329 --Clam of Pearls
-#constlevel 11
+#constlevel 1
+#itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 330 --Bracers of Protection
@@ -10030,6 +10052,7 @@
 #end
 
 #selectweapon 133
+#friendlyimmune
 #aoe 5
 #end
 #selectitem 56 --Midget Masher
@@ -10419,6 +10442,7 @@
 
 #selectitem 282 --Salamander Silk Garments
 #constlevel 3
+#mr 2
 #itemcost1 -100
 #end
 
@@ -10507,7 +10531,7 @@
 #end
 
 #selectitem 359 --Mirror of Trapped Images
-#constlevel 11
+#constlevel 3
 #end
 
 #selectitem 360 --Enchanted Mirror
@@ -10578,7 +10602,6 @@
 
 #selectitem 373 --Amulet of the Dead
 #constlevel 3
-#constlevel 11
 #end
 
 #selectitem 374 --Skull Mentor
@@ -10685,7 +10708,7 @@
 #end
 
 #selectitem 393 --Sanguine Dowsing Rod
-#constlevel 11 --TODO not sure about turning this off but honestly just seems like micro. I'm sure about it, leave it removed
+#constlevel 3
 #end
 
 #selectitem 394 --Brazen Vessel
@@ -10808,6 +10831,10 @@
 #constlevel 5
 #itemcost1 -20
 #itemcost2 -20
+#tmpfiregems 1
+#tmpwatergems 1
+#tmpearthgems 1
+#tmpairgems 1
 #end
 
 #selectitem 77 --Carmine Cleaver
@@ -10851,6 +10878,10 @@
 #constlevel 5
 #itemcost1 -20
 #itemcost2 -20
+#tmpfiregems 1
+#tmpwatergems 1
+#tmpearthgems 1
+#tmpairgems 1
 #end
 
 #selectitem 83 --Demon Bane
@@ -11066,6 +11097,8 @@ mainlevel 1
 #selectitem 259 --Armor of Knights
 #constlevel 5
 #itemcost1 -100
+#pierceres
+#slashres
 #end
 
 #selectitem 260 --Marble Armor
@@ -11148,7 +11181,9 @@ mainlevel 1
 
 #selectitem 283 --Silver Silk Garments
 #constlevel 5
+#mr 3
 #itemcost1 -100
+#itemcost2 -100
 #end
 
 #selectitem 299 --Boots of Quickness
@@ -11472,6 +11507,7 @@ mainlevel 1
 #end
 #selectweapon 247
 #aoe 10
+#friendlyimmune
 #end
 #selectitem 107 --Mage Bane
 #constlevel 7
@@ -11491,6 +11527,7 @@ mainlevel 1
 
 #selectweapon 189
 #aoe 5
+#friendlyimmune
 #end
 #selectitem 109 --The Tartarian Chains
 #constlevel 7
