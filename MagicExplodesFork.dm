@@ -17270,6 +17270,2676 @@ Some of the gold allocated for the construction effort has been returned to the 
 
 -- END FASTER FORTS INTEGRATION --
 
+#selectmonster 2146  -- Seithberendr
+#copyspr 249  -- Crone
+#clearweapons
+#cleararmor
+#name "Seithberendr"
+#descr "The Seithberendr are ancient witches trained in Seith, an ancient form of sorcery reputedly invented by the Jotun. It has been practiced mainly by females down through the ages. Seith can be used to foretell the future as well as spell doom upon a target."
+#rpcost 4
+#magicskill 4 1
+#magicskill 5 1
+#magicskill 6 1
+#custommagic 47104 100 -- 100% SDNB
+#weapon 7  -- Staff
+#nobadevents 15
+#forestsurvival
+#female
+#end
+
+#selectmonster 2147  -- Seithmathr
+#copyspr 846  -- Galderman
+#clearweapons
+#cleararmor
+#name "Seithmathr"
+#descr "The Seithmathr or Seith-men are trained in Seith, an ancient form of sorcery, reputedly invented by the Jotun. It has been practiced mainly by females through the ages, however males can gain some knowledge of the art. Seith can be used to foretell the future as well as spell doom upon a target."
+#rpcost 2
+#magicskill 4 1
+#magicskill 5 1
+#custommagic 47104 20 -- 20% SDNB
+#nobadevents 5
+#weapon 7  -- Staff
+#armor 44  -- Furs
+#forestsurvival
+#end
+
+#newarmor 522
+#copyarmor 24  -- Coral Cap
+#name "Pearl Cap"
+#prot 16
+#end
+
+#newmonster 9660 -- Kulullu Shaman
+#copystats 3089 -- Kulullu
+#spr1 "wateroverhaul/eekulullushaman.png"
+#spr2 "wateroverhaul/eekulullushaman2.png"
+#name "Kulullu Shaman"
+#descr "The Kulullus are an ancient race of strange beings whose bodies resemble a combination of Enkidu and fish. The Kulullus have lived in the seas near Ur since before the First City was founded and they claim to have founded the first kingdom underneath the waves. Sages believe that when U'an the Apkallu emerged from the sea to bring civilization to Ur he had already brought his gifts to the Kulullus. But war and strife brought by less peaceful beings almost destroyed the Kulullu kingdom. Kulullu myths claim that an apostle of U'an will one day arrive from dry land to rebuild the old Kulullu kingdom. Kulullu shamans maintain these oral traditions. They have skill in water magic, and occasionally in astral magic as well."
+#gcost 85
+#clearweapons
+#hp 25
+#att 9
+#def 8
+#mr 14
+#str 14
+#holy
+#float
+#morale 9
+#researchbonus -2
+#poorleader
+#poormagicleader
+#armor 522 -- pearl cap
+#magicskill 2 1
+#custommagic 2048 20
+#end
+
+#newmonster 9661 -- Triton Shaman
+#copystats 3050 -- Triton Priest
+#spr1 "wateroverhaul/eetritonshaman.png"
+#spr2 "wateroverhaul/eetritonshaman2.png"
+#name "Turtle Tribe Shaman"
+#descr "Life underneath the waves corresponds in many ways to that on dry land. Both humans and animals have underwater counterparts. Tritons are the most common of the aquatic humanoids. They appear as humans with legs ending in fins. Triton tribes, like humans, often follow a totemic spirit. The Turtle Tribe Tritons mimic their totem and don armor made from turtle shells. Most tribal Tritons live separate from the Triton kingdom of Pelagia, but some have joined forces with the Triton Kings. Turtle Tribe Shamans have skill in water magic, and occasionally in nature magic as well."
+#gcost 70
+#clearmagic
+#clearweapons
+#poorleader
+#poormagicleader
+#float
+#weapon 7 -- quarterstaff
+#researchbonus -4
+#magicskill 2 1
+#custommagic 8192 20
+#end
+
+#newmonster 9662 -- Merman Shaman
+#copystats 1696 -- Merman Priest
+#spr1 "wateroverhaul/eemermanshaman.png"
+#spr2 "wateroverhaul/eemermanshaman2.png"
+#name "Merman Shaman"
+#descr "Mermen are amphibious beings related to Tritons, but have fish tails instead of legs. Mermen have strange powers of transformation and can remove their tails to walk on dry land. They live in shallow waters along the coastlines and sometimes build villages on land. Merman Shamans have skill in water magic, and occasionally in air magic as well."
+#gcost 75
+#clearmagic
+#clearweapons
+#poorleader
+#poormagicleader
+#float
+#weapon 7 -- quarterstaff
+#researchbonus -4
+#magicskill 2 1
+#custommagic 256 20
+#landshape 9663
+#end
+
+#newmonster 9663 -- Merman Shaman (Land)
+#copystats 1697 -- Merman Priest
+#spr1 "wateroverhaul/eemermanshamanland.png"
+#spr2 "wateroverhaul/eemermanshamanland2.png"
+#name "Merman Shaman"
+#descr "Mermen are amphibious beings related to Tritons, but have fish tails instead of legs. Mermen have strange powers of transformation and can remove their tails to walk on dry land. They live in shallow waters along the coastlines and sometimes build villages on land. Merman Shamans have skill in water magic, and occasionally in air magic as well."
+#gcost 75
+#clearmagic
+#clearweapons
+#poorleader
+#poormagicleader
+#weapon 7 -- quarterstaff
+#researchbonus -4
+#magicskill 2 1
+#custommagic 256 20
+#watershape 9662
+#end
+
+#newmonster 9666 -- Shambler Shaman
+#copystats 206 -- Shambler
+#spr1 "wateroverhaul/eeshamblershaman.png"
+#spr2 "wateroverhaul/eeshamblershaman2.png"
+#name "Shambler Shaman"
+#descr "Shamblers are Atlantians grown to huge proportions. They use claws or clubs made from Atlantian coral in combat and do not normally don armor since it tends to be cumbersome. Shambler Shamans are the religious leaders of isolated Atlantian tribes. They have skill in water magic, and occasionally in earth magic as well."
+#gcost 85
+#mr 13
+#clearmagic
+#clearweapons
+#poorleader
+#poormagicleader
+#holy
+#weapon 12 -- Mace
+#researchbonus -4
+#magicskill 2 1
+#custommagic 1024 20
+#end
+
+#newmonster 7925
+#copystats 744  -- Diabolist
+#clearweapons
+#clearmagic
+#spr1 "magicenhanced/eebaneadept.tga"
+#spr2 "magicenhanced/eebaneadept2.tga"
+#name "Banefire Adept"
+#descr "Banefire Adepts study the phenomemon of banefire to learn more about the Underworld. Sometimes an exceptional individual will achieve true mastery over the deathly fires."
+#humanoid
+#gcost 10010
+#magicskill 0 1
+#magicskill 5 1
+#custommagic 4224 10  -- 10% DF
+#weapon 730  -- Banefire
+#end
+
+- Site rarity changes
+
+
+#selectsite 473 -- Howling Gorge
+#rarity 0
+#end
+
+#selectsite 1130 -- Underwater Cave
+#rarity 0
+#end
+
+#selectsite 475 -- Elusive Lights
+#level 3
+#rarity 0
+#end
+
+#selectsite 765 -- Gallows
+#rarity 0
+#end
+
+#selectsite 842 -- Cave of Dark rites
+#level 3
+#rarity 0
+#end
+
+#selectsite 763 -- Well of Pestilence
+#rarity 1
+#end
+
+
+#selectsite 418 -- Volcano
+#rarity 1
+#end
+
+#selectsite 419 -- Solar Lens
+#rarity 1
+#end
+
+
+#selectsite 424 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 427 -- Fountain of Fire
+#rarity 1
+#end
+
+#selectsite 434 -- Prison of the Desert Sun
+#rarity 1
+#end
+
+#selectsite 437 -- Dragon Forest
+#rarity 1
+#end
+
+#selectsite 446 -- Fiery Mirage
+#rarity 1
+#end
+
+#selectsite 447 -- City of Ashes
+#rarity 1
+#end
+
+#selectsite 454 -- Scorched Tower
+#rarity 1
+#end
+
+#selectsite 455 -- House of Embers
+#rarity 1
+#end
+
+#selectsite 456 -- Heart of the Desert
+#rarity 1
+#end
+
+#selectsite 457 -- Egg of the Phoenix
+#rarity 1
+#end
+
+#selectsite 458 -- House of Aratron
+#rarity 1
+#end
+
+#selectsite 460 -- Maze of Frozen Flames
+#rarity 1
+#end
+
+#selectsite 462 -- Isle of Rebirth
+#rarity 1
+#end
+
+#selectsite 463 -- Dragon Lair
+#rarity 1
+#end
+
+#selectsite 485 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 487 -- Cloud Abode
+#rarity 1
+#end
+
+#selectsite 488 -- Stone Spires
+#rarity 1
+#end
+
+#selectsite 489 -- Tempest Spire
+#rarity 1
+#end
+
+#selectsite 490 -- Blizzard Valley
+#rarity 1
+#end
+
+#selectsite 497 -- Dragon Mountain
+#rarity 1
+#end
+
+#selectsite 498 -- Silver Forest
+#rarity 1
+#end
+
+#selectsite 508 -- Shrieking Skies
+#rarity 1
+#end
+
+#selectsite 509 -- Dragon Jaws
+#rarity 1
+#end
+
+#selectsite 510 -- Tempest Hall
+#rarity 1
+#end
+
+#selectsite 517 -- Ziggurat of Thunder
+#rarity 1
+#end
+
+#selectsite 519 -- Pinnacle of Power
+#rarity 1
+#end
+
+#selectsite 542 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 544 -- Frost Vale
+#rarity 1
+#end
+
+#selectsite 552 -- The Sea of the Tears of Men
+#rarity 1
+#end
+
+#selectsite 554 -- The Sea Underneath
+#rarity 1
+#end
+
+#selectsite 557 -- Frozen Fountain
+#rarity 1
+#end
+
+#selectsite 558 -- Frozen Lands
+#rarity 1
+#end
+
+#selectsite 559 -- Academy of the Crescent Moon
+#rarity 1
+#end
+
+#selectsite 561 -- The Swamp of Dread
+#rarity 1
+#end
+
+#selectsite 562 -- The Sunless Sea
+#rarity 1
+#end
+
+#selectsite 563 -- Healing Spring
+#rarity 1
+#end
+
+#selectsite 572 -- Rainbow Fountain
+#rarity 1
+#end
+
+#selectsite 575 -- Ichtyid Enclave
+#rarity 1
+#end
+
+#selectsite 576 -- Mermage Coven
+#rarity 1
+#end
+
+#selectsite 589 -- Wellspring of the Virgins
+#rarity 1
+#end
+
+#selectsite 592 -- Pharos
+#rarity 1
+#end
+
+#selectsite 593 -- Tower of Ice
+#rarity 1
+#end
+
+#selectsite 596 -- The Golden City
+#rarity 1
+#end
+
+#selectsite 620 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 625 -- Troll Pit
+#rarity 1
+#end
+
+#selectsite 626 -- Troglodyte Den
+#rarity 1
+#end
+
+#selectsite 627 -- Runaway Pit
+#rarity 1
+#end
+
+#selectsite 637 -- The Statues of the Overlords
+#rarity 1
+#end
+
+#selectsite 638 -- The Cornerstone
+#rarity 1
+#end
+
+#selectsite 641 -- Ancient Forge
+#rarity 1
+#end
+
+#selectsite 646 -- The Jade Pagoda
+#rarity 1
+#end
+
+#selectsite 649 -- Forest of Golden Leaves
+#rarity 1
+#end
+
+#selectsite 650 -- The Vaults Beneath
+#rarity 1
+#end
+
+#selectsite 651 -- The Deepest Mine
+#rarity 1
+#end
+
+#selectsite 652 -- The Sun Below
+#rarity 1
+#end
+
+#selectsite 653 -- Endless Caverns
+#rarity 1
+#end
+
+#selectsite 654 -- Glowing Caverns
+#rarity 1
+#end
+
+#selectsite 655 -- The Mosaic Desert
+#rarity 1
+#end
+
+#selectsite 656 -- Villa of Ever Changing Fresques
+#rarity 1
+#end
+
+#selectsite 657 -- Bear Mountain
+#rarity 1
+#end
+
+#selectsite 658 -- The Cliff of Seven Directions
+#rarity 1
+#end
+
+#selectsite 667 -- Ctonian Gate
+#rarity 1
+#end
+
+#selectsite 668 -- Ravine of Perpetual Echoes
+#rarity 1
+#end
+
+#selectsite 673 -- Flooded Mines
+#rarity 1
+#end
+
+#selectsite 674 -- Underworld Entrance
+#rarity 1
+#end
+
+#selectsite 675 -- Abyss
+#rarity 1
+#end
+
+#selectsite 679 -- Cavern of Marble Spheres
+#rarity 1
+#end
+
+#selectsite 683 -- The World Pillar
+#rarity 1
+#end
+
+#selectsite 696 -- Scrying Pool
+#rarity 1
+#end
+
+#selectsite 707 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 710 -- Moon Mages Circle
+#rarity 1
+#end
+
+#selectsite 715 -- Temple of the All-Seeing Eye
+#rarity 1
+#end
+
+#selectsite 717 -- Moonlit Pond of Pearls
+#rarity 1
+#end
+
+#selectsite 718 -- Strange House in the Mist
+#rarity 1
+#end
+
+#selectsite 719 -- The Cave of Souls
+#rarity 1
+#end
+
+#selectsite 720 -- The Mountain of the Past
+#rarity 1
+#end
+
+#selectsite 721 -- The Endless Field of Cubes
+#rarity 1
+#end
+
+#selectsite 732 -- The Forgotten City
+#rarity 1
+#end
+
+#selectsite 739 -- Seer's Grave
+#rarity 1
+#end
+
+#selectsite 740 -- Dreaming Stone
+#rarity 1
+#end
+
+#selectsite 745 -- Basalt Mirror
+#rarity 1
+#end
+
+#selectsite 746 -- Moonshimmer Swamp
+#rarity 1
+#end
+
+#selectsite 747 -- The Gnomon
+#rarity 1
+#end
+
+#selectsite 750 -- The Forgotten Astrolabium
+#rarity 1
+#end
+
+#selectsite 751 -- Citadel of the Mage King
+#rarity 1
+#end
+
+#selectsite 755 -- Guild of the Merchant Princes
+#rarity 1
+#end
+
+#selectsite 756 -- Dragon Rune
+#rarity 1
+#end
+
+#selectsite 757 -- Starfall Tower
+#rarity 1
+#end
+
+#selectsite 758 -- Starfall Waste
+#rarity 1
+#end
+
+#selectsite 776 -- Marble Mausoleum
+#rarity 1
+#end
+
+#selectsite 777 -- Raven Oak
+#rarity 1
+#end
+
+#selectsite 779 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 781 -- Death Mound Downs
+#rarity 1
+#end
+
+#selectsite 782 -- Statue of Death
+#rarity 1
+#end
+
+#selectsite 790 -- Skull Temple
+#rarity 1
+#end
+
+#selectsite 791 -- Tomb of the Ancients
+#rarity 1
+#end
+
+#selectsite 792 -- The Shaded Lands
+#rarity 1
+#end
+
+#selectsite 793 -- The Shattered Lands
+#rarity 1
+#end
+
+#selectsite 794 -- The City of a Thousand Wonders
+#rarity 1
+#end
+
+#selectsite 795 -- The Mausoleum of the Great Sarlah
+#rarity 1
+#end
+
+#selectsite 797 -- The Shadow Furnace
+#rarity 1
+#end
+
+#selectsite 801 -- The Obsidian Sphere
+#rarity 1
+#end
+
+#selectsite 802 -- The Draining Stone
+#rarity 1
+#end
+
+#selectsite 803 -- Well of Darkness
+#rarity 1
+#end
+
+#selectsite 812 -- The City of the Damned
+#rarity 1
+#end
+
+#selectsite 822 -- Tomb of the Grand Thaumathurg
+#rarity 1
+#end
+
+#selectsite 823 -- Sigil of the Ancients
+#rarity 1
+#end
+
+#selectsite 824 -- Circle of Sending
+#rarity 1
+#end
+
+#selectsite 827 -- Plague Barrow
+#rarity 1
+#end
+
+#selectsite 828 -- Nightmare Swamp
+#rarity 1
+#end
+
+#selectsite 829 -- Pit of Despair
+#rarity 1
+#end
+
+#selectsite 833 -- The Three Towers of Despair
+#rarity 1
+#end
+
+#selectsite 834 -- Necromancer's Lair
+#rarity 1
+#end
+
+#selectsite 835 -- Oath Stone
+#rarity 1
+#end
+
+#selectsite 871 -- Mandrake Gallows
+#rarity 1
+#end
+
+#selectsite 872 -- Jungle Temple
+#rarity 1
+#end
+
+#selectsite 873 -- Maze of Thorn Hedges
+#rarity 1
+#end
+
+#selectsite 889 -- The Land of Pleasures Unattained
+#rarity 1
+#end
+
+#selectsite 893 -- Ancient Forest
+#rarity 1
+#end
+
+#selectsite 894 -- The Vale of Unicorns
+#rarity 1
+#end
+
+#selectsite 895 -- Forest of Splendor
+#rarity 1
+#end
+
+#selectsite 896 -- The Snake Collector
+#rarity 1
+#end
+
+#selectsite 897 -- Shrine of the Wild
+#rarity 1
+#end
+
+#selectsite 899 -- The Valley of Shame
+#rarity 1
+#end
+
+#selectsite 906 -- Grove of Revelry
+#rarity 1
+#end
+
+#selectsite 913 -- Telesterion
+#rarity 1
+#end
+
+#selectsite 914 -- Unfound Paths
+#rarity 1
+#end
+
+#selectsite 918 -- Lair of Spiders
+#rarity 1
+#end
+
+#selectsite 919 -- Skin Shifter's Barrow
+#rarity 1
+#end
+
+#selectsite 923 -- Withering Woods
+#rarity 1
+#end
+
+#selectsite 924 -- Grove of Hooded Spirits
+#rarity 1
+#end
+
+#selectsite 926 -- The Crone
+#rarity 1
+#end
+
+#selectsite 928 -- Earthroot Grove
+#rarity 1
+#end
+
+#selectsite 930 -- Tree of Life
+#rarity 1
+#end
+
+#selectsite 931 -- Tree of Knowledge
+#rarity 1
+#end
+
+#selectsite 932 -- Tower of the Moon
+#rarity 1
+#end
+
+#selectsite 933 -- Vale of Healing Herbs
+#rarity 1
+#end
+
+#selectsite 935 -- Hoburg Holdfast
+#rarity 1
+#end
+
+#selectsite 936 -- Hoburg Settlement
+#rarity 1
+#end
+
+#selectsite 940 -- Tower of Thorns
+#rarity 1
+#end
+
+#selectsite 943 -- Grove Unpleasant
+#rarity 1
+#end
+
+#selectsite 946 -- Hall of the Ivy King
+#rarity 1
+#end
+
+#selectsite 975 -- Twin Spire Tower
+#rarity 1
+#end
+
+#selectsite 976 -- Rainbow Roses
+#rarity 1
+#end
+
+#selectsite 977 -- The Dream Gate
+#rarity 1
+#end
+
+#selectsite 982 -- Academy of Magic
+#rarity 1
+#end
+
+#selectsite 984 -- Sprite Woods
+#rarity 1
+#end
+
+#selectsite 989 -- The Crystal Oak
+#rarity 1
+#end
+
+#selectsite 990 -- Dreamscape Downs
+#rarity 1
+#end
+
+#selectsite 991 -- Maze of Undreamt Dreams
+#rarity 1
+#end
+
+#selectsite 992 -- Castle of the Sleeping Beauty
+#rarity 1
+#end
+
+#selectsite 993 -- Mistwinter
+#rarity 1
+#end
+
+#selectsite 994 -- Shimmerfall
+#rarity 1
+#end
+
+#selectsite 995 -- Dreamtravel Grove
+#rarity 1
+#end
+
+#selectsite 996 -- The Good Faery
+#rarity 1
+#end
+
+#selectsite 998 -- The Gate of Deeper Slumber
+#rarity 1
+#end
+
+#selectsite 999 -- Cave of the Sleepers
+#rarity 1
+#end
+
+#selectsite 1013 -- Leper Dreams
+#rarity 1
+#end
+
+#selectsite 1021 -- Elusive Birdsong
+#rarity 1
+#end
+
+#selectsite 1022 -- Twin Bottom Lake
+#rarity 1
+#end
+
+#selectsite 1026 -- Birdsong Tower
+#rarity 1
+#end
+
+#selectsite 1027 -- Hall of Horrible Memories
+#rarity 1
+#end
+
+#selectsite 1029 -- Bard's College
+#rarity 1
+#end
+
+#selectsite 1030 -- Memory Collector
+#rarity 1
+#end
+
+#selectsite 1032 -- Twilight Academy
+#rarity 1
+#end
+
+#selectsite 1033 -- The Crystal Academy
+#rarity 1
+#end
+
+#selectsite 1034 -- The Great Mirror of Maaki
+#rarity 1
+#end
+
+#selectsite 1035 -- Palace of Dreams
+#rarity 1
+#end
+
+#selectsite 1042 -- Ebony Tower
+#rarity 1
+#end
+
+#selectsite 1053 -- Hall of Flayed Skins
+#rarity 1
+#end
+
+#selectsite 1055 -- Haunted Torture Chamber
+#rarity 1
+#end
+
+#selectsite 1057 -- Forest of Pain
+#rarity 1
+#end
+
+#selectsite 1058 -- Red Forest
+#rarity 1
+#end
+
+#selectsite 1067 -- The Slaughterhouse
+#rarity 1
+#end
+
+#selectsite 1071 -- Palace of Wicked Dreams
+#rarity 1
+#end
+
+#selectsite 1076 -- Bleeding Tree
+#rarity 1
+#end
+
+#selectsite 1087 -- Redcap Feeding Ground
+#rarity 1
+#end
+
+#selectsite 1093 -- Abbey
+#rarity 1
+#end
+
+#selectsite 1094 -- Temple of Time
+#rarity 1
+#end
+
+#selectsite 1100 -- Order of the Secret Light
+#rarity 1
+#end
+
+#selectsite 1101 -- Order of the Undying
+#rarity 1
+#end
+
+#selectsite 1103 -- Temple of the Spider God
+#rarity 1
+#end
+
+#selectsite 1104 -- Temple of the Hidden Flame
+#rarity 1
+#end
+
+#selectsite 1105 -- Temple of Flying Monkeys
+#rarity 1
+#end
+
+#selectsite 1106 -- The Martyr's Grave
+#rarity 1
+#end
+
+#selectsite 1107 -- Cradle of Faith
+#rarity 1
+#end
+
+#selectsite 1108 -- Pillar of Life
+#rarity 1
+#end
+
+#selectsite 1110 -- Oracle's Lair
+#rarity 1
+#end
+
+#selectsite 1111 -- Mountain of Revelation
+#rarity 1
+#end
+
+#selectsite 1112 -- Place of Prophecy
+#rarity 1
+#end
+
+#selectsite 1113 -- Stele of Law
+#rarity 1
+#end
+
+#selectsite 1114 -- Temple of Life and Death
+#rarity 1
+#end
+
+#selectsite 1115 -- Garden of Longevity
+#rarity 1
+#end
+
+#selectsite 1128 -- Magma River
+#rarity 1
+#end
+
+#selectsite 1131 -- Imprisoned Zephyr
+#rarity 1
+#end
+
+#selectsite 1132 -- Pocket of Air
+#rarity 1
+#end
+
+#selectsite 1133 -- Diamond Corals
+#rarity 1
+#end
+
+#selectsite 1138 -- Scoriatic Cliffs
+#rarity 1
+#end
+
+#selectsite 1142 -- Sunken Island
+#rarity 1
+#end
+
+#selectsite 1143 -- Man'o'War Breeding Ground
+#rarity 1
+#end
+
+#selectsite 1145 -- Troll Pit
+#rarity 1
+#end
+
+#selectsite 1146 -- Shrine of the Shark Lords
+#rarity 1
+#end
+
+#selectsite 1147 -- Tower of Pearls
+#rarity 1
+#end
+
+#selectsite 1150 -- The Hippocampoi Fields
+#rarity 1
+#end
+
+#selectsite 1152 -- Kraken Pit
+#rarity 1
+#end
+
+#selectsite 1169 -- The Sunken Observatory
+#rarity 1
+#end
+
+#selectsite 1174 -- Basalt Halls
+#rarity 1
+#end
+
+#selectsite 1180 -- Long Lost Circle
+#rarity 1
+#end
+
+#selectsite 1192 -- Amber Beach Island
+#rarity 1
+#end
+
+#selectsite 1193 -- Floating Forest
+#rarity 1
+#end
+
+#selectsite 1197 -- The Amber Halls
+#rarity 1
+#end
+
+#selectsite 1198 -- The Forest Beneath the Waves
+#rarity 1
+#end
+
+#selectsite 1199 -- Kelp Sea
+#rarity 1
+#end
+
+#selectsite 1200 -- Forest of Amber Kelp
+#rarity 1
+#end
+
+#selectsite 1224 -- Sunken Ship of Dread
+#rarity 1
+#end
+
+#selectsite 1225 -- Pearl Stairway
+#rarity 1
+#end
+
+#selectsite 1229 -- Labyrinth of the Deeps
+#rarity 1
+#end
+
+#selectsite 1249 -- Drowned Dreams
+#rarity 1
+#end
+
+#selectsite 1250 -- Isle of the Unaging
+#rarity 1
+#end
+
+#selectsite 1251 -- Siren Cliffs
+#rarity 1
+#end
+
+#selectsite 1252 -- Faces Beneath the Waves
+#rarity 1
+#end
+
+#selectsite 1255 -- Dreamlands
+#rarity 1
+#end
+
+#selectsite 1259 -- Navigators Guild
+#rarity 1
+#end
+
+#selectsite 1265 -- Great Oasis
+#rarity 1
+#end
+
+#selectsite 1267 -- City of Dates
+#rarity 1
+#end
+
+#selectsite 1268 -- Oasis of Verdant Greenery
+#rarity 1
+#end
+
+#selectsite 1286 -- Cavern of Rubies
+#rarity 1
+#end
+
+#selectsite 1288 -- Magma Halls
+#rarity 1
+#end
+
+#selectsite 1291 -- Ice Caverns
+#rarity 1
+#end
+
+#selectsite 1300 -- Mammoth Cave
+#rarity 1
+#end
+
+#selectsite 1305 -- Buried Temple
+#rarity 1
+#end
+
+#selectsite 1306 -- Gemwall Cavern
+#rarity 1
+#end
+
+#selectsite 1307 -- Troglodyte Cave
+#rarity 1
+#end
+
+#selectsite 1308 -- The Storm Underneath
+#rarity 1
+#end
+
+#selectsite 1310 -- Opulent Tomb
+#rarity 1
+#end
+
+#selectsite 1311 -- Umbral Cave
+#rarity 1
+#end
+
+#selectsite 1315 -- Gorge of Silent Songs
+#rarity 1
+#end
+
+#selectsite 1316 -- Hidden Halls of Crystal
+#rarity 1
+#end
+
+#selectsite 1318 -- Nest of Bats
+#rarity 1
+#end
+
+#selectsite 1319 -- The Lesser Abyss
+#rarity 1
+#end
+
+#selectsite 1320 -- Splattermaid Gorge
+#rarity 1
+#end
+
+#selectsite 1321 -- Tomb of Seven Oracles
+#rarity 1
+#end
+
+#selectsite 1323 -- Riddle Dark
+#rarity 1
+#end
+
+#selectsite 1325 -- Subterranean City
+#rarity 1
+#end
+
+#selectsite 1326 -- The Silent Sea
+#rarity 1
+#end
+
+#selectsite 1328 -- Halls of Stalagmitic Splendor
+#rarity 1
+#end
+
+#selectsite 1329 -- Halls of Imprisoned Sunlight
+#rarity 1
+#end
+
+-- End site rarity changes
+
+
+#selectsite 403 -- Gold Leafed Tree
+#gold 50
+#end
+
+#selectsite 410 -- Rage Wind Heath
+#mon 2817  -- Bone Tribe
+#mon 2818  -- Bone Tribe
+#com 2819  -- Bone Tribe
+#end
+
+#selectsite 1002 -- Bog of Strange Lights
+#summon 527  -- Will O' Wisp
+#summon 527  -- Will O' Wisp
+#end
+
+#selectsite 412 -- Copper Cliff
+#gold 50
+#end
+
+#selectsite 413 -- Stargazers Cliff
+#end
+
+#selectsite 415 -- Lantern Forest
+#summon 527  -- Will o Wisp
+#end
+
+#selectsite 433 -- The Brass Door Hill
+#com 323  -- Dwarf Smith
+#end
+
+#selectsite 437 -- Dragon Forest
+#summonlvl3 523  -- Fire Drake
+#end
+
+#selectsite 439 -- RageFlame Tower
+#decunrest -5
+#com 389  -- Fire Lord
+#end
+
+#selectsite 440 -- Steam Swamp
+#summon 527  -- Will O Wisp
+#end
+
+#selectsite 441 -- Smoke Gorge
+#summonlvl2 523  -- Fire Drake
+#end
+
+#selectsite 442 -- Magma Pit
+#summon 640  -- Magma Child
+#end
+
+#selectsite 443 -- Starfire Crystals
+#gold 50
+#end
+
+#selectsite 444 -- Ash Valley
+#com 7925 -- Banefire Adept
+#summon 1981  -- Dust Walker
+#end
+
+#selectsite 445 -- Flame Forest
+#summon 814  -- Fire Snake
+#summon 814  -- Fire Snake
+#end
+
+#selectsite 452 -- Glowing Fissure
+#summon 304  -- Devil
+#end
+
+#selectsite 454 -- Scorched Tower
+#com 99  -- Adept of Pyriphlegeton
+#summon 2968  -- Hell Spawn
+#end
+
+#selectsite 455 -- House of Embers
+#summon 640  -- Magma Child
+#summon 640  -- Magma Child
+#end
+
+#selectsite 456 -- Heart of the Desert
+#com 2245  -- Sorcerer of the Sands
+#end
+
+#selectsite 457 -- Egg of the Phoenix
+#heal 25
+#end
+
+#selectsite 459 -- Rune of Fire
+#gems 0 1
+#end
+
+#selectsite 460 -- Maze of Frozen Flames
+#gems 0 1
+#gems 2 1
+#end
+
+#selectsite 461 -- Devil's Furnace
+#gems 0 1
+#gems 8 1
+#decscale 2  -- +Heat
+#summon 2286  -- Fiery Imp
+#summon 2286  -- Fiery Imp
+#end
+
+#selectsite 462 -- Isle of Rebirth
+#heal 25
+#end
+
+#selectsite 468 -- Blasted Heath
+#decscale 5  -- +Magic
+#end
+
+#selectsite 473 -- Howling Gorge
+#summon 1224  -- Dire Wolf
+#summon 1224  -- Dire Wolf
+#end
+
+#selectsite 474 -- Canyon of Playful Winds
+#summonlvl2 562  -- Sylph
+#end
+
+#selectsite 965 -- Cracked Tower
+#lab
+#end
+
+#selectsite 475 -- Elusive Lights
+#decscale 5  -- +Magic
+#decscale 4  -- +Luck
+#end
+
+#selectsite 476 -- Ice Mists
+#summon 511  -- Winter Wolf
+#summon 511  -- Winter Wolf
+#end
+
+#selectsite 479 -- Singing Stones
+#end
+
+#selectsite 478 -- Cloud Pillars
+#summonlvl4 3722 -- Size 6 Air Elemental
+#end
+
+#selectsite 490 -- Blizzard Valley
+#summon 2231  -- Yeti
+#summon 2231  -- Yeti
+#end
+
+#selectsite 491 -- Forest of Joy
+#com 1774  -- Bean Sidhe
+#end
+
+#selectsite 492 -- The Cloven Mountain
+#com 1254  -- Shugenja
+#end
+
+#selectsite 493 -- Stairway Mountain
+#summonlvl2 562  -- Sylph
+#end
+
+#selectsite 495 -- Whirlwind of Cyclon
+#incscale 0  -- +Turmoil
+#com 93  -- Wind Master
+#end
+
+#selectsite 501 -- Whisperwind Tower
+#scry 1
+#end
+
+#selectsite 505 -- Moonwind Marsh
+#gems 1 1
+#gems 4 1
+#gems 5 1
+#end
+
+#selectsite 506 -- Plaguewind Waste
+#summonlvl3 2073  -- Shed
+#end
+
+#selectsite 514 -- Wailing Woods
+#summon 1776  -- Bean Sidhe
+#end
+
+#selectsite 515 -- Nest of Obsidian Snakes
+#summon 1889  -- Jade Serpent
+#end
+
+#selectsite 516 -- Blackhawk Nest
+#summon 517  -- Black Hawk
+#summon 517  -- Black Hawk
+#summon 517  -- Black Hawk
+#end
+
+#selectsite 518 -- The Highest Peak
+#gems 1 3
+#summonlvl2 3725 -- Size 4 Air Elemental
+#end
+
+#selectsite 519 -- Pinnacle of Power
+#com 93  -- Wind Master
+#end
+
+#selectsite 520 -- Rune of Air
+#gems 1 1
+#end
+
+#selectsite 972 -- Singing Stream
+#com 1775  -- Baobhan Sidhe
+#end
+
+#selectsite 527 -- Lake of Mists
+#summon 7610 -- Mist Warrior
+#end
+
+#selectsite 534 -- Well of Yesterdays Waters
+#decscale 5  -- +Magic
+#end
+
+#selectsite 536 -- Overgrown Lake
+#summon 2185  -- Crocodile
+#summon 2185  -- Crocodile
+#end
+
+#selectsite 538 -- Lifeless Lake
+#gems 5 1
+#gems 2 1
+#end
+
+#selectsite 541 -- Mist Swamps
+#com 92  -- Cloud Mage
+#end
+
+#selectsite 547 -- The Ferry
+#recallgod 1
+#end
+
+#selectsite 548 -- Mount Frost
+#summon 511  -- Winter Wolf
+#summon 511  -- Winter Wolf
+#end
+
+#selectsite 549 -- The Forest of the Lake
+#com 2487  -- Dryad Mother
+#mon 228  -- Satyr
+#end
+
+#selectsite 550 -- Stony Swamps
+#summon 474  -- Living Statue
+#end
+
+#selectsite 560 -- Well of All Waters
+#com 2895  -- Mother of All Waters
+#end
+
+#selectsite 561 -- The Swamp of Dread
+#summon 526  -- Serpent Fiend
+#end
+
+#selectsite 562 -- Sunless Sea
+#gems 5 1
+#summon 2492  -- Great Olm
+#end
+
+#selectsite 563 -- Healing Spring
+#heal 25
+#end
+
+#selectsite 565 -- Icebrick Tower
+#com 2546  -- Mage of Winter
+#end
+
+#selectsite 566 -- Steam Fountain
+#supply 50
+#res 50
+#end
+
+#selectsite 567 -- Rain Ridge
+#com 1614  -- Toad Tribe Shaman
+#mon 1613  -- Toad Tribe
+#end
+
+#selectsite 569 -- Moonlit Lake
+#com 999  -- Wizard of Crescent Moon
+#end
+
+#selectsite 571 -- Double Bottom Lake
+#com 2815  -- Mermage
+#end
+
+#selectsite 573 -- Merman Village
+#com 1051  -- Merman Scout
+#com 9663 -- Merman Shaman
+#end
+
+#selectsite 582 -- Subterranean Lake
+#gems 2 2
+#summon 2514  -- Cave Crab
+#end
+
+#selectsite 583 -- Forgotten Oasis
+#gems 2 1
+#gems 6 1
+#supply 100
+#end
+
+#selectsite 584 -- Plaguewater Oasis
+#summon 677  -- Apparition
+#end
+
+#selectsite 585 -- Frozen Glen
+#com 1283  -- Ice Crafter
+#incscale 2  -- +Cold
+#end
+
+#selectsite 586 -- Melting Cliffs
+#gems 2 2
+#end
+
+#selectsite 587 -- Pool of Perpetual Night
+#gems 2 1
+#gems 5 1
+#waterrange 2
+#deathrange 2
+#end
+
+#selectsite 588 -- Enchanted Glacier
+#gems 2 1
+#gems 1 1
+#summon 2231  -- Yeti
+#summon 2231  -- Yeti
+#end
+
+#selectsite 589 -- Wellspring of the Virgins
+#heal 15
+#end
+
+#selectsite 590 -- Sign of Nodens
+#heal 20
+#end
+
+#selectsite 591 -- Rune of Water
+#gems 2 1
+#end
+
+#selectsite 592 -- Pharos
+#gems 0 1
+#end
+
+#selectsite 596 -- Golden City
+#gold 75
+#res 75
+#end
+
+#selectsite 601 -- Canyon of Sand
+#gems 3 2
+#end
+
+#selectsite 614 -- Cave of the Pale Ones
+#com 1460  -- Earth Reader
+#end
+
+#selectsite 627 -- Runaway Pit
+#mon 2004  -- Human Slave
+#end
+
+#selectsite 628 -- Steel Swamps
+#res 75
+#end
+
+#selectsite 633 -- The Broken Maze
+#com 344  -- Sorceress
+#end
+
+#selectsite 635 -- Chasm of Black Roses
+#com 2362  -- Blackrose Sorceress
+#end
+
+#selectsite 639 -- The Factory
+#res 50
+#com 1606  -- Mage Engineer
+#end
+
+#selectsite 642 -- Chamber of Changes
+#summon 474  -- Living Statue
+#end
+
+#selectsite 648 -- Dolmen
+#gems 3 1
+#gems 4 1
+#gems 6 1
+#end
+
+#selectsite 651 -- Deepest Mine
+#res 100
+#end
+
+#selectsite 653 -- Endless Caverns
+#summon 2526  -- Cave Grub
+#summon 2526  -- Cave Grub
+#end
+
+#selectsite 657 -- Bear Mountain
+#mon 2352  -- Chud Skinshifters
+#end
+
+#selectsite 658 -- Cliff of Seven Directions
+#summon 448  -- False Horror
+#end
+
+#selectsite 660 -- Earthroot Tower
+#gems 3 2
+#gems 6 1
+#naturerange 2
+#decscale 3  -- +Growth
+#end
+
+#selectsite 663 -- Thundertop Mountain
+#summon 520  -- Wyvern
+#end
+
+#selectsite 664 -- Meteorite Cliffs
+#res 75
+#end
+
+#selectsite 665 -- Iron Tomb
+#summon 1440  -- Iron Ancestor
+#end
+
+#selectsite 666 -- Rock Forest
+#com 154  -- Witch
+#end
+
+#selectsite 667 -- Ctonian Gate
+#summonlvl2 522  -- Cave Drake
+#end
+
+#selectsite 672 -- Stone Tree Grove
+#gems 3 1
+#gems 6 1
+#end
+
+#selectsite 673 -- Flooded Mines
+#gems 2 1
+#gems 3 1
+#gems 5 1
+#end
+
+#selectsite 674 -- Underworld Entrance
+#res 75
+#summonlvl2 522  -- Cave Drake
+#end
+
+#selectsite 675 -- Abyss
+#summonlvl2 2514  -- Cave Crab
+#end
+
+#selectsite 676 -- Heart of the Mountain
+#com 519  -- Troll King
+#summon 1037  -- War Troll
+#end
+
+#selectsite 677 -- Basilisk Cave
+#summon 636  -- Basilisk
+#end
+
+#selectsite 678 -- Rune of Earth
+#gems 3 1
+#end
+
+#selectsite 693 -- Crystal Flames
+#incscale 2  -- +Cold
+#com 346  -- Crystal Sorceress
+#com 347  -- Crystal Priestess
+#mon 348  -- Crystal Amazon
+#end
+
+#selectsite 695 -- Caves of Passing Time
+#decscale 5  -- +Magic
+#end
+
+#selectsite 697 -- Pyramid of Life
+#heal 15
+#end
+
+#selectsite 704 -- The Ancient Master
+#com 1257  -- Ninja
+#end
+
+#selectsite 715 -- Temple of the All Seeing Eye
+#allrange 2
+#end
+
+#selectsite 719 -- The Cave of Souls
+#summonlvl2 566  -- Ghost
+#summonlvl2 566  -- Ghost
+#end
+
+#selectsite 720 -- Mountain of the Past
+#summon 1607  -- Yazad
+#end
+
+#selectsite 723 -- Skywatch Tower
+#astralrange 2
+#end
+
+#selectsite 724 -- Nightlight Fen
+#summon 2196  -- Swamp Drake
+#end
+
+#selectsite 725 -- Moon Mirror
+#scry 1
+#end
+
+#selectsite 727 -- Mooncatch Lake
+#gems 2 2
+#end
+
+#selectsite 728 -- Mountain Crater
+#end
+
+#selectsite 729 -- Painted Crypt
+#summon 547  -- Dead One
+#summon 547  -- Dead One
+#end
+
+#selectsite 730 -- Moonvine Forest
+#summon 361  -- Vine Man
+#summon 361  -- Vine Man
+#summon 361  -- Vine Man
+#end
+
+#selectsite 732 -- Forgotten City
+#adventureruin 20
+#end
+
+#selectsite 736 -- Impossible Angle
+#decscale 5  -- +Magic
+#end
+
+#selectsite 737 -- Moonlit Halls
+#com 342  -- Moon Mage
+#summon 633  -- Werewolf
+#summon 633  -- Werewolf
+#end
+
+#selectsite 738 -- Brook of Glimmering Pearls
+#gold 50
+#decscale 5  -- +Magic
+#end
+
+#selectsite 740 -- Dreaming Stone
+#gems 4 1
+#end
+
+#selectsite 742 -- Arcane Diagram
+#gems 4 2
+#end
+
+#selectsite 744 -- Unsettling Pattern
+#gems 4 1
+#gems 7 1
+#end
+
+#selectsite 745 -- Basalt Mirror
+#gems 3 1
+#gems 4 1
+#end
+
+#selectsite 998 -- The Gate of Deeper Slumber
+#summon 7804 -- Night-Gaunt
+#end
+
+#selectsite 999 -- Cave of the Sleepers
+#decscale 5  -- +Magic
+#summonlvl2 559  -- Sleeper
+#summonlvl2 559  -- Sleeper
+#end
+
+#selectsite 747 -- Gnomon
+#decscale 0  -- Order
+#end
+
+#selectsite 749 -- Halfway Inn
+#com 2323  -- Adventurer
+#com 2324  -- Adventurer
+#com 2332  -- Adventurer
+#end
+
+#selectsite 762 -- Cave of Ghouls
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#end
+
+#selectsite 765 -- Gallows
+#summonlvl2 566  -- Ghost
+#end
+
+#selectsite 766 -- Broken Tower
+#com 94  -- Conjurer
+#end
+
+#selectsite 768 -- Ashen Forest
+#incscale 3  -- +Death
+#gems 5 2
+#gems 6 1
+#end
+
+#selectsite 770 -- Windswept Catacombs
+#summonlvl3 632  -- Storm Demon
+#end
+
+#selectsite 771 -- Crypt in the Sand
+#summonlvl2 1981  -- Dust Walker
+#summonlvl2 1980  -- Dust Warrior
+#end
+
+#selectsite 773 -- Catacombs
+#summon 187
+#summon 187
+#summon 187
+#end
+
+#selectsite 774 -- Overgrown Graveyard
+#decscale 3  -- +Growth
+#summon 313  -- Manikin
+#summon 313  -- Manikin
+#end
+
+#selectsite 777 -- Raven Oak
+#summon 1380  -- Great Hawk
+#com 2147  -- Seithmathr
+#end
+
+#selectsite 782 -- Statue of Death
+#incscale 3  -- +Death
+#summonlvl3 634  -- Handmaiden of Death
+#end
+
+#selectsite 783 -- Chillsick Swamp
+#summonlvl2 7520 -- Swamp Ghost
+#end
+
+#selectsite 784 -- Leper Fens
+#summonlvl2 677  -- Apparition
+#summonlvl2 677  -- Apparition
+#end
+
+#selectsite 789 -- The Bowl of the Lost
+#gems 5 3
+#end
+
+#selectsite 791 -- Tomb of the Ancients
+#summonlvl2 1202  -- Unfrozen Warrior
+#end
+
+#selectsite 794 -- City of Wonders
+#adventureruin 20
+#end
+
+#selectsite 796 -- The Charnel House
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#com 95  -- Circle Master
+#end
+
+#selectsite 797 -- Shadow Furnace
+#com 7925 -- Banefire Adept
+#end
+
+#selectsite 799 -- Banefire Forge
+#com 7925 -- Banefire Adept
+#end
+
+#selectsite 713 -- The Ultimate Gateway
+#conjcost 30
+#end
+
+#selectsite 800 -- Crown of Darkness
+#thaucost 30
+#end
+
+#selectsite 898 -- The Oak of Ages
+#enchcost 30
+#end
+
+#selectsite 1227 -- The Water Solstice
+#enchcost 30
+#end
+
+#selectsite 801 -- The Obsidian Sphere
+#gems 5 2
+#com 2743  -- Obsidian Warrior
+#end
+
+#selectsite 803 -- Well of Darkness
+#summon 88  -- Fiend of Darkness
+#summon 2287  -- Shadow Imp
+#end
+
+#selectsite 805 -- Bonedoor Tower
+#summon 185  -- Bane
+#end
+
+#selectsite 806 -- Flaming Tomb
+#summon 1656  -- Smoulderghost
+#summon 1656  -- Smoulderghost
+#end
+
+#selectsite 807 -- Shademist Swamp
+#summon 442  -- Shade Beast
+#summon 442  -- Shade Beast
+#end
+
+#selectsite 812 -- City ofd the Damned
+#gems 5 1
+#adventureruin 15
+#end
+
+#selectsite 817 -- Murder Bog
+#summon 528  -- Corpse Candle
+#summon 528  -- Corpse Candle
+#end
+
+#selectsite 818 -- Swamp of Shadows
+#summon 2125  -- Shadow
+#summon 2125  -- Shadow
+#summon 2125  -- Shadow
+#end
+
+#selectsite 819 -- Murdering Mire
+#summon 7520 -- Swamp Ghost
+#end
+
+#selectsite 820 -- Animal Cemetary
+#gems 5 1
+#summon 7675 -- Carrion Beast
+#end
+
+#selectsite 822 -- Tomb of the Grand Thaumaturg
+#summon 1658  -- Longdead Principe
+#summon 1658  -- Longdead Principe
+#end
+
+#selectsite 823 -- Sigil of the Ancients
+#gems 5 1
+#summonlvl2 2524  -- Released Warrior
+#summonlvl2 2525  -- Released One
+#end
+
+#selectsite 825 -- Nidus of Power
+#gems 4 1
+#gems 5 1
+#end
+
+#selectsite 827 -- Plague Barrow
+#summonlvl2 1662  -- Disease Demon
+#end
+
+#selectsite 829 -- Pit of Despair
+#gems 5 3
+#summonlvl2 675  -- Shadow Soldier
+#summonlvl2 675  -- Shadow Soldier
+#summonlvl2 675  -- Shadow Soldier
+#summonlvl2 675  -- Shadow Soldier
+#end
+
+#selectsite 840 -- Ruins of the Old Empire
+#adventureruin 15
+#end
+
+#selectsite 841 -- Ancient Temple of C'tis
+#summon 616  -- Longdead of C'tis
+#summon 618  -- Longdead of C'tis
+#end
+
+#selectsite 842 -- Cave of Dark Rites
+#deathrange 2
+#end
+
+#selectsite 843 -- Temple of Darkness
+#com 554  -- Ermorian Cultist
+#end
+
+#selectsite 844 -- Inkpot End
+#com 2535  -- Plague Cult Leader
+#end
+
+#selectsite 845 -- Flesh Eaters Isle
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#summon 198  -- Ghoul
+#end
+
+#selectsite 851 -- Farm of Plenty
+#gems 6 1
+#end
+
+#selectsite 852 -- Garden of Weeping Roses
+#com 1198  -- Horticulturalist
+#end
+
+#selectsite 867 -- Cottage in the Woods
+#summon 694  -- Great Bear
+#summon 1084  -- Moose
+#end
+
+#selectsite 871 -- Mandrake Gallows
+#summon 314  -- Mandragora
+#end
+
+#selectsite 873 -- Maze of Thorn Hedges
+#com 1182  -- Hedge Wizard
+#com 338  -- Enchanter
+#end
+
+#selectsite 876 -- The Mammoth Forest
+#summon 2398  -- Elephant
+#end
+
+#selectsite 878 -- Cedar Forest
+#gems 6 3
+#res 100
+#mon 2168  -- Enkidu Hunter
+#com 2169  -- Enkidu Hunter Chief
+#end
+
+#selectsite 880 -- The Crown Woods
+#gems 6 2
+#com 237  -- Dryad
+#mon 228  -- Satyr
+#end
+
+#selectsite 881 -- Gateward Valley
+#gems 6 1
+#end
+
+#selectsite 886 -- Forest of the Ape King
+#summon 1705  -- Great Ape
+#summon 1705  -- Great Ape
+#end
+
+#selectsite 887 -- The Sacred Glen
+#com 3197  -- Melissa
+#end
+
+
+#selectsite 889 -- The Land of Pleasures unattained
+#com 1325  -- Nagini
+#end
+
+#selectsite 893 -- Ancient Forest
+#com 1333  -- Bandar Warrior
+#mon 1129  -- Bandar
+#end
+
+#selectsite 894 -- Vale of Unicorns
+#heal 20
+#end
+
+#selectsite 896 -- The Snake Collector
+#summon 403  -- Horned Serpent
+#summon 403  -- Horned Serpent
+#end
+
+#selectsite 899 -- Valley of Shame
+#gems 8 1
+#end
+
+#selectsite 900 -- The Previous Forest
+#com 2480  -- Dryad Hag
+#end
+
+#selectsite 905 -- Oakwood Tower
+#com 363  -- Enchantress
+#end
+
+#selectsite 907 -- Tinderwood Forest
+#summon 3718 -- Fire Elemental Size 3
+#end
+
+#selectsite 908 -- Mist Forest
+#com 92  -- Cloud Mage
+#end
+
+#selectsite 909 -- Flowering Bog
+#com 321  -- S2N3 Shaman
+#mon 423  -- Lizard Warrior
+#end
+
+#selectsite 910 -- Evergreen Mountain
+#summon 1224  -- Dire Wolf
+#summon 1224  -- Dire Wolf
+#end
+
+#selectsite 911 -- Oak of Memories
+#decscale 5  -- +Magic
+#end
+
+#selectsite 912 -- Maggot Woods
+#summon 197  -- Soulless
+#summon 197  -- Soulless
+#summon 197  -- Soulless
+#end
+
+#selectsite 918 -- Lair of the Spiders
+#summon 884  -- Great Spider
+#summon 884  -- Great Spider
+#summon 782  -- Giant Spider
+#summon 782  -- Giant Spider
+#end
+
+#selectsite 919 -- Skinshifters Barrow
+#gems 6 1
+#gems 5 1
+#summonlvl2 2190  -- Draug
+#end
+
+#selectsite 921 -- Heart of the Forest
+#com 2221  -- Troll Seithberender
+#summon 2219  -- Forest Troll
+#end
+
+#selectsite 924 -- Grove of Hooded Spirits
+#heal 15
+#end
+
+#selectsite 925 -- Fungus Forest
+#summon 884  -- Great Spider
+#summon 884  -- Great Spider
+#end
+
+#selectsite 1026 -- Birdsong Tower
+#gems 1 1
+#gems 6 1
+#end
+
+#selectsite 926 -- The Crone
+#gems 3 1
+#gems 6 1
+#end
+
+#selectsite 927 -- Thorn Maze
+#com 1182  -- Hedge Wizard
+#end
+
+#selectsite 928 -- Earthroot Grove
+#gems 3 1
+#gems 6 1
+#com 154  -- Witch
+#decscale 3  -- +Growth
+#end
+
+#selectsite 929 -- Starsong Grove
+#com 338  -- Enchanter
+#end
+
+#selectsite 930 -- Tree of Life
+#heal 15
+#end
+
+#selectsite 931 -- Tree of Knowledge
+#scry 1
+#end
+
+#selectsite 932 -- Tower of the Moon
+#com 342  -- Moon Mage
+#end
+
+#selectsite 933 -- Vale of Healing Herbs
+#heal 10
+#com 2327  -- Adventurer
+#end
+
+#selectsite 938 -- Ancient Ruin
+#summon 782  -- Giant Spider
+#summon 884  -- Great Spider
+#end
+
+#selectsite 1038 -- Academy of War
+#xp 5
+#end
+
+#selectsite 1040 -- Fields of Blood
+#summon 638  -- Spine Devil
+#end
+
+#selectsite 1044 -- Gore Swamps
+#com 2146  -- Seithberendr
+#end
+
+#selectsite 1051 -- Prison of Hearts
+#com 2540 -- Blood Mage
+#gems 8 1
+#end
+
+#selectsite 1055 -- Haunted Torture Chamber
+#summon 674  -- Dispossessed Spirit
+#summon 674  -- Dispossessed Spirit
+#summon 674  -- Dispossessed Spirit
+#end
+
+#selectsite 1057 -- Forest of Pain
+#summon 708  -- Reveler
+#summon 708  -- Reveler
+#end
+
+#selectsite 1058 -- Red Forest
+#summonlvl3 814  -- Fire Snake
+#summonlvl3 814  -- Fire Snake
+#end
+
+#selectsite 1059 -- Bloodleaf Forest
+#summon 330  -- Dark Vine
+#gems 6 2
+#end
+
+#selectsite 1060 -- Blood Mountain
+#summonlvl2 3757 -- Size 4 Illearth
+#end
+
+#selectsite 1061 -- Bloodwind Waste
+#gems 1 1
+#gems 5 1
+#end
+
+#selectsite 1062 -- Bloodsucker Fens
+#summon 394  -- Lamia
+#summon 394  -- Lamia
+#end
+
+#selectsite 1063 -- Bloodmarble Mausoleum
+#summonlvl3 405  -- Vampire
+#end
+
+#selectsite 1064 -- Bloodsplatter Pattern
+#gems 4 1
+#gems 5 1
+#incscale 4  -- Misfortune
+#end
+
+#selectsite 1076 -- Bleeding Tree
+#com 2540  -- Blood Mage
+#end
+
+#selectsite 1078 -- Pentagram
+#gems 4 1
+#gems 5 1
+#end
+
+#selectsite 1089 -- Pool of Sanctity
+#heal 20
+#end
+
+#selectsite 1090 -- Hidden Monastery
+#com 2537  -- Monk
+#mon 2359  -- Holy Knight
+#end
+
+#selectsite 1096 -- The Empty Grave
+#com 2331  -- Pilgrim
+#end
+
+#selectsite 1098 -- The Ward
+#com 2199  -- High Inquisitor
+#end
+
+#selectsite 1101 -- Order of the Undying
+#com 554  -- Ermorian Cultist
+#summon 189  -- Longdead Horseman
+#summon 189  -- Longdead Horseman
+#summon 189  -- Longdead Horseman
+#end
+
+#selectsite 1102 -- Shrine of the Outcast
+#gems 5 1
+#end
+
+#selectsite 1103 -- Temple of the Spider God
+#gems 6 1
+#end
+
+#selectsite 1105 -- Temple of Flying Monkeys
+#com 1145  -- Yogi
+#naturerange 2
+#end
+
+#selectsite 1108 -- Pillar of Life
+#gems 0 1
+#end
+
+#selectsite 1109 -- Prophet's Sigil
+#com 2275  -- False Prophet
+#com 1040  -- Bishop Fish
+#end
+
+#selectsite 1110 -- Oracles Lair
+#gems 4 1
+#end
+
+#selectsite 1111 -- Mountain of Revelation
+#gems 3 1
+#end
+
+#selectsite 1112 -- Place of Prophecy
+#com 2331  -- Pilgrim
+#mon 2331  -- Pilgrim
+#domwar 1
+#end
+
+#selectsite 1113 -- Stele of Law
+#decscale 0  -- +Order
+#end
+
+#selectsite 1114 -- Temple of Life and Death
+#heal 20
+#summon 625  -- Mummy
+#end
+
+#selectsite 1115 -- Garden of Longevity
+#heal 20
+#end
+
+#selectsite 1124 -- Pond of Lava
+#gems 0 1
+#gems 3 1
+#end
+
+#selectsite 1126 -- Boiling Current
+#summon 2854  -- Flame Jelly
+#end
+
+#selectsite 1127 -- Fire Rift
+#com 1417  -- Amber Clan Mage
+#end
+
+#selectsite 1130 -- Undersea Cave
+#gems 3 1
+#mon 1686  -- Deep One
+#end
+
+#selectsite 1132 -- Pocket of Air
+#end
+
+#selectsite 1133 -- Diamond Corals
+#summon 1063  -- Leocampus
+#summon 1063  -- Leocampus
+#end
+
+#selectsite 1134 -- Floating Rock
+#com 96  -- Azure Initiate
+#end
+
+#selectsite 1136 -- Foaming Waves
+#gems 1 1
+#gems 2 1
+#end
+
+#selectsite 1138 -- Scoriatic Cliffs
+#gems 0 1
+#gems 1 1
+#end
+
+#selectsite 1141
+#com 2815  -- Mermage
+#com 1696  -- Merman Priest
+#end
+
+#selectsite 1143 -- Man O War Breeding Ground
+#summonlvl2 2854  -- Flame Jelly
+#end
+
+#selectsite 1146 -- Shrine of the Shark Lords
+#gems 2 1
+#end
+
+#selectsite 1148 -- Isle of Ice
+#summonlvl2 3749 -- Size 4 Ice Elemental
+#end
+
+#selectsite 1152 -- Kraken Pit
+#gems 2 1
+#end
+
+#selectsite 1155 -- Whispering Waters
+#summon 360  -- Undine
+#end
+
+#selectsite 1156 -- Glowing Depths
+#summon 2854  -- Flame Jelly
+#end
+
+#selectsite 1157 -- Falling Depths
+#summon 360  -- Undine
+#end
+
+
+#selectsite 1159 -- The Darkness
+#gems 5 1
+#end
+
+#selectsite 1165 -- Tears of the Ancients
+#mon 1636  -- Wet One
+#end
+
+#selectsite 1168 -- Maelstrom
+#gold 50
+#end
+
+#selectsite 1172 -- Basalt Statue
+#conjcost 20
+#end
+
+#selectsite 1174 -- Basalt Halls
+#res 100
+#end
+
+#selectsite 1178 -- Mineral Fingers
+#res 75
+#end
+
+#selectsite 1180 -- Long Lost Circle
+#scry 1
+#end
+
+#selectsite 1187 -- Mountain Underneath
+#res 100
+#end
+
+#selectsite 1188 -- Fossilized Conch
+#gems 3 2
+#end
+
+#selectsite 1189 -- Forgotten Crevasse
+#summon 210  -- Giant Lobster
+#end
+
+#selectsite 1193 -- Floating Forest
+#res 50
+#end
+
+#selectsite 1194 -- Kelp Grove
+#summon 2976  -- Algae Man
+#summon 2976  -- Algae Man
+#end
+
+#selectsite 1195 -- Coral Garden
+#gems 2 1
+#mon 2391  -- Triton Rider
+#res 50
+#end
+
+#selectsite 1210 -- Reef of Sunken Ships
+#gold 50
+#summon 536  -- Damned Buccaneer
+#end
+
+#selectsite 1212 -- Isle of Death
+#summonlvl2 1541  -- Ghost Champion
+#end
+
+#selectsite 1213 -- Dark Depths
+#summon 642  -- Giant Lobster
+#end
+
+#selectsite 1214 -- Ghoul Fish Cave
+#summonlvl2 7433 -- Drowned One
+#end
+
+#selectsite 1215 -- The Wasted Sea
+#summon 318  -- Soulless of Atlantis
+#summon 318  -- Soulless of Atlantis
+#end
+
+#selectsite 1222 -- Field of Undead Clams
+#gems 5 1
+#gems 4 1
+#end
+
+#selectsite 1224 -- Sunken Ship of Dread
+#summon 2241  -- Damned Boatswain
+#summon 536  -- Damned Buccaneer
+#summon 536  -- Damned Buccaneer
+#end
+
+#selectsite 1225 -- Pearl Stairway
+#com 3038  -- Pearl Mage
+#end
+
+#selectsite 1228 -- Basalt Pillars
+#decscale 5  -- +Magic
+#astralrange 1
+#earthrange 1
+#end
+
+#selectsite 1239 -- Eye Pebble Plain
+#scry 1
+#end
+
+#selectsite 1240 -- Abyss to the Beyond
+#voidgate 20
+#astralrange 2
+#end
+
+#selectsite 1241 -- Blashpemous Presence
+#adventureruin 20
+#end
+
+#selectsite 1242 -- Enchanted Current
+#com 103  -- Hydromancer
+#end
+
+#selectsite 1266 -- Date Oasis
+#gems 2 1
+#gems 6 2
+#end
+
+#selectsite 1268 -- Oasis of Verdant Greenery
+#com 352  -- Jade Sorceress
+#mon 354  -- Jade Amazon
+#end
+
+#selectsite 1270 -- Cavern of Flames
+#summon 3718 -- Fire Elemental
+#end
+
+#selectsite 1271 -- Underground Lake
+#gems 3 1
+#end
+
+#selectsite 1273 -- Basalt Wall
+#decscale 5  -- +Magic
+#astralrange 1
+#earthrange 1
+#end
+
+#selectsite 1274 -- Painted Cavern
+#gems 3 1
+#gems 4 1
+#end
+
+#selectsite 1275 -- Bone Filled Cave
+#summon 191
+#summon 195
+#summon 2451
+#end
+
+#selectsite 1276 -- Mushroom Forest
+#gems 6 2
+#end
+
+#selectsite 1287 -- Cavern of Magma
+#summon 640  -- Magma Child
+#end
+
+#selectsite 1289 -- Dripping Caverns
+#mon 2492  -- Olm
+#end
+
+#selectsite 1292 -- Stalagmite Cavern
+#summon 2514  -- Cave Crab
+#end
+
+#selectsite 1293 -- Mist Caverns
+#com 92  -- Cloud Mage
+#end
+
+#selectsite 1305 -- Buried Temple
+#gems 4 2
+#summon 2524
+#end
+
+#selectsite 1308 -- The Storm Underneath
+#summonlvl3 3722 -- Size 6 Air Elemental
+#end
+
+#selectsite 1309 -- Ancient Tomb
+#summonlvl2 2525  -- Released One
+#summonlvl2 2525  -- Released One
+#end
+
+#selectsite 1310 -- Opulent Tomb
+#gold 50
+#end
+
+#selectsite 1311 -- Umbral Cave
+#summonlvl3 1490  -- Umbral
+#end
+
+#selectsite 1312 -- Caveman Cavern
+#gems 3 1
+#gems 6 1
+#end
+
+#selectsite 1320 -- Splattermaid Gorge
+#com 2540  -- Blood Mage
+#end
+
+#selectsite 1323 -- Riddle Dark
+#adventureruin 25
+#end
+
+#selectsite 1325 -- Subterranean City
+#gems 3 1
+#gold 100
+#res 100
+#end
+
+#selectsite 1326 -- The Silent Sea
+#com 2718  -- Ah Itz
+#end
+
+#selectsite 1327 -- The Olm Cavern
+#mon 2492  -- Great Olm
+#end
+
+#selectsite 1330 -- Undermirks
+#com 2221  -- Troll Seithberender
+#mon 2219  -- Forest Troll
+#end
+
+#selectsite 1086 -- Cliffside Abattoir
+#com 2540  -- Blood Mage
+#end
+
+#selectsite 756 -- Dragon Rune
+#summonlvl3 579  -- Ice Drake
+#end
+
+#selectsite 945 -- Ivy Grove
+#summon 362  -- Vine Ogre
+#summon 362  -- Vine Ogre
+#summon 361  -- Vine Man
+#summon 361  -- Vine Man
+#end
+
+#selectsite 946 -- Hall of the Ivy King
+#com 552  -- Animist
+#summon 362  -- Vine Ogre
+#summon 362  -- Vine Ogre
+#end
+
+#selectsite 1258 -- Shambler Reef
+#com 9666 -- Shambler Shaman
+#end
+
+#selectsite 574 -- Turtle Village
+#com 9663 -- Merman Shaman
+#end
+
+-- Water Poptype changes
+
+#selectpoptype 57  -- Atlantians
+#addreccom 432  -- Atlantian Scout
+#end
+
+#selectpoptype 72  -- Mermen
+#addreccom 1050  -- Merman Scout
+#addreccom 9662 -- Merman Shaman
+#end
+
+#selectpoptype 97  -- Merrow
+#addreccom 2912  -- Merrow Scout
+#end
+
+#selectpoptype 90 -- Turtle Tribe
+#addreccom 9661 -- Turtle Shaman
+#end
+
+#selectpoptype 98 -- Kulullu
+#addreccom 9660 -- Kulullu Shaman
+#end
+
+#selectpoptype 107
+#clearrec
+#cleardef
+#addrecunit 110 -- Atlantian Militia
+#addrecunit 206 -- Shambler
+#addreccom 207 -- Shambler chief
+#addreccom 9666 -- Shambler Shaman
+#defcom1 207 -- Shambler chief
+#defunit1 110 -- Atlantian Militia
+#defmult1 10
+#defunit1b 206 -- Shambler
+#defmult1b 3
+#end
+
 --------END OF FILE--------
 
 

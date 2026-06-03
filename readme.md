@@ -85,3 +85,6 @@ Changes
   * Enable Clam of Pearls, Sanguine Dowsing Rod, Mirror of Trapped Images, Amulet of the Dead
   * #nofind to Lycanthropos amulet
   * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garaments, Armor of the Five Elements
+* Sites and independents
+  * Incorporate all DE magic site buffs (with minor alterations and removals)
+  * Incorporate DE buffs to water independent recruits (including new commanders Kulullu Shaman, Triton Shaman, Merman Shaman and Shambler Shaman)
