@@ -499,6 +499,7 @@
 #name "Call of the Winds"
 #school 0
 #path 0 1
+#researchlevel 0
 #effect 10001
 #damage 517
 #nreff 7014
@@ -6421,6 +6422,7 @@
 #effect 10001
 #damage 1482
 #nreff 7007
+#spec 8388608 -- may cast UW
 #end
 
 #selectspell 322 --Summon Simargl
@@ -7683,7 +7685,7 @@
 #armor 148 --Crown
 #name "Sea Lord"
 #descr "While the Sea King is absent, imitators arise. The Sea Lord is a lesser Water Mage who may grant humans water-breathing abilities if they accompany him."
-#waterbreathing 60
+#waterbreathing 100
 #magicskill 2 1
 #custommagic 512 50
 #mr 15
@@ -7707,7 +7709,7 @@
 #path 0 2
 #pathlevel 0 3
 #fatiguecost 1800
-#descr "The caster contacts a Sea Lord and his mighty retinue of guards. The Sea Lords are a weaker imitator of the absent Sea Kings, nonetheless some of them are capable Water mages in their own right."
+#descr "The caster contacts a Sea Lord and his mighty retinue of guards. The Sea Lords are weaker imitators of the absent Sea Kings, nonetheless some of them are capable Water mages in their own right."
 #effect 10021
 #spec 41943040  -- UW Only
 #damagemon "Sea Lord"
@@ -7963,8 +7965,8 @@
 #end
 
 #selectspell 1026 --Summon Flame Spirit
---#fatiguecost 2000
-#researchlevel 5
+#fatiguecost 2000
+#researchlevel 4
 #pathlevel 0 2
 #end
 
@@ -7996,7 +7998,7 @@
 
 #selectspell 1044 --Summon Fay Prince
 #ainocast 1
-#fatiguecost 1800
+#fatiguecost 1500
 #researchlevel 5
 #pathlevel 0 3
 #end
@@ -14382,88 +14384,6 @@ mainlevel 1
 #selectnation 125 -- LA Erytheia
 #uwbuild 1
 #end
-
-#selectnation 182 -- MA Ongtupqa
-#uwbuild 1
-#end
-
-#selectnation 183 -- LA Ongtupqa
-#uwbuild 1
-#end
-
-#selectnation 184 -- EA Sitecah
-#uwbuild 1
-#end
-
-#selectnation 186 -- EA Zion
-#uwbuild 1
-#end
-
-#selectnation 187 -- EA Bhod
-#uwbuild 1
-#end
-
-#selectnation 188 -- MA Shambhala
-#uwbuild 1
-#end
-
-#selectnation 190 -- LA Rotterland
-#uwbuild 1
-#end
-
-#selectnation 191 -- MA Tartary
-#uwbuild 1
-#end
-
-#selectnation 192 -- LA Great Arrada
-#uwbuild 1
-#end
-
-#selectnation 194 -- MA Sawaiiki
-#uwbuild 1
-#end
-
-#selectnation 197 -- LA Iram
-#uwbuild 1
-#end
-
-#selectnation 198 -- EA Nihuala
-#uwbuild 1
-#end
-
-#selectnation 199 -- MA Nihuala
-#uwbuild 1
-#end
-
-#selectnation 200 -- LA Nihuala
-#uwbuild 1
-#end
-
-#selectnation 201 -- LA Venedia
-#uwbuild 1
-#end
-
-#selectnation 202 -- LA Gondwana
-#uwbuild 1
-#end
-
-#selectnation 205 -- LA Houssa
-#uwbuild 1
-#end
-
-#selectnation 181 -- EA Chaco
-#uwbuild 1
-#end
-
-#selectnation 189 -- EA Fennoscandia
-#uwbuild 1
-#end
-
-#selectnation 193 -- EA Alchera
-#uwbuild 1
-#end
-
-
 
 
 -- Mason fort skip
