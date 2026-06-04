@@ -651,6 +651,318 @@
 #nextspell "Dogmother"
 #end
 
+
+
+#selectsite 54 -- The Gate of Spring and Autumn
+#xp 1
+#end
+
+#selectsite 50 -- The Heavenly Gate (MA)
+#xp 1
+#end
+
+#selectsite 130 -- The Heavenly Gate (LA)
+#xp 1
+#end
+
+#newspell
+#name "Condensed Spiritual Energy"
+#descr "The spiritual energy has been gathered by the Celestial Master and is rapidly dispersing."
+#school -1
+#researchlevel 4
+#path 0 2
+#pathlevel 0 2
+#path 1 4
+#pathlevel 1 1
+#fatiguecost 400
+#effect 10082
+#damage 300 --Ench00
+#fatiguecost 3500
+#nreff 1
+#end
+
+#newspell
+#copyspell 106  -- Record of Creation
+#name "Condense Spiritual Energy (EA)"
+#school 1
+#researchlevel 0
+#path 0 2
+#pathlevel 0 2
+#path 1 4
+#pathlevel 1 1
+#fatiguecost 400
+#effect 10083 -- (Local Enchant Province - Single Turn)
+#damage -1
+#nreff 1
+#nextspell "Condensed Spiritual Energy"
+#end
+
+#newspell
+#copyspell "Condense Spiritual Energy (EA)"
+#name "Condense Spiritual Energy"
+#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
+#details "To successfully use this ritual, a commander must enter the Heavenly Gate on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
+#onlyatsite 50 - Heavenly Gate (MA)
+#restricted 69 -- MA TC
+#end
+
+#newspell
+#copyspell "Condense Spiritual Energy (EA)"
+#name "Condense Spiritual Energy"
+#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
+#details "To successfully use this ritual, a commander must enter the Heavenly Gate on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
+#onlyatsite 130 -- Heavenly Gate (LA)
+#restricted 109 -- LA TC
+#end
+
+#selectspell "Condense Spiritual Energy (EA)"
+#name "Condense Spiritual Energy"
+#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
+#details "To successfully use this ritual, a commander must enter the Gate of Spring and Autumn on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
+#onlyatsite 54 -- The Gate of Spring and Autumn
+#restricted 22 -- EA TC
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 1
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 2
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 3
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 4
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 5
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 6
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 7
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Failed cultivation!
+
+One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#req_varzero 6012
+#incvar 6012
+#req_targpath1 8
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#req_rare 20
+#header 2
+#msg "Successful cultivation!
+
+One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Fire."
+#req_targundead 0
+#req_targdemon 0
+#req_targinanimate 0
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#pathboost 0
+#req_varzero 6012
+#incvar 6012
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#req_rare 25
+#header 2
+#msg "Successful cultivation!
+
+One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Air."
+#req_targundead 0
+#req_targdemon 0
+#req_targinanimate 0
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#pathboost 1 -- Air
+#req_varzero 6012
+#incvar 6012
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#req_rare 33
+#header 2
+#msg "Successful cultivation!
+
+One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Water."
+#req_targundead 0
+#req_targdemon 0
+#req_targinanimate 0
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#pathboost 2 -- Water
+#req_varzero 6012
+#incvar 6012
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#req_rare 50
+#header 2
+#msg "Successful cultivation!
+
+One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Earth."
+#req_targundead 0
+#req_targdemon 0
+#req_targinanimate 0
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#pathboost 3 -- Earth
+#req_varzero 6012
+#incvar 6012
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "Successful cultivation!
+
+One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Nature."
+#req_targundead 0
+#req_targdemon 0
+#req_targinanimate 0
+#req_friendlyench 300 --Ench00
+#req_targorder 50
+#pathboost 6 -- Nature
+#req_varzero 6012
+#incvar 6012
+#end
+
+#newevent -- Clear var
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_varpos 6012
+#clearvar 6012
+#end
+
 --------End 0Water--------
 
 --------0Death--------
@@ -9037,8 +9349,6 @@
 
 
 --------MAGIC ITEMS--------
-
-
 
 #selectitem 1 --Fire Sword
 #constlevel 11

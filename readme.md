@@ -71,6 +71,7 @@ Changes
   * Contact Sharks (Conj0 F1) - Summon some sharks led by a Shark Knight commander. Sharks now have Berserk 2.
   * Bind Jinn (Conj4 F3A2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * Bind Houri (Conj5 A3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
+  * T'ien Ch'i (all eras) - Condense Spiritual Energy (Alt4 W2S1) - jump-start a living commander's inner cultivation, cheaply empowering them in one of the five elements (cannot already be a mage)
 * Buff sacred combat summons
   * Sacred Flame, Sacred Sylph, Sacred Soil, Holy Water and Ancestral Spirits are always blessed
 * The following spells are no longer researchable
