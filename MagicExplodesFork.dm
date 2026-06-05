@@ -615,7 +615,6 @@
 #researchlevel 0
 #range 5035
 #aoe 3
-#spec 8404992
 #end
 
 #selectspell 1155 --Vile Water
@@ -1934,7 +1933,6 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 677 --Thunder Strike
-#casttime 180
 #nreff 1000 
 #precision 5
 #fatiguecost 25
@@ -1959,7 +1957,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 680 --Blade Wind
 #fatiguecost 40
-#nreff 8040
+#nreff 16000
 #precision 4
 #damage 25
 #researchlevel 3
@@ -2080,9 +2078,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 690 --Liquid Flames of Rhuax
 #aispellmod 20
-#casttime 115
-#aoe 1000
-#nreff 1000
+#aoe 1001
+#nreff 1001
 #fatiguecost 30
 #damage 4028
 #researchlevel 4
@@ -2194,7 +2191,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 715 --Bane Fire
 #fatiguecost 60
 #precision 5
-#nreff 1000
+#nreff 3000
 #damage 2104
 #researchlevel 5
 #pathlevel 0 2
@@ -2278,6 +2275,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #precision 6
 #fatiguecost 10
 #damage 2006
+#nreff 1000
+#aoe 2001
 #researchlevel 5
 #end
 
@@ -2418,8 +2417,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 746 --Vortex of Unlife
 #fatiguecost 50
-#aoe 8000
-#nreff 1000
+#aoe 6000
+#nreff 500
 #damage 4000
 #researchlevel 5
 #pathlevel 0 4
@@ -3846,6 +3845,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 10
 #damage 4040
 #researchlevel 0
+#aoe 3
+#nreff 1000
 #end
 
 #selectspell 1267 --Decay
@@ -4264,8 +4265,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 1323 --Control the Dead
 #aispellmod 10
-#casttime 130
-#aoe 1000
+#aoe 2000
 #nreff 2000
 #precision 10
 #fatiguecost 10
@@ -4318,7 +4318,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 1329 --Group Luck
-#school -1
+#aoe 2003
+#fatiguecost 20
 #end
 
 #selectspell 1324 --Charm Animal
@@ -4359,6 +4360,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 10
 #researchlevel 4
 #pathlevel 0 2
+#aoe 1000
 #end
 
 #selectspell 629 --Enslave Sea Trolls
@@ -4390,6 +4392,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #damage 4020
 #researchlevel 5
 #pathlevel 0 2
+#nreff 1000
 #end
 
 #selectspell 1338 --Leprosy
@@ -4468,7 +4471,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #aispellmod -20
 #fatiguecost 10
 #researchlevel 5
-#pathlevel 0 2
+#pathlevel 0 3
 #aoe 1000
 #end
 
@@ -4533,7 +4536,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 15
 #researchlevel 5
 #pathlevel 0 2
-#aoe 1
+#aoe 1000
 #end
 
 #selectspell 1355 --Mass Confusion
@@ -6007,6 +6010,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 839 --Shatter
 #fatiguecost 10
 #nreff 1000
+#aoe 1000
 #range 5030
 #researchlevel 4
 #pathlevel 0 2
@@ -6025,6 +6029,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 827 --Incinerate
 #casttime 20
 #fatiguecost 10
+#nreff 1000
 #range 5040
 #damage 4024
 #researchlevel 4
@@ -6083,6 +6088,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 60
 #precision 5
 #researchlevel 5
+#school -1
 #end
 
 #selectspell 289 --Internal Alchemy
@@ -6107,7 +6113,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 834 --Bone Melter
-#aoe 1000
+#aoe 3000
 #fatiguecost 10
 #researchlevel 4
 #pathlevel 0 2
@@ -6198,7 +6204,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 851 --Boil
 #fatiguecost 10
 #damage 2012
-#aoe 1000
+#aoe 4000
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -6260,6 +6266,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 20
 #researchlevel 5
 #pathlevel 0 3
+#nreff 2000
 #end
 
 #selectspell 860 --Rewrite Fate
@@ -6273,6 +6280,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 853 --Frozen Heart
 #fatiguecost 10
+#nreff 1000
 #damage 4016
 #researchlevel 5
 #end
@@ -6292,7 +6300,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 875 --Fog Warriors
 #fatiguecost 100
 #researchlevel 6
-#pathlevel 0 4
+#pathlevel 0 3
 #end
 
 #selectspell 886 --Bone Grinding
@@ -6303,8 +6311,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 881 --Marble Warriors
-#fatiguecost 99
-#researchlevel 6
+#fatiguecost 50
+#researchlevel 5
 #pathlevel 0 2
 #end
 
@@ -6386,6 +6394,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 60
 #precision 5
 #researchlevel 5
+#pathlevel 0 2
 #end
 
 #selectspell 879 --Ice Walls
@@ -6482,14 +6491,15 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 896 --Quickening
-#fatiguecost 99
+#fatiguecost 60
 #aoe 5000
 #researchlevel 6
 #end
 
 #selectspell 897 --Liquify
 #fatiguecost 10
-#aoe 1000
+#aoe 2002
+#nreff 1000
 #researchlevel 7
 #pathlevel 0 3
 #end
@@ -7532,9 +7542,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 994 --Summon Air Elemental
 #casttime 160
 #ainocast 1
-#fatiguecost 60
+#fatiguecost 30
 #researchlevel 4
 #pathlevel 0 3
+#damage 3723
 #end
 
 #selectspell 995 --Summon Spring Hawks
@@ -7630,9 +7641,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 1005 --Summon Earth Elemental
 #ainocast 1
-#fatiguecost 60
+#fatiguecost 30
 #researchlevel 4
 #pathlevel 0 2
+#damage 3739
 #end
 
 #selectspell 1006 --Summon Fall Bears
@@ -7744,9 +7756,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 992 --Summon Fire Elemental
 #ainocast 1
-#fatiguecost 60
+#fatiguecost 30
 #researchlevel 4
 #pathlevel 0 3
+#damage 3715
 #end
 
 #selectspell 993 --Summon Summer Lions
@@ -7969,9 +7982,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 1000 --Summon Water Elemental
 #ainocast 1
-#fatiguecost 60
+#fatiguecost 30
 #researchlevel 4
 #pathlevel 0 2
+#damage 3731
 #end
 
 #newspell
@@ -8493,10 +8507,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectspell 1047 --Living Clouds
 #ainocast 1
 #nreff 1003
-#casttime 170
 #fatiguecost 99
 #researchlevel 6
 #pathlevel 0 3
+#damage 3724
 #end
 
 #selectspell 535 --Wrath of the Ancestors
@@ -8542,6 +8556,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 99
 #researchlevel 6
 #pathlevel 0 3
+#damage 3740
 #end
 
 #selectspell 1046 --Living Fire
@@ -8550,6 +8565,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #fatiguecost 99
 #researchlevel 6
 #pathlevel 0 3
+#damage 3716
 #end
 
 #selectspell 1060 --Conjure Phantasmal Knight
@@ -8687,10 +8703,11 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 1049 --Living Water
 #ainocast 1
-#nreff 1002
+#nreff 2000
 #fatiguecost 99
 #researchlevel 6
 #pathlevel 0 3
+#damage 3732
 #end
 
 #selectspell 528 --Summon Chaac

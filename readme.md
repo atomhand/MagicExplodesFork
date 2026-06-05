@@ -72,8 +72,24 @@ Changes
   * Bind Jinn (Conj4 F3A2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * Bind Houri (Conj5 A3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * T'ien Ch'i (all eras) - Condense Spiritual Energy (Alt4 W2S1) - jump-start a living commander's inner cultivation, cheaply empowering them in one of the five elements (cannot already be a mage)
-* Buff sacred combat summons
-  * Sacred Flame, Sacred Sylph, Sacred Soil, Holy Water and Ancestral Spirits are always blessed
+* Combat spells
+  * Conjuration
+    * Summon X Elemental: Increase size by 1. Reduce fatigue cost to 30.
+    * Living X: Increase size by 1.
+  * Alteration
+    * Buff Bone Melter, Liquify, Control, Fog Warriors, Marble Warriors, Boil, Shatter, Quickening, Frozen Heart, Incinerate
+    * Merge Gift of Formlessness and Wave Warriors (spells were almost identical and at the same RL)
+  * Evocation
+    * Revert Thunderstrike cast time to 100%
+    * Buff Cleansing Water, Bane Fire, Liquid Flames of Rhuax
+    * Rescale Blade Wind (nerf at E2-4, buff for E6+)
+    * Nerf Vortex of Unlife
+    * Revert Water Strike to UW only
+  * Thaumaturgy
+    * Buff Charm, Soul Slay, Control the Dead, Dust to Dust, Wither Bones
+    * Enable and buff Group Luck
+  * Buff sacred combat summons
+    * Sacred Flame, Sacred Sylph, Sacred Soil, Holy Water and Ancestral Spirits are always blessed
 * The following spells are no longer researchable
   * Call Great Hawk
   * Wild Fire
@@ -81,7 +97,7 @@ Changes
 * Item changes
   * Armor of Knights: Resistance to piercing and slashing damage
   * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
-  * God-Slayer Spear: Bleses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
+  * God-Slayer Spear: Blesses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
   * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Elf Bane and Magebane area damage
   * Enable Clam of Pearls, Sanguine Dowsing Rod, Mirror of Trapped Images, Amulet of the Dead
   * #nofind to Lycanthropos amulet
