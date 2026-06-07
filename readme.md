@@ -69,9 +69,14 @@ Changes
   * Enliven Stone Monstra (Enchantment5 E2A1) - commander summon
   * MA Marignon - Anoint Paladin (Thaum0 F1H2) - commander summon. Paladin is also buffed with a little magic leadership.
   * Contact Sharks (Conj0 F1) - Summon some sharks led by a Shark Knight commander. Sharks now have Berserk 2.
-  * Bind Jinn (Conj4 F3A2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
+  * Bind Jinn (Conj4 F3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * Bind Houri (Conj5 A3G2) - mage summon. Generic version of Na'ba's national summon which requires greater skills and gems and summons a non-sacred mage.
   * T'ien Ch'i (all eras) - Condense Spiritual Energy (Alt4 W2S1) - jump-start a living commander's inner cultivation, cheaply empowering them in one of the five elements (cannot already be a mage)
+* Other ritual changes
+  * Slightly reduce cost of Twiceborn
+  * Reduce RL and cost of Lichcraft
+  * Increase RL for Utterdark
+  * Cure Disease reduced path requirement and cost 0 gems (since Miraculous Cure All Elixir is free)
 * Combat spells
   * Conjuration
     * Summon X Elemental: Increase size by 1. Reduce fatigue cost to 30.
@@ -94,6 +99,7 @@ Changes
   * Call Great Hawk
   * Wild Fire
   * Revive King
+  * Summon Sea Dogs
 * Item changes
   * Armor of Knights: Resistance to piercing and slashing damage
   * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems

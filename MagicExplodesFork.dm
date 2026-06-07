@@ -618,7 +618,7 @@
 #end
 
 #selectspell 1155 --Vile Water
-#nreff 2002
+#nreff 3003
 #fatiguecost 100
 #researchlevel 0
 #pathlevel 0 1
@@ -648,6 +648,7 @@
 #fatiguecost 200
 #researchlevel 0
 #nextspell "Dogmother"
+#school -1
 #end
 
 
@@ -2945,7 +2946,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 1159 --Twiceborn
-#fatiguecost 500
+#fatiguecost 400
 #researchlevel 3
 #end
 
@@ -3655,8 +3656,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 1245 --Lichcraft
-#fatiguecost 1000
-#researchlevel 7
+#fatiguecost 1300
+#researchlevel 6
 #pathlevel 0 4
 #end
 
@@ -4217,8 +4218,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 1310 --Cure Disease
-#fatiguecost 200
-#researchlevel 3
+#fatiguecost 0
+#researchlevel 2
 #pathlevel 0 3
 #end
 
@@ -6513,7 +6514,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectspell 916 --Utterdark
 #fatiguecost 1000
-#researchlevel 6
+#researchlevel 7
 #pathlevel 0 8
 #end
 
@@ -8156,7 +8157,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #researchlevel 4
 #path 0 0
 #pathlevel 0 3
-#path 1 1
+#path 1 7
 #pathlevel 1 2
 #effect 10021
 #damagemon "Bound Jinn"
@@ -8266,7 +8267,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 309 --Contact Tatsu
-#fatiguecost 1500
+#fatiguecost 1000
 #researchlevel 4
 #pathlevel 0 2
 #end
