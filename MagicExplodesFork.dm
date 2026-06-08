@@ -1570,6 +1570,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #nreff 8008
 #end
 
+#selectmonster 1140 -- Tiger
+#gcost 0
+#end
+
 #selectspell 957 --Ambush of Tigers
 #fatiguecost 200
 #researchlevel 2
@@ -7709,7 +7713,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 
 #selectmonster 519 --Troll King
-#gcost 0
+--#gcost 0
 #expertleader
 #expertmagicleader
 #mason
@@ -7722,6 +7726,9 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectmonster 1037 -- War Troll
 #gcost 0
 #goodleader
+#end
+#selectmonster 3552 --Armored Moose
+#gcost 0
 #end
 #selectmonster 1086 -- Troll Moose Knight
 #gcost 0
