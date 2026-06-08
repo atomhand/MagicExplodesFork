@@ -97,11 +97,6 @@ Changes
   * Thaumaturgy
     * Buff Charm, Soul Slay, Control the Dead, Dust to Dust, Wither Bones
     * Enable and buff Group Luck
-* The following spells are no longer researchable
-  * Call Great Hawk
-  * Wild Fire
-  * Revive King
-  * Summon Sea Dogs
 * Item changes
   * Armor of Knights: Resistance to piercing and slashing damage
   * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
@@ -110,7 +105,18 @@ Changes
   * Enable Clam of Pearls, Sanguine Dowsing Rod, Mirror of Trapped Images, Amulet of the Dead
   * #nofind to Lycanthropos amulet
   * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garaments, Armor of the Five Elements
+* Site searching overhaul
+  * Integrate Informative Search mod (site-searching notifies you if there is a higher-level site you failed to discover)
+  * Standardise remote search spells at 1 gem cost and 1 level below their vanilla research level
+  * Buff Mirror of Earth's Memories (2->1 gem)
+  * Buff Voice of Tiamat (4->2 gems)
+  * Nerf Acashic Knowledge (5->6 gems)
 * Sites and independents
   * Add mage recruits to several independent poptypes
-  * Incorporate all DE magic site buffs (with minor alterations and removals)
+  * Incorporate all DE magic site changes, with minor alterations and removals.
   * Incorporate DE buffs to water independent recruits (including new commanders Kulullu Shaman, Triton Shaman, Merman Shaman and Shambler Shaman)
+* The following spells are no longer researchable
+  * Call Great Hawk
+  * Wild Fire
+  * Revive King
+  * Summon Sea Dogs
