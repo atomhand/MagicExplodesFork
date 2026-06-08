@@ -9900,6 +9900,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #constlevel 1
 #itemcost1 -100
 #itemcost2 -100
+#combatcaster
+#descr "The weapon smiths of T'ien Ch'i have mastered the means to balance the elements into a single perfect blade. The weapon is usually given to kings and princes, but sometimes an accomplished swordmaster is granted one of the perfect blades. The Sword of Five Elements is remarkably well balanced and reinvigorates its wielder as well as improving their ability to cast spells in the midst of combat."
 #end
 
 #selectitem 139 --Spear of the Morrigan
@@ -10920,7 +10922,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 359 --Mirror of Trapped Images
-#constlevel 3
+#constlevel 11
+#itemcost1 -100
 #end
 
 #selectitem 360 --Enchanted Mirror
@@ -10953,7 +10956,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectitem 366 --Girdle of Might
 #constlevel 3
-#itemcost1 -80
+#itemcost1 -100
 #end
 
 #selectitem 367 --Sky Metal Matrix
@@ -10990,7 +10993,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 373 --Amulet of the Dead
-#constlevel 3
+#constlevel 11
+#itemcost1 -100
 #end
 
 #selectitem 374 --Skull Mentor
@@ -11861,6 +11865,8 @@ mainlevel 1
 #constlevel 7
 #mr 2
 #unique
+#itemcost1 -33
+#itemcost2 -50
 #end
 
 #selectitem 104 --Dawn Fang
@@ -11929,6 +11935,8 @@ mainlevel 1
 #selectitem 110 --The Sword of Many Colors
 #constlevel 7
 #unique
+#itemcost1 -40
+#itemcost2 -50
 #end
 
 #selectitem 111 --Twin Spear
@@ -12049,6 +12057,8 @@ mainlevel 1
 #mainlevel 3
 #secondarylevel 2
 #unique
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectweapon 678
@@ -12093,8 +12103,8 @@ mainlevel 1
 #magiccommand 150
 #extralife
 #mainlevel 3
-#itemcost1 -80
-#itemcost2 -80
+#itemcost1 -100
+#itemcost2 -100
 #unique
 #end
 
@@ -12135,55 +12145,67 @@ mainlevel 1
 #selectitem 219 --Crown of the Fire King
 #constlevel 7
 #itemcost1 -100
+#unique
 #end
 
 #selectitem 220 --Crown of the Frost King
 #constlevel 7
 #itemcost1 -100
+#unique
 #end
 
 #selectitem 221 --The First Crown
 #constlevel 7
 #itemcost1 -100
 #itemcost2 -100
+#unique
 #end
 
 #selectitem 222 --The Crown of Pure Blood
 #constlevel 7
 #itemcost1 -100
 #itemcost2 -100
+#unique
 #end
 
 #selectitem 223 --Crown of the Elements
 #constlevel 7
-#itemcost1 -80
-#itemcost2 -80
+#itemcost1 -60
+#itemcost2 -60
+#unique
 #end
 
 #selectitem 226 --The Jade Mask
 #constlevel 7
 #itemcost1 -80
+#itemcost2 -80
+#unique
 #end
 
 #selectitem 274 --Monolith Armor
 #constlevel 7
 #itemcost1 -100
+#unique
 #end
 
 #selectitem 275 --Armor of the Dawn
 #constlevel 7
 #itemcost1 -100
 #itemcost2 -100
+#unique
 #end
 
 #selectitem 276 --Robe of Calius the Druid
 #constlevel 7
 #itemcost1 -100
+#hp 20
+#unique
 #end
 
 #selectitem 277 --Fenris' Pelt
 #constlevel 7
 #itemcost1 -100
+#unique
 #end
 
 #selectitem 278 --Armor of Virtue
@@ -12205,6 +12227,8 @@ mainlevel 1
 #selectitem 304 --Boots of Antaeus
 #constlevel 7
 #mainlevel 2
+#itemcost1 -20
+#itemcost2 -20
 #unique
 #end
 
@@ -12225,6 +12249,7 @@ mainlevel 1
 #mainlevel 3
 #hp 10
 #mapspeed 18
+#itemcost1 -100
 #unique
 #end
 
@@ -12232,6 +12257,8 @@ mainlevel 1
 #constlevel 7
 #mainlevel 1
 #secondarylevel 1
+#itemcost1 -100
+#itemcost2 -100
 #unique
 #end
 
@@ -12384,6 +12411,8 @@ mainlevel 1
 
 #selectitem 448 --The Black Mirror
 #constlevel 7
+#itemcost1 -40
+#itemcost2 -50
 #unique
 #end
 
@@ -12515,6 +12544,7 @@ mainlevel 1
 
 #selectitem 469 --Tome of Legends
 #constlevel 7
+#itemcost1 -12
 #unique
 #end
 
@@ -12526,26 +12556,32 @@ mainlevel 1
 
 #selectitem 471 --The Trapped Dreams of Hruvur
 #constlevel 7
+#itemcost1 -60
+#itemcost2 -60
 #unique
 #end
 
 #selectitem 472 --Orb of Elemental Fire
 #constlevel 7
+#itemcost1 -20
 #unique
 #end
 
 #selectitem 473 --Orb of Elemental Air
 #constlevel 7
+#itemcost1 -20
 #unique
 #end
 
 #selectitem 474 --Orb of Elemental Water
 #constlevel 7
+#itemcost1 -20
 #unique
 #end
 
 #selectitem 475 --Orb of Elemental Earth
 #constlevel 7
+#itemcost1 -20
 #unique
 #end
 

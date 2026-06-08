@@ -100,9 +100,12 @@ Changes
   * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
   * God-Slayer Spear: Blesses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
   * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Elf Bane and Magebane area damage
-  * Enable Clam of Pearls, Sanguine Dowsing Rod, Mirror of Trapped Images, Amulet of the Dead
+  * Enable Clam of Pearls and Sanguine Dowsing Rod
   * #nofind to Lycanthropos amulet
   * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garaments, Armor of the Five Elements
+  * Sword of the Five elements grants combat caster
+  * Add #unique to any RL7 items that lacked it (consistency + because a few were quite OP)
+  * Buffed many unique items. Nerfed one or two.
 * Site searching overhaul
   * Integrate Informative Search mod (site-searching notifies you if there is a higher-level site you failed to discover)
   * Standardise remote search spells at 1 gem cost and 1 level below their vanilla research level
