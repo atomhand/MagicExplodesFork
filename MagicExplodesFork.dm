@@ -19268,6 +19268,10 @@ Some of the gold allocated for the construction effort has been returned to the 
 #gems 4 1
 #end
 
+#selectsite 772 -- Witches Bog
+#com 154 -- Witch
+#end
+
 #selectsite 998 -- The Gate of Deeper Slumber
 #summon 7804 -- Night-Gaunt
 #end
@@ -20151,6 +20155,30 @@ Some of the gold allocated for the construction effort has been returned to the 
 #com 9663 -- Merman Shaman
 #end
 
+-- New sites
+
+#newsite 2212
+#name "Rune Stone"
+#path 4 
+#loc 159  -- Any Land except caves
+#level 1
+#rarity 2
+#gems 5 1
+#gems 4 1
+#com 2147  -- Seithmathr
+#end
+
+#newsite 2213
+#name "Cave of the Seithberandi"
+#path 5 
+#loc 671  -- Any land
+#level 2
+#rarity 2
+#gems 4 1
+#gems 6 1
+#com 2146  -- Seithberendr
+#end
+
 -- Water Poptype changes
 
 #selectpoptype 57  -- Atlantians
@@ -20186,6 +20214,55 @@ Some of the gold allocated for the construction effort has been returned to the 
 #defmult1 10
 #defunit1b 206 -- Shambler
 #defmult1b 3
+#end
+
+-- Other independents changes
+
+#selectmonster 1609  -- Demon Priest
+#clearmagic
+#magicskill 9 1
+#custommagic 5504 90
+#rpcost 2
+#researchbonus -4
+#end
+
+-- Other poptype changes
+
+#selectpoptype 38 -- Hoburg
+#addreccom 1198 -- Horticulturist
+#end
+
+#selectpoptype 75 -- Hoburg, LA
+#addreccom 1198 -- Horticulturist
+#end
+
+#selectpoptype 76 -- Hoburg, EA
+#addreccom 1198 -- Horticulturist
+#end
+
+#selectpoptype 81 -- Pale Ones
+#addreccom 2491 -- Engraver
+#end
+
+#selectpoptype 86 -- Bakemono
+#addreccom 1608 -- Bakemono Shaman
+#end
+
+#selectpoptype 87 -- also Bakemono
+#addreccom 1608 -- Bakemono Shaman
+#end
+
+#selectpoptype 89 -- Fir Bolg
+#addreccom 2469 -- Fir Bolg Druid
+#end
+
+#selectpoptype 99 -- Bronze Hoplites
+#addreccom 1072 -- Engineer
+#end
+
+#selectmonster 2511  -- Lava-born Commander
+#magicskill 0 1
+#custommagic 1024 20  -- 20% E
 #end
 
 --------END OF FILE--------
