@@ -48,31 +48,83 @@
 #spreaddom 1
 #end
 
+#newmonster
+#copystats 1063
+#copyspr 1063
+#name "Sacred Leocampus"
+#spreaddom 1
+#end
+
+#newmonster
+#copystats 628
+#copyspr 628
+#name "Sacred Lion"
+#spreaddom 1
+#amphibian
+#watershape "Sacred Leocampus"
+#end
+
+#newmonster
+#copystats 303
+#copyspr 303
+#name "Sacred Imp"
+#spreaddom 1
+#end
+
+#newmonster
+#copystats 2121
+#copyspr 2121
+#name "Sacred Longdead"
+#spreaddom 1
+#end
+
+#newmonster
+#copystats 297
+#copyspr 292
+#name "Sacred Illusion"
+#spreaddom 1
+#end
+
 #selectmonster 1363 -- Ancestral Spirit
 #spreaddom 1
 #end
 
-#selectmonster 757 --Vile Thing
+#newmonster
+#copystats 757 --Vile Thing
+#copyspr 757
 #montag 1341
 #montagweight 2
+#spreaddom 1
 #end
 
-#selectmonster 758 --Thing of Many Eyes
+#newmonster
+#copystats 758 --Thing of Many Eyes
+#copyspr 758
 #montag 1341
 #montagweight 2
+#spreaddom 1
 #end
 
-#selectmonster 966 --Formless Spawn
+#newmonster
+#copystats 966 --Formless Spawn
+#copyspr 966
 #montag 1341
+#spreaddom 1
 #end
 
-#selectmonster 752 --Elder Thing
+#newmonster
+#copystats 752 --Elder Thing
+#copyspr 752
 #montag 1341
+#spreaddom 1
 #end
 
-#selectmonster 756 --Lesser Otherness
+#newmonster
+#copystats 756 --Lesser Otherness
+#copyspr 756
 #montag 1341
 #montagweight 2
+#spreaddom 1
 #end
 
 #selectmonster 760 --Siege Golem
@@ -9253,7 +9305,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 --Summon Water Elemental
 #name "Holy Water"
 #descr "With a libation of blood and prayer, the priest calls forth holy waters to rise in sacred reckoning."
 #researchlevel 0
@@ -9269,7 +9321,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 --Summon Water Elemental
 #name "Sow Sacred Soil"
 #descr "With a libation of blood and prayer, the priest raises the very soil beneath their feet to smother God’s enemies in sacred reckoning."
 #researchlevel 0
@@ -9285,23 +9337,23 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 -- Summon Water Elemental
 #name "Celestial Pride"
-#descr "From the endless celestial savanna, the priest calls forth a paean of hunger in the form of several huge lions."
+#descr "From the endless celestial savanna, the priest calls forth a paean of hunger in the form of several huge lions. When cast underwater, sacred Leocampii will be summoned instead."
 #researchlevel 0
 #school 7
 #path 0 9
 #pathlevel 0 2
 #godpathspell 6
 #effect 43
-#damage 628
+#damagemon "Sacred Lion"
 #nreff 1001
 #ainocast 1
 #fatiguecost 50
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 --Summon Water Elemental
 #name "Raise Faithful"
 #descr "At the call of the priest, the dead rise again in the name of their god with the spears and shields they bore in life clutched tight in rotting fingers."
 #researchlevel 0
@@ -9310,14 +9362,14 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #pathlevel 0 2
 #godpathspell 5
 #effect 1
-#damage 2121
+#damagemon "Sacred Longdead"
 #nreff 2002
 #ainocast 1
 #fatiguecost 50
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 --Summon Water Elemental
 #name "Mirror of Man"
 #descr "Intoning ancient prayer in a dead tongue the priest becomes like a mirror, reflecting their foes into twisted forms that step through them to strike their true selves down."
 #researchlevel 0
@@ -9326,7 +9378,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #pathlevel 0 2
 #godpathspell 7
 #effect 1
-#damage 297
+#damagemon "Sacred Illusion"
 #nreff 1002
 #ainocast 1
 #fatiguecost 50
@@ -9342,14 +9394,14 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #pathlevel 0 2
 #godpathspell 8
 #effect 1
-#damage 303
+#damagemon "Sacred Imp"
 #nreff 2002
 #ainocast 1
 #fatiguecost 50
 #end
 
 #newspell
-#copyspell 927 --Summon Hawk
+#copyspell 1000 --Summon Water Elemental
 #name "Call From Beyond"
 #descr "A horrifying being from beyond space and time answers the riddle-prayer of the priest, serving in battle for its own inscrutable purposes."
 #researchlevel 0

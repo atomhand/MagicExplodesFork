@@ -78,6 +78,10 @@ Changes
   * Increase RL for Utterdark
   * Cure Disease reduced path requirement and cost 0 gems (since Miraculous Cure All Elixir is free)
 * Combat spells
+  * Divine
+    * Holy combat summons are automatically blessed
+    * Holy Water, Sow Sacred Soil, Raise Faithful, Celestial Pride, Mirror of Man and Call From Beyond can be used underwater
+    * Celestial Pride summons Leocampii when cast underwater
   * Conjuration
     * Summon X Elemental: Increase size by 1. Reduce fatigue cost to 30.
     * Living X: Increase size by 1.
@@ -93,8 +97,6 @@ Changes
   * Thaumaturgy
     * Buff Charm, Soul Slay, Control the Dead, Dust to Dust, Wither Bones
     * Enable and buff Group Luck
-  * Buff sacred combat summons
-    * Sacred Flame, Sacred Sylph, Sacred Soil, Holy Water and Ancestral Spirits are always blessed
 * The following spells are no longer researchable
   * Call Great Hawk
   * Wild Fire
