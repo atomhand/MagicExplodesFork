@@ -191,7 +191,7 @@
 
 #selectmonster 3890 --Cave Kobold
 #clearmagic
-#gcost 0
+#addupkeep -999
 #end
 
 #selectmonster 3210 --Lampad
@@ -577,15 +577,21 @@
 
 --------0Fire--------
 
+#selectmonster 118 -- War Master
+#batstartsum2d6 2510 --Lava-born
+#poormagicleader
+#startheroab 25
+#end
+
 #newspell 
 #name "Contact War Master"
 #path 0 0
-#pathlevel 0 2
+#pathlevel 0 1
 #school 0
 #fatiguecost 100
 #effect 10021
 #damage 118
-#descr "The caster reignites the rage of a retired War Master, bringing him back to serve on the battlefield. The War Master "
+#descr "The caster reignites the rage of a retired War Master, bringing him back to serve on the battlefield. The War Master is an expert leader of mundane troops and veterans of the cavern wars will follow him into battle."
 #end
 
 #selectmonster 440 -- Paladin
@@ -1080,6 +1086,10 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 --------0Astral--------
 
+#selectmonster 1022 --Thrall
+#addupkeep -999
+#end
+
 #newspell
 #name "Dominate Thralls"
 #fatiguecost 100
@@ -1092,14 +1102,151 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #nreff 25025
 #end
 
+-- best magic leader
+#selectmonster 2323 --Adventurer (charismatic)
+#montag 1342
+#okmagicleader
+#addupkeep -999
+#startheroab 25
+#xpgain 50
+#end
+
+#newmonster
+#copystats 2323
+#copyspr 2323
+#startitem 75 -- Enchanted Sword
+#end
+
+#newmonster
+#copystats 2323
+#copyspr 2323
+#startitem 232 -- Enchanted Ring Mail Armor
+#end
+
+#newmonster
+#copystats 2323
+#copyspr 2323
+#startitem 186 -- Enchanted Helmet
+#end
+
+-- best conventional leader (but old age)
+#selectmonster 2324 --Adventurer (barbarian)
+#montag 1342
+#poormagicleader
+#addupkeep -999
+#startheroab 25
+#xpgain 50
+#end
+
+#newmonster
+#copystats 2324
+#copyspr 2324
+#startitem 22 -- Greatsword of Sharpness
+#end
+
+#newmonster
+#copystats 2324
+#copyspr 2324
+#startitem 312 -- Bear Claw Talisman
+#end
+
+#newmonster
+#copystats 2324
+#copyspr 2324
+#startitem 190 -- Horned Helmet
+#end
+
+#selectmonster 2325 --Adventurer (crossbow)
+#montag 1342
+#goodleader
+#poormagicleader
+#addupkeep -999
+#startheroab 25
+#xpgain 50
+#end
+
+#newmonster
+#copystats 2325
+#copyspr 2325
+#startitem 146 --Piercer
+#end
+
+#newmonster
+#copystats 2325
+#copyspr 2325
+#startitem 143 --Just Man's Cross
+#end
+
+#newmonster
+#copystats 2325
+#copyspr 2325
+#startitem 342 --Pendant of Luck
+#end
+
+#selectmonster 2332 --Adventurer (archer)
+#montag 1342
+#okmagicleader
+#addupkeep -999
+#beastmaster 1
+#startheroab 25
+#xpgain 50
+#end
+
+#newmonster
+#copystats 2332
+#copyspr 2332
+#startitem 340 -- Cat Charm
+#end
+
+#newmonster
+#copystats 2332
+#copyspr 2332
+#startitem 144 -- Trueshot Longbow
+#end
+
+#newmonster
+#copystats 2332
+#copyspr 2332
+#startitem 292 -- Ranger's Boots
+#end
+
 #newspell
-#name "Contact Grey Lord"
+#name "Call to Adventure"
 #path 0 4
-#pathlevel 0 2
-#school 0
+#pathlevel 0 1
+#researchlevel 0
+#school 5
 #effect 10021
-#damagemon "Grey Lord"
+#damage -1342
 #fatiguecost 100
+#descr "The caster contacts an adventurer and dispenses sage advice that will guide them onto the path of serving the True God. Adventurers have different specialties, but they all gain experience faster than others. They often already have their own magical equipment and a few even have heroic abilities."
+#end
+
+#selectmonster 390 --Grey Knight
+#addupkeep -999
+#skilledrider 5
+#end
+
+#selectmonster 391 --Grey Lord
+#addupkeep -999
+#superiorleader
+#skilledrider 5
+#end
+
+#newspell
+#name "Dispatch Grey Lord"
+#path 0 4
+#pathlevel 0 3
+#school 5
+#researchlevel 5
+#effect 10037 --Farsummon
+#provrange 5
+#farsumcom 391  -- Grey Lord
+#damage 390 -- Grey Knight
+#fatiguecost 1000
+#nreff 7007
+#nogeodst 4
+#descr "The caster reaches through time and space to contract the services of a Grey Lord and his retinue of Grey Knights. They can manifest to attack a distant province and will remain in service after the battle."
 #end
 
 
@@ -1468,6 +1615,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #path 1 -1
 #effect 10037
 #provrange 3
+#nogeodst 4
 #end
 
 #selectmonster 284 --Wolf
@@ -1571,7 +1719,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectmonster 1140 -- Tiger
-#gcost 0
+#addupkeep -999
 #end
 
 #selectspell 957 --Ambush of Tigers
@@ -7544,7 +7692,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 326 --Send Vodyanoy
-#fatiguecost 1000
+#fatiguecost 1700
 #researchlevel 3
 #end
 
@@ -7586,7 +7734,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 594 --Contact Dai Tengu
-#fatiguecost 3700
+#fatiguecost 2800
 #researchlevel 4
 #end
 
@@ -7679,6 +7827,37 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #nreff 9009
 #end
 
+#selectmonster 2096 --Kenzoku
+#copystats 3282 --Soldier Priest
+#name "Kenzoku"
+#nametype 134
+#clearweapons
+#weapon 527 --Enchanted Katana
+#cleararmor
+#armor 130 --Heavy Samurai Armor
+#armor 132 --Kabuto
+#gcost 0
+#hp 26
+#mr 15
+#mor 16
+#str 15
+#att 15
+#def 15
+#prec 13
+#ap 12
+#mapmove 20
+#enc 0
+#maxage 500
+#magicbeing
+#ethereal
+#goodleader
+#command 20
+#goodmagicleader
+#magiccommand 20
+#inspirational 1
+#heal
+#end
+
 #selectspell 310 --Summon Kenzoku
 #fatiguecost 100
 #researchlevel 3
@@ -7713,25 +7892,25 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 
 #selectmonster 519 --Troll King
---#gcost 0
+#addupkeep -999
 #expertleader
 #expertmagicleader
 #mason
 #end
 
 #selectmonster 518 -- Troll
-#gcost 0
+#addupkeep -999
 #okleader
 #end
 #selectmonster 1037 -- War Troll
-#gcost 0
+#addupkeep -999
 #goodleader
 #end
 #selectmonster 3552 --Armored Moose
-#gcost 0
+#addupkeep -999
 #end
 #selectmonster 1086 -- Troll Moose Knight
-#gcost 0
+#addupkeep -999
 #goodleader
 #end
 
@@ -7923,11 +8102,11 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectmonster 2219 -- Forest Troll
-#gcost 0
+#addupkeep -999
 #end
 
 #selectmonster 2220 -- Troll Shaman
-#gcost 0
+#addupkeep -999
 #end
 
 #selectspell 1017 --Winged Monkeys
@@ -8002,7 +8181,6 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #nreff 4
 #fatiguecost 100
 #pathlevel 0 2
-#path 1 -1
 #researchlevel 4
 #end
 
@@ -8059,7 +8237,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectmonster 564 -- Sea Troll
-#gcost 0
+#addupkeep -999
 #end
 
 #newmonster
@@ -8103,11 +8281,11 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end 
 
 #selectmonster 1425 -- Troll Guard
-#gcost 0
+#addupkeep -999
 #end
 
 #selectmonster 580 -- Sea King
-#gcost 0
+#addupkeep -999
 #end
 
 #selectspell 1002 --Summon Winter Wolves
@@ -8544,7 +8722,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 333 --Contact Beregina
-#fatiguecost 2400
+#fatiguecost 2100
 #researchlevel 5
 #pathlevel 0 2
 #end
@@ -8559,7 +8737,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 335 --Contact Cloud Vila
-#fatiguecost 2900
+#fatiguecost 2300
 #researchlevel 6
 #pathlevel 0 3
 #end
@@ -8652,7 +8830,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 334 --Contact Mountain Vila
-#fatiguecost 2900
+#fatiguecost 2300
 #researchlevel 6
 #pathlevel 0 3
 #end
@@ -8707,7 +8885,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 354 --Call Arel
-#fatiguecost 2000
+#fatiguecost 1800
 #researchlevel 5
 #pathlevel 0 3
 #end
@@ -8926,7 +9104,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 336 --Contact Leshiy
-#fatiguecost 4500
+#fatiguecost 3000
 #researchlevel 7
 #pathlevel 0 5
 #end
@@ -8957,7 +9135,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectspell 355 --Call Ophan
-#fatiguecost 1000
+#fatiguecost 900
 #researchlevel 6
 #pathlevel 0 4
 #end
@@ -9062,8 +9240,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 
-#selectspell 1464 -- Summon Lamua
-#fatiguecost 2600
+#selectspell 1464 -- Summon Lauma
+#fatiguecost 2300
 #end
 
 --------HOLY MAGIC--------

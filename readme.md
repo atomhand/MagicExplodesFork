@@ -52,15 +52,17 @@ Changes
   * Awaken Algae Men path reverted to Nature.
   * Construct Manikin path reverted to Nature and Death.
   * Terracotta Army paths reverted to Fire and Earth
+  * Summon Ether Warriors reverted to Astral and Death
   * Awaken Sleeper path reverted to Glamour. Sleepers are no longer stealthy.
   * Contact Scorpion Men swapped Fire and Earth paths
   * Heavenly Wrath swap primary path to Fire
   * Remove magic command from Bane commander
-  * Kenzoku reverted to vanilla stats (ldr 100, mldr 100, not immortal)
+  * Kenzoku loses immortal but gets several compensation stats (inspirational 1, recuperation, 0 enc, improved mapmove)
   * Summon Kappa is now available to all nations
 * New rituals
-  * Contact Grey Lord (Conj0 S2, replaces Summon Ether Vanguard) - commander summon
-  * Contact War Master (Conj0 F2, replaces Scorpion King) - commander summon
+  * Call to Adventure (Thaum0 S1, replaces Summon Ether Vanguard) - commander summon, get a random adventurer with a good chance of a Const1 item and occasionally a heroic ability
+  * Contact War Master (Conj0 F1, replaces Scorpion King) - commander summon
+  * Dispatch Grey Lord (Thaum5 S3) - remote summon Grey Lord and his Grey Knights
   * Sea Lord's Court (Conj5 W3) - The Sea Lord is a lesser version of the Sea King and comes with a solid retinue of Troll Guards.
   * Dominate Thralls (Thaum0 S1) - troop summon
   * Infernal Promotion (Blood4 B3) - promote a non mindless demon to a commander
