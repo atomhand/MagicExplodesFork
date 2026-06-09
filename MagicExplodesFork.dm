@@ -7856,6 +7856,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #magiccommand 20
 #inspirational 1
 #heal
+#startheroab 25
 #end
 
 #selectspell 310 --Summon Kenzoku
@@ -9666,7 +9667,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 161 --Blacksteel Kite Shield
-#constlevel 1
+#constlevel 11
 #itemcost1 -100
 #end
 
@@ -9683,7 +9684,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 185 --Blacksteel Helmet
-#constlevel 1
+#constlevel 11
 #itemcost1 -100
 #end
 
@@ -9700,7 +9701,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 230 --Blacksteel Plate
-#constlevel 1
+#constlevel 11
 #itemcost1 -100
 #end
 
@@ -9761,6 +9762,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #constlevel 1
 #itemcost1 -100
 #itemcost2 -100
+#batstartsum1d3 694 --Great Bear
 #end
 
 #selectitem 313 --Rabbit Foot Charm
@@ -10217,9 +10219,18 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #ivylord 5
 #end
 
+#newweapon
+#copyweapon 334 --Gore
+#name "Helmet Gore"
+#aoe 1
+#armorpiercing
+#dmg 4
+#end
+
 #selectitem 190 --Horned Helmet
 #constlevel 1
 #itemcost1 -100
+#weapon "Helmet Gore"
 #end
 
 #selectitem 191 --Ice Helmet
@@ -10401,6 +10412,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectitem 328 --Flask of Holy Water
 #constlevel 1
 #itemcost1 -100
+#batstartsum1d6 4140 --Holy Water
 #end
 
 #selectitem 329 --Clam of Pearls
@@ -10476,6 +10488,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #constlevel 1
 #mainlevel 1
 #itemcost1 -100
+#batstartsum1d6 4092
 #end
 
 #selectitem 341 --Enormous Cauldron of Broth
@@ -10512,12 +10525,25 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 347 --Imp Familiar
-#constlevel 11
+#constlevel 1
+#researchbonus 0
+#itemcost1 -80
+#magiccommand 50
+#undcommand 50
 #end
 
 #selectitem 348 --Soul Contract
-#constlevel 11
-#itemcost1 -100
+#copyspr 463 --Protection of Geryon (so sprite is different from LLP)
+#descr "The Blood mage sacrifices nearly a score of slaves to get the attention of Infernal powers. When contact is made, an Infernal Lord offers a contract, to be signed in blood. Whoever signs the contract promises his soul, to be collected at the time of his death, to the Infernal Lord. In exchange for this fair and valuable consideration, the signatory will, for as long as he lives, receive one bound devil each month from the Infernal Lord and be fortified in battle by infernal power."
+#mainlevel 2
+#constlevel 3
+#itemcost1 30
+#itemcost2 -40
+#autospell "Hell Power"
+#noinanim
+#nodemon
+#noundead
+#nationrebate 104 -- LA Abysia
 #end
 
 #selectitem 349 --Witches' Ointment 
@@ -10589,6 +10615,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectitem 51 --Shock Trident
 #constlevel 3
 #itemcost1 -100
+#shockres 10
 #end
 
 #selectitem 52 --Staff of Corrosion
@@ -10610,6 +10637,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 #selectitem 54 --Frost Brand
 #constlevel 3
+#coldpower 1
 #itemcost1 -100
 #end
 
@@ -10737,10 +10765,13 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #selectitem 87 --Moon Blade
 #constlevel 1
 #itemcost1 -100
+#ethereal
+#magicpower 1
 #end
 
 #selectweapon 788 --Cause Fatigue
-#aoe 15
+#aoe 10
+#friendlyimmune
 #end
 #selectitem 130 --Star of Darkness
 #constlevel 3
@@ -10982,8 +11013,8 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectitem 253 --Robe of Shadows
 #constlevel 3
-#mainlevel 1
 #itemcost1 -100
+#invulnerable 20
 #end
 
 #selectitem 254 --Shademail Haubergeon
@@ -11171,8 +11202,11 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 373 --Amulet of the Dead
-#constlevel 11
+#constlevel 3
+#descr "This amulet is made of a green turquoise and will enhance its user's effectiveness at raising the dead. It is commonly used by necromancers and undead priests. Half of all enemies killed by the wearer will be raised as soulless minions. The creation of permanent Ghouls, Longdead, and Soulless is enhanced by this amulet."
 #itemcost1 -100
+#mainlevel 3
+#raiseonkill 50
 #end
 
 #selectitem 374 --Skull Mentor
@@ -11293,8 +11327,12 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #itemcost1 -100
 #end
 
-#selectitem 396 --Lifelong Protection
-#constlevel 11 --TODO not sure about turning this off either
+#selectitem 396 --Life Long Protection
+#constlevel 5
+#itemcost1 -100
+#noinanim
+#nodemon
+#noundead
 #end
 
 #selectitem 397 --Blood Stone
@@ -11382,7 +11420,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 #selectitem 49 --Fire Brand
 #constlevel 3
-#dragonlord 2
+#firepower 1
 #itemcost1 -100
 #secondarypath -1
 #end
@@ -11425,6 +11463,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectweapon 277
 #aoe 7
+#friendlyimmune
 #end
 #selectitem 79 --Demon Whip
 #constlevel 5
@@ -11439,6 +11478,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 
 #selectweapon 219
 #aoe 8
+#friendlyimmune
 #end
 #selectitem 81 --Star of Thraldom
 #constlevel 5
@@ -11529,6 +11569,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #hp 10
 #itemcost1 -100
 #itemcost2 -100
+#batstartsum2d6 303 --Imp
 #end
 
 #selectitem 96 --Master's Athame
@@ -11846,6 +11887,8 @@ mainlevel 1
 #constlevel 5
 #magiccommand 60
 #itemcost1 -100
+#batstartsum1 3730 --Size 9 Water Elemental
+#batstartsum1d3 3735 --Size 4 Water Elemental
 #end
 
 #selectitem 405 --Sea King's Goblet
@@ -11897,13 +11940,13 @@ mainlevel 1
 #selectitem 413 --Ring of Wizardry
 #constlevel 5
 #mainlevel 6
-#unique
+#itemcost1 -20
 #end
 
 #selectitem 414 --Ring of Sorcery
 #constlevel 5
 #mainlevel 5
-#unique
+#itemcost1 -20
 #end
 
 #selectitem 415 --Elixir of Life
@@ -12148,6 +12191,7 @@ mainlevel 1
 #selectitem 116 --The Flailing Hands
 #constlevel 7
 #unique
+#raiseonkill 75
 #end
 
 #selectitem 117 --The Sickle whose Crop is Pain
@@ -12681,9 +12725,7 @@ mainlevel 1
 #end
 
 #selectitem 463 --The Protection of Geryon
-#constlevel 5
-#itemcost1 -50
-#unique
+#constlevel 11
 #end
 
 #selectitem 464 --The Manual of Cross Breeding
@@ -12788,8 +12830,6 @@ mainlevel 1
 #itemcost2 -100
 #unique
 #end
-
-
 
 
 

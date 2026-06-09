@@ -1,7 +1,6 @@
 A fork of the Magic Explodes mod for Dominions 6
 
 Changes
-* Reduce cost of non-unique path-boosting items by 20%.
 * Integrated a modified version of Bluefire's Faster Forts mod
   * Forts construction is 2 turns faster
   * If a fort is built from start to end by a Mason, pay 600 gold on completion to build a Fortress directly
@@ -97,14 +96,27 @@ Changes
   * Thaumaturgy
     * Buff Charm, Soul Slay, Control the Dead, Dust to Dust, Wither Bones
     * Enable and buff Group Luck
-* Item changes
+* Item changes  
+  * #Reduce cost of non-unique path-boosting items by 20%.#
+  * Ring of Sorcery and Ring of Wizardry reverted to non-unique (and benefit from the above buff)
   * Armor of Knights: Resistance to piercing and slashing damage
   * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
   * God-Slayer Spear: Blesses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
-  * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Elf Bane and Magebane area damage
+  * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Star of Darkness, Demon Whip, Star of Darkness, Evening Star, Elf Bane and Magebane area damage
+  * Moon Blade grants ethereality and Magic Power 1
+  * Fire Brand grants heat power 1 and Frost brand grants cold power 1
+  * Robe of Shadows grants invuln 20 and reverted to S2 path requirement
+  * Horned Helmet - AoE 1, armor piercing, +4 dmg
+  * Added retinue to several weaker items (Bear Claw Talisman, Cat Charm, Hell Sword, Flask of Holy Water)
+  * Bottle of Living Water retinue improved to 1 size 9 and 1d3 size 4 water elementals
+  * Soul Contract enabled. Cost 13B/3F and, in addition to the old effects, autocasts Hell Power in battle.
+  * Enable Amulet of the Dead. Added 50% chance to raise killed enemies as Soulless. Path requirement increased to 3.
+  * Enable and rework Imp Familiar. Lose research bonus, gain undead and magic command bonus.
+  * Enable LLP as a free item. (this is a test)
   * Enable Clam of Pearls and Sanguine Dowsing Rod
+  * Disabled Protection of Geryon
   * #nofind to Lycanthropos amulet
-  * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garaments, Armor of the Five Elements
+  * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garments, Armor of the Five Elements
   * Sword of the Five elements grants combat caster
   * Add #unique to any RL7 items that lacked it (consistency + because a few were quite OP)
   * Buffed many unique items. Nerfed one or two.
