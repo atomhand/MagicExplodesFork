@@ -12780,9 +12780,10 @@ mainlevel 1
 #end
 
 #selectitem 467 --Tome of the Forgotten Masons
-#constlevel 5
-#itemcost1 -100
-#itemcost2 -100
+#descr "Master Masons are known for their great skill at constructing fortifications, but there was a trio of Masons who showed skills that were far beyond that which other Master Masons could achieve. The trio of Masons constructed some of the most wonderful buildings before they disappeared and were never heard from again. Most people forgot about them, but the Master Masons remembered and continued to research how they could construct such buildings. Rumor says the trio made a pact with infernal powers using blood sacrifices to gain their great skills. The owner of this tome will be able to construct forts that are one level better than what would otherwise be possible. If the legends are to believed, the techniques in the Tome can even construct a Citadel overnight, so long as the funds are available to pay for it."
+#constlevel 7
+#itemcost1 -75
+--#itemcost2 -100
 #unique
 #end
 
@@ -15058,8 +15059,134 @@ mainlevel 1
 #end
 
 
--- Mason fort skip
 
+
+
+-- Forgotten Masons fort skip
+-- Unlike regular Masons, Tome of Forgotten masons should take effect smoothly even if we take over from
+-- a previous construction
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [First Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2331
+#end
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [Second Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2332
+#end
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [Third Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2333
+#end
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [Fourth Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2334
+#end
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [Fifth Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2335
+#end
+
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury. [Second Month of Fort Construction]"
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#req_site 1
+#removesite 2332
+#end
+
+-- Mason fort skip
 
 #newevent -- Finish Fort
 #rarity 5
@@ -15072,6 +15199,25 @@ mainlevel 1
 #req_gold 600
 #forceexactgold -600
 #req_targmnr 748 --Master Mason
+#req_targorder 20 -- Build Fort
+#msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
+#req_fort 0
+#req_site 1
+#removesite 2332
+#fort 2
+#end
+
+#newevent -- Finish Fort
+#rarity 5
+#req_pop0ok
+#req_land 1
+#nation -2
+#nolog
+#header 2
+#req_varzero 6011
+#req_gold 600
+#forceexactgold -600
+#req_targmnr "Student of Forgotten Masonry"
 #req_targorder 20 -- Build Fort
 #msg "Under the supervision of the mason ##targname##, the Fortress in ##landname## has been completed. [Second Month of Fort Construction]"
 #req_fort 0
@@ -17540,6 +17686,55 @@ Some of the gold allocated for the construction effort has been returned to the 
 
 
 
+-- Tome of the Forgotten masons
+#newevent -- Tome of the Forgotten Masons instant construction
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#msg "A Citadel was built using forbidden methods.
+
+Using the forbidden secrets of the Forgotten Masons, ##targname## organised the construction of a Citadel from nothing in just a few short weeks.
+The additional construction costs were taken directly from the treasury."
+#req_fort 0
+#fort 25
+#req_gold 1800
+#forceexactgold -1800
+#end
+
+#newmonster
+#copystats 748 -- Master Mason
+#name "Student of Forgotten Masonry"
+#spr1 "mextended/forgotten_mason1.png"
+#spr2 "mextended/forgotten_mason2.png"
+#gcost 10000
+#descr "The Tome of Forgotten Masons has attracted Master Masons from far and wide. Having travelled far in search of the Tome, the students of forgotten masonry are willing to serve its master for a nominal stipend. Master Masons are highly skilled architects and masters of siege warfare. Master Masons are able to construct more advanced forts than ordinary commanders. The Masons are also invaluable when leading sieges as they know exactly where to aim the trebuchets for maximum effect."
+#end
+
+
+#newsite 2401
+#clear
+#name "Guild of Forgotten Masons"
+#rarity 5
+#level 9
+#path 3
+#res 50
+#com "Student of Forgotten Masonry"
+#end
+
+#newevent -- Tome of the Forgotten Masons inspires mason's guild
+#rarity 5
+#req_pop0ok
+#nation -2
+#req_unique 1
+#req_targorder 20 -- Build Fort
+#req_targitem 467
+#fort 1
+#msg "A fort was built to the directions of the Tome of the Forgotten Masons. Talented masons have gathered from far and wide to study it."
+#addsite 2401
+#end
 
 
 #newevent -- Place fort turn 5
@@ -17642,6 +17837,19 @@ Some of the gold allocated for the construction effort has been returned to the 
 #msg "text"
 #req_targnoitem 467 --Tome of the Forgotten Masons
 #req_targmnr 748 --Master Mason
+#req_targorder 20 -- Build Fort
+#decvar 6011
+#end
+
+#newevent -- Master Mason
+#rarity 5
+#req_pop0ok
+#nation -2
+#nolog
+#notext
+#msg "text"
+#req_targnoitem 467 --Tome of the Forgotten Masons
+#req_targmnr "Student of Forgotten Masonry"
 #req_targorder 20 -- Build Fort
 #decvar 6011
 #end

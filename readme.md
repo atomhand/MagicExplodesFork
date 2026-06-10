@@ -122,6 +122,7 @@ Changes
   * Buffed many unique items. Nerfed one or two.
   * Unique item reworks
     * The Monolith Armor fuses with its wearer to become a mighty Monolith Titan
+    * Tome of the Forgotten Masons - the user can build a Citadel from nothing in a single turn (deducting the 1800 extra cost). According, cost increased to 10 gems and RL increased to 7.
 * Site searching overhaul
   * Integrate Informative Search mod (site-searching notifies you if there is a higher-level site you failed to discover)
   * Standardise remote search spells at 1 gem cost and 1 level below their vanilla research level
