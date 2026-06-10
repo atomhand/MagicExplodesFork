@@ -711,21 +711,19 @@
 
 
 
-#selectsite 54 -- The Gate of Spring and Autumn
+#newsite 2400
+#clear
+#name "Heavenly Opportunity"
 #xp 1
-#end
-
-#selectsite 50 -- The Heavenly Gate (MA)
-#xp 1
-#end
-
-#selectsite 130 -- The Heavenly Gate (LA)
-#xp 1
+#rarity 5
+#level 9
+#path 2 -- water
+#look 0
 #end
 
 #newspell
 #name "Condensed Spiritual Energy"
-#descr "The spiritual energy has been gathered by the Celestial Master and is rapidly dispersing."
+#descr "The spiritual energy has been gathered by the Celestial Master."
 #school -1
 #researchlevel 4
 #path 0 2
@@ -735,13 +733,15 @@
 #fatiguecost 400
 #effect 10082
 #damage 300 --Ench00
-#fatiguecost 3500
+#fatiguecost 400
 #nreff 1
 #end
 
 #newspell
 #copyspell 106  -- Record of Creation
-#name "Condense Spiritual Energy (EA)"
+#name "Condense Spiritual Energy"
+#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the beneficiary in the magic of one of the Five Elements, so long as they are a living creature who does not already know magic."
+#details "The spell creates a Heavenly Opportunity magic site. When a valid commander enters the site, they will gain random magic paths and the site will disappear. Cultivation requires solitude - there can only be one Heavenly Opportunity in a province at one time, and commanders entering other sites in the same province can interfere with the successful cultivation."
 #school 1
 #researchlevel 0
 #path 0 2
@@ -753,32 +753,9 @@
 #damage -1
 #nreff 1
 #nextspell "Condensed Spiritual Energy"
-#end
-
-#newspell
-#copyspell "Condense Spiritual Energy (EA)"
-#name "Condense Spiritual Energy"
-#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
-#details "To successfully use this ritual, a commander must enter the Heavenly Gate on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
-#onlyatsite 50 - Heavenly Gate (MA)
-#restricted 69 -- MA TC
-#end
-
-#newspell
-#copyspell "Condense Spiritual Energy (EA)"
-#name "Condense Spiritual Energy"
-#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
-#details "To successfully use this ritual, a commander must enter the Heavenly Gate on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
-#onlyatsite 130 -- Heavenly Gate (LA)
-#restricted 109 -- LA TC
-#end
-
-#selectspell "Condense Spiritual Energy (EA)"
-#name "Condense Spiritual Energy"
-#descr "The Celestial Master condenses sufficient spiritual energy to allow a layperson to unlock their latent potential through inner cultivation. This can empower the target in the magic of one of the Five Elements."
-#details "To successfully use this ritual, a commander must enter the Gate of Spring and Autumn on the same turn the ritual is cast. There is no effect if the target is undead, inanimate, a demon, or already has magic paths."
-#onlyatsite 54 -- The Gate of Spring and Autumn
-#restricted 22 -- EA TC
+#restricted 22 -EA TC
+#restricted 69 --MA TC
+#restricted 109 --LA TC
 #end
 
 #newevent
@@ -788,11 +765,10 @@
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 0
 #end
 
@@ -803,11 +779,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 1
 #end
 
@@ -818,11 +793,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 2
 #end
 
@@ -833,11 +807,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 3
 #end
 
@@ -848,11 +821,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 4
 #end
 
@@ -863,11 +835,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 5
 #end
 
@@ -878,11 +849,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 6
 #end
 
@@ -893,11 +863,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 7
 #end
 
@@ -908,11 +877,10 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Failed cultivation!
 
-One of your commanders tried to cultivate spiritual power. Since ##targname## already has magical powers, this was a waste of time."
-#req_friendlyench 300 --Ench00
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. Since ##targname## already has magical powers, the opportunity was wasted. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targorder 50
-#req_varzero 6012
-#incvar 6012
 #req_targpath1 8
 #end
 
@@ -924,15 +892,13 @@ One of your commanders tried to cultivate spiritual power. Since ##targname## al
 #header 2
 #msg "Successful cultivation!
 
-One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Fire."
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Fire. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targundead 0
-#req_targdemon 0
 #req_targinanimate 0
-#req_friendlyench 300 --Ench00
 #req_targorder 50
 #pathboost 0
-#req_varzero 6012
-#incvar 6012
 #end
 
 #newevent
@@ -943,15 +909,13 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #header 2
 #msg "Successful cultivation!
 
-One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Air."
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Air. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targundead 0
-#req_targdemon 0
 #req_targinanimate 0
-#req_friendlyench 300 --Ench00
 #req_targorder 50
 #pathboost 1 -- Air
-#req_varzero 6012
-#incvar 6012
 #end
 
 #newevent
@@ -962,15 +926,13 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #header 2
 #msg "Successful cultivation!
 
-One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Water."
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Water. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targundead 0
-#req_targdemon 0
 #req_targinanimate 0
-#req_friendlyench 300 --Ench00
 #req_targorder 50
 #pathboost 2 -- Water
-#req_varzero 6012
-#incvar 6012
 #end
 
 #newevent
@@ -981,15 +943,13 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #header 2
 #msg "Successful cultivation!
 
-One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Earth."
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Earth. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targundead 0
-#req_targdemon 0
 #req_targinanimate 0
-#req_friendlyench 300 --Ench00
 #req_targorder 50
 #pathboost 3 -- Earth
-#req_varzero 6012
-#incvar 6012
 #end
 
 #newevent
@@ -999,27 +959,29 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #header 2
 #msg "Successful cultivation!
 
-One of your commanders tried to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Nature."
+One of your commanders encountered good fortune and attempted to cultivate spiritual power. ##targname## had the necessary aptitude and is now empowered in Nature. [Heavenly Opportunity]"
+#req_site 1
+#removesite 2400
 #req_targundead 0
-#req_targdemon 0
 #req_targinanimate 0
-#req_friendlyench 300 --Ench00
 #req_targorder 50
 #pathboost 6 -- Nature
-#req_varzero 6012
-#incvar 6012
 #end
 
-#newevent -- Clear var
+-- Create heavenly opportunity
+#newevent
 #rarity 5
+#req_ench 300
+#req_nositenbr 2400
+#req_freesites 1
 #req_pop0ok
-#nation -2
-#nolog
+#msg "Spiritual energy condenses into a heavenly opportunity"
 #notext
-#msg "text"
-#req_varpos 6012
-#clearvar 6012
+#nolog
+#addsite 2400
 #end
+
+
 
 --------End 0Water--------
 
