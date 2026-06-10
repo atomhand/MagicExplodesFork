@@ -120,6 +120,8 @@ Changes
   * Sword of the Five elements grants combat caster
   * Add #unique to any RL7 items that lacked it (consistency + because a few were quite OP)
   * Buffed many unique items. Nerfed one or two.
+  * Unique item reworks
+    * The Monolith Armor fuses with its wearer to become a mighty Monolith Titan
 * Site searching overhaul
   * Integrate Informative Search mod (site-searching notifies you if there is a higher-level site you failed to discover)
   * Standardise remote search spells at 1 gem cost and 1 level below their vanilla research level

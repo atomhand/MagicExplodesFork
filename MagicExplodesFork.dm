@@ -9667,7 +9667,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 161 --Blacksteel Kite Shield
-#constlevel 11
+#constlevel 1
 #itemcost1 -100
 #end
 
@@ -9684,7 +9684,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 185 --Blacksteel Helmet
-#constlevel 11
+#constlevel 1
 #itemcost1 -100
 #end
 
@@ -9701,7 +9701,7 @@ One of your commanders tried to cultivate spiritual power. ##targname## had the 
 #end
 
 #selectitem 230 --Blacksteel Plate
-#constlevel 11
+#constlevel 1
 #itemcost1 -100
 #end
 
@@ -12406,8 +12406,77 @@ mainlevel 1
 
 #selectitem 274 --Monolith Armor
 #constlevel 7
-#itemcost1 -100
+--#itemcost1 -100
+#descr "This unbelievably massive armor is crafted out of black obsidian and is so heavy that it seems immovable. Indeed, were it not for the powerful spells welded into its construction, the enormous weight would render the wearer immobile. As it is, the armour propels itself, freeing the wearer to concentrate on casting spells. The wearer will be rendered virtually impervious to any sort of harm and the wounds upon his flesh will close at awesome speed. The wearer of this massive armor is impervious to fear."
 #unique
+#regeneration 0
+#reconst 10
+#noundead
+#cursed
+#nofind
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targitem 274 -- Monolith Armor
+#req_targmindless 1
+#req_targnomnr "Monolith Titan (Mindless)"
+#forcetransform "Monolith Titan (Mindless)"
+#msg "##targname## has fused with the Monolith Armor!"
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targitem 274 -- Monolith Armor
+#req_targnomnr "Monolith Titan"
+#forcetransform "Monolith Titan"
+#msg "##targname## has fused with the Monolith Armor!"
+#end
+
+#newmonster
+#name "Monolith Titan"
+#spr1 "mextended/monolith_titan.png"
+#drawsize 20
+#descr "A wearer has fused with the Monolith Armour. This unbelievably massive armor is crafted out of black obsidian and is so heavy that it seems immovable. Indeed, were it not for the powerful spells welded into its construction, the enormous weight would render the wearer immobile. As it is, the armour propels itself, freeing the wearer to concentrate on casting spells. The wearer will be rendered virtually impervious to any sort of harm and the wounds upon his flesh will close at awesome speed. The wearer of this massive armor is impervious to fear."
+#hp 125
+#size 10
+#prot 0
+#mr 18
+#mor 30
+#str 28
+#att 8
+#def 8
+#prec 8
+#ap 8
+#mapmove 16
+#enc 0
+#maxage 5000
+#pooramphibian
+#slashres
+#bluntres
+#pierceres
+#inanimate
+#neednoteat
+#heal 1
+#woundfend 2
+#humanoid
+#itemslots 852486
+#polyimmune
+#bonusspells 1
+#stonebeing
+#end
+
+#newmonster
+#copystats "Monolith Titan"
+#copyspr "Monolith Titan"
+#name "Monolith Titan (Mindless)"
+#mindless
 #end
 
 #selectitem 275 --Armor of the Dawn
