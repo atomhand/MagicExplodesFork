@@ -1066,7 +1066,6 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 
 -- best magic leader
 #selectmonster 2323 --Adventurer (charismatic)
-#montag 1342
 #okmagicleader
 #addupkeep -999
 #startheroab 25
@@ -1076,24 +1075,37 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #newmonster
 #copystats 2323
 #copyspr 2323
+#montag 1342
+#montagweight 2
 #startitem 75 -- Enchanted Sword
 #end
 
 #newmonster
 #copystats 2323
 #copyspr 2323
+#montag 1342
+#montagweight 2
 #startitem 232 -- Enchanted Ring Mail Armor
 #end
 
 #newmonster
 #copystats 2323
 #copyspr 2323
+#montag 1342
+#montagweight 2
 #startitem 186 -- Enchanted Helmet
+#end
+
+#newmonster
+#copystats 2323
+#copyspr 2323
+#montag 1342
+#montagweight 2
+#startitem 162 --Enchanted Shield
 #end
 
 -- best conventional leader (but old age)
 #selectmonster 2324 --Adventurer (barbarian)
-#montag 1342
 #poormagicleader
 #addupkeep -999
 #startheroab 25
@@ -1103,23 +1115,36 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #newmonster
 #copystats 2324
 #copyspr 2324
+#montag 1342
+#montagweight 2
 #startitem 22 -- Greatsword of Sharpness
 #end
 
 #newmonster
 #copystats 2324
 #copyspr 2324
+#montag 1342
+#montagweight 2
 #startitem 312 -- Bear Claw Talisman
 #end
 
 #newmonster
 #copystats 2324
 #copyspr 2324
+#montag 1342
+#montagweight 2
 #startitem 190 -- Horned Helmet
 #end
 
-#selectmonster 2325 --Adventurer (crossbow)
+#newmonster
+#copystats 2324
+#copyspr 2324
 #montag 1342
+#montagweight 2
+#startitem 238 --Shambler Skin Armor
+#end
+
+#selectmonster 2325 --Adventurer (crossbow)
 #goodleader
 #poormagicleader
 #addupkeep -999
@@ -1130,23 +1155,36 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #newmonster
 #copystats 2325
 #copyspr 2325
+#montag 1342
+#montagweight 2
 #startitem 146 --Piercer
 #end
 
 #newmonster
 #copystats 2325
 #copyspr 2325
+#montag 1342
+#montagweight 2
 #startitem 143 --Just Man's Cross
 #end
 
 #newmonster
 #copystats 2325
 #copyspr 2325
+#montag 1342
+#montagweight 2
 #startitem 342 --Pendant of Luck
 #end
 
-#selectmonster 2332 --Adventurer (archer)
+#newmonster
+#copystats 2325
+#copyspr 2325
 #montag 1342
+#montagweight 2
+#startitem 327 --Ring of Water Breathing
+#end
+
+#selectmonster 2332 --Adventurer (archer)
 #okmagicleader
 #addupkeep -999
 #beastmaster 1
@@ -1157,19 +1195,70 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #newmonster
 #copystats 2332
 #copyspr 2332
+#montag 1342
+#montagweight 2
 #startitem 340 -- Cat Charm
 #end
 
 #newmonster
 #copystats 2332
 #copyspr 2332
+#montag 1342
+#montagweight 2
 #startitem 144 -- Trueshot Longbow
 #end
 
 #newmonster
 #copystats 2332
 #copyspr 2332
+#montag 1342
+#montagweight 2
 #startitem 292 -- Ranger's Boots
+#end
+
+#newmonster
+#copystats 2332
+#copyspr 2332
+#montag 1342
+#montagweight 2
+#startitem 325 --Amulet of Breathing
+#end
+
+#newmonster
+#copystats 548 --Hoburg Hero
+#copyspr 548
+#gcost 0
+#name "Adventurer"
+#descr "An experienced hero fighting for the greater good, magic treasures or just for the fun of it."
+#startheroab 25
+#xpgain 50
+#montag 1342
+#startitem 298 --Pixie Shoes
+#poormagicleader
+#end
+
+#newmonster
+#copystats 548 --Hoburg Hero
+#copyspr 548
+#gcost 0
+#name "Adventurer"
+#descr "An experienced hero fighting for the greater good, magic treasures or just for the fun of it."
+#startheroab 25
+#xpgain 50
+#montag 1342
+#startitem 252 --Shroud of the Battle Saint
+#end
+
+#newmonster
+#copystats 548 --Hoburg Hero
+#copyspr 548
+#gcost 0
+#name "Adventurer"
+#descr "An experienced hero fighting for the greater good, magic treasures or just for the fun of it."
+#startheroab 25
+#xpgain 50
+#montag 1342
+#startitem 255 --Green Dragon Scale Mail
 #end
 
 #newspell
@@ -7654,7 +7743,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #end
 
 #selectspell 326 --Send Vodyanoy
-#fatiguecost 1700
+#fatiguecost 1500
 #researchlevel 3
 #end
 
@@ -12164,6 +12253,7 @@ mainlevel 1
 #selectitem 118 --Sceptre of Dark Regency
 #constlevel 7
 #unique
+#itemcost1 -20
 #end
 
 #selectitem 119 --Sword of Injustice
@@ -20214,6 +20304,10 @@ The additional construction costs were taken directly from the treasury."
 #selectsite 933 -- Vale of Healing Herbs
 #heal 10
 #com 2327  -- Adventurer
+#end
+
+#selectsite 935 -- Hoburg Holdfast
+#com 1198 --Horticulturist
 #end
 
 #selectsite 938 -- Ancient Ruin
