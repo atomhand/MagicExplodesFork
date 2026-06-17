@@ -1125,7 +1125,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #copyspr 2324
 #montag 1342
 #montagweight 2
-#startitem 312 -- Bear Claw Talisman
+#startitem 312 --Bear Claw Talisman
 #end
 
 #newmonster
@@ -3444,7 +3444,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 
 #selectspell 274 --Awaken hamadryad
 #researchlevel 4
-#fatiguecost 1800
+#fatiguecost 1500
 #pathlevel 0 3
 #researchlevel 4
 #end
@@ -9786,6 +9786,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #constlevel 1
 #itemcost1 -100
 #mapspeed 8
+#waterbreathing
 #end
 
 #selectitem 287 --Silent Boots
@@ -9809,11 +9810,22 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #itemcost1 -100
 #end
 
+-- add retinue + remove "affects mount" tag
 #selectitem 312 --Bear Claw Talisman
+#clear
+#type 8
+#spr "mextended/item312.png"
+#name "Bear Claw Talisman"
+#descr "This bear claw is enchanted to strengthen its wearer. This is a very manly talisman and it is said that a woman wearing it will grow a deeper voice and maybe even a beard."
 #constlevel 1
+#mainpath 3 --Earth
+#secondarypath 6 --Nature
 #itemcost1 -100
 #itemcost2 -100
 #batstartsum1d3 694 --Great Bear
+#str 5
+#morale 2
+#beauty -1
 #end
 
 #selectitem 313 --Rabbit Foot Charm
@@ -9824,7 +9836,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #selectitem 314 --Skull Talisman
 #constlevel 1
 #itemcost1 -100
-#undeadcommand 50
+#undcommand 50
 #end
 
 #selectitem 315 --Snake Ring
@@ -10023,7 +10035,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #selectitem 39 --Thorn Staff
 #constlevel 5
 #mainlevel 2
-#itemcost1 -20
+#itemcost1 -30
 #spell "Storm of Thorns"
 #end
 
@@ -10110,11 +10122,11 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #end
 
 #selectitem 133 --God-Slayer Spear
+#descr "The God-Slayer Spears have been forged by the Elder Cyclopses to help their allies get rid of the Gods. Pretender Gods can be tricky to hit and harm, but not with these spears. Any God standing even close to where the spear hits will be struck by a wave of fatigue and a few of these spears will soon put down even the mightiest Pretender. Sacred units will be equally affected by the fatigue. Anyone wielding such a spear is entrusted with the mission of the god-slayer and is permanently blessed."
 #constlevel 1
 #itemcost1 -100
 #minsize 6
-#autobless
-#
+#bless
 #end
 
 #selectitem 134 --Anemone Mace
@@ -10131,8 +10143,8 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #constlevel 1
 #itemcost1 -100
 #itemcost2 -100
-#combatcaster
-#descr "The weapon smiths of T'ien Ch'i have mastered the means to balance the elements into a single perfect blade. The weapon is usually given to kings and princes, but sometimes an accomplished swordmaster is granted one of the perfect blades. The Sword of Five Elements is remarkably well balanced and reinvigorates its wielder as well as improving their ability to cast spells in the midst of combat."
+#autobless
+#descr "The weapon smiths of T'ien Ch'i have mastered the means to balance the elements into a single perfect blade. The weapon is usually given to kings and princes, but sometimes an accomplished swordmaster is granted one of the perfect blades. The Sword of Five Elements is remarkably well balanced and reinvigorates its wielder. The sword is a symbol of divine harmony and when a sacred unit carries it into battle, they will be blessed without need for a priest."
 #end
 
 #selectitem 139 --Spear of the Morrigan
@@ -10372,10 +10384,17 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #itemcost2 -100
 #end
 
+#selectweapon 175 --Chi Kick
+#aoe 1
+#nratt 2
+#end
+
 #selectitem 288 --Chi Shoes
 #constlevel 1
 #itemcost1 -100
+#descr "These shoes are still amazingly light despite their iron soles. The shoes will allow their wearer to deliver powerful kicks in addition to his normal attacks. Not only that, they will guide the wearer's footwork allowing them to cast spells more fluently in combat."
 #mapspeed 8
+#combatcaster
 #end
 
 #selectitem 289 --Boots of the Behemoth
@@ -10533,6 +10552,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #selectitem 339 --Barkskin Amulet
 #constlevel 1
 #itemcost1 -100
+#hp 7
 #end
 
 #selectitem 340 --Cat Charm
@@ -11123,13 +11143,15 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 
 #selectitem 297 --Boots of the Messenger
 #constlevel 3
+#mainlevel 2
 #itemcost1 -100
 #end
 
 #selectitem 298 --Pixie Shoes
 #constlevel 3
 #itemcost1 -100
-#secondarypath -1
+#itemcost2 -100
+#autospell "Group Luck"
 #end
 
 #selectitem 350 --Medallion of Vengeance
@@ -11294,6 +11316,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #selectitem 380 --Amulet of Giants
 #constlevel 3
 #itemcost1 -100
+#enlargement
 #end
 
 #selectitem 381 --Lychantropos'Amulet
@@ -11483,8 +11506,9 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 
 #selectitem 75 --Rod of the Phoenix
 #constlevel 5
-#itemcost1 -60
-#extralife
+#itemcost1 -84
+#fly
+#autospell "Phoenix Power"
 #end
 
 #selectitem 76 --Staff of Elemental Mastery
@@ -11663,7 +11687,7 @@ One of your commanders encountered good fortune and attempted to cultivate spiri
 #end
 #selectitem 157 --Ivory Bow
 #constlevel 5
-#undeadcommand 150
+#undcommand 150
 mainlevel 1
 #itemcost1 -100
 #itemcost2 -100
@@ -11719,6 +11743,7 @@ mainlevel 1
 #mainlevel 1
 #itemcost1 -100
 #itemcost2 -100
+#mr 3
 #end
 
 #selectitem 207 --Starshine Skullcap
@@ -11892,7 +11917,7 @@ mainlevel 1
 #selectitem 301 --Boots of Youth
 #constlevel 5
 #itemcost1 -100
-#mapspeed 8
+#mapspeed 10
 #end
 
 #selectitem 302 --Boots of the Spider
@@ -11903,7 +11928,9 @@ mainlevel 1
 
 #selectitem 303 --Boots of Seven Mile Strides
 #constlevel 5
+#mainlevel 3
 #mapspeed 27
+#float
 #itemcost1 -100
 #end
 
@@ -12243,6 +12270,7 @@ mainlevel 1
 #constlevel 7
 #unique
 #raiseonkill 75
+#itemcost1 -20
 #end
 
 #selectitem 117 --The Sickle whose Crop is Pain
@@ -12413,19 +12441,130 @@ mainlevel 1
 #selectitem 218 --The Crown of Despair
 #constlevel 7
 #unique
-#undeadcommand 250
+#undcommand 250
 #end
 
 #selectitem 219 --Crown of the Fire King
 #constlevel 7
-#itemcost1 -100
+#decscale 2
+#descr "This crown has an ancient, powerful fire being trapped in its rubies. Anyone putting on the crown will soon become influenced by the fire being and claim the crown as his forever. The wearer of the crown will radiate severe heat and will also be protected by two fire elementals whenever he is threatened. The presence of the crown in a province shifts the temperature towards heat. The first one to wear the crown will instantly become a powerful Fire mage."
 #unique
+#magicboost 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "##targname## has claimed the Crown of the Fire King
+
+
+When ##fulltargname## put on the Crown of the Fire King, the powers of an ancient being of fire surged into them and they inherited its mastery over the path of Fire!"
+#req_targitem 219 --Crown of the Fire King
+#req_unique 1
+#nolog
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Fire boost (up to 3)."
+#req_targitem 219 --Crown of the Fire King
+#nation -2
+#notext
+#nolog
+#req_targnopath3 0
+#pathboost 0
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Fire boost (up to 3)."
+#req_targitem 219 --Crown of the Fire King
+#nation -2
+#notext
+#nolog
+#magicboost 0
+#req_targnopath3 0
+#pathboost 0
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Fire boost (up to 3)."
+#req_targitem 219 --Crown of the Fire King
+#nation -2
+#notext
+#nolog
+#req_targnopath3 0
+#pathboost 0
 #end
 
 #selectitem 220 --Crown of the Frost King
+#descr "This crown has an ancient, powerful frost being trapped in its diamonds. Anyone putting on the crown will soon become influenced by the elemental being and claim the crown as his forever. The wearer of the crown will radiate severe cold and will also be protected by two ice elementals whenever he is threatened. The presence of the crown in a province shifts the temperature towards cold. The first one to wear the crown will instantly become a powerful Water mage."
 #constlevel 7
-#itemcost1 -100
+#incscale 2
 #unique
+#magicboost 2
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#msg "##targname## has claimed the Crown of the Frost King
+
+
+When ##fulltargname## put on the Crown of the Frost King, the powers of an ancient being of frost surged into them and they inherited its mastery over the path of Water!"
+#req_targitem 220 --Crown of the Frost King
+#req_unique 1
+#nolog
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Water boost (up to 3)."
+#req_targitem 220 --Crown of the Frost King
+#nation -2
+#notext
+#nolog
+#pathboost 2
+#req_targnopath3 2
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Water boost (up to 3)."
+#req_targitem 220 --Crown of the Frost King
+#nation -2
+#notext
+#nolog
+#req_targnopath3 2
+#pathboost 2
+#delay 0
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#msg "Water boost (up to 3)."
+#req_targitem 220 --Crown of the Frost King
+#nation -2
+#notext
+#nolog
+#req_targnopath3 2
+#pathboost 2
 #end
 
 #selectitem 221 --The First Crown
@@ -12459,13 +12598,13 @@ mainlevel 1
 #selectitem 274 --Monolith Armor
 #constlevel 7
 --#itemcost1 -100
-#descr "This unbelievably massive armor is crafted out of black obsidian and is so heavy that it seems immovable. Indeed, were it not for the powerful spells welded into its construction, the enormous weight would render the wearer immobile. As it is, the armour propels itself, freeing the wearer to concentrate on casting spells. The wearer will be rendered virtually impervious to any sort of harm and the wounds upon his flesh will close at awesome speed. The wearer of this massive armor is impervious to fear."
+#descr "This unbelievably massive armor is crafted out of black obsidian and is so heavy that it seems immovable. Indeed, were it not for the powerful spells welded into its construction, the enormous weight would render the wearer immobile. As it is, the armour propels itself, freeing the wearer to concentrate on casting spells. The wearer will be rendered virtually impervious to any sort of harm and the wounds upon his flesh will close at awesome speed. The wearer of this massive armor is impervious to fear. Once the armour is worn, it will reveal its true power as it fuses with the wearer over the following month."
 #unique
 #regeneration 0
 #reconst 10
 #noundead
-#cursed
 #nofind
+#cursed
 #end
 
 #newevent
@@ -12491,11 +12630,45 @@ mainlevel 1
 #msg "##targname## has fused with the Monolith Armor!"
 #end
 
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targnoitem 274 -- Monolith Armor
+#req_targmnr "Monolith Titan"
+#killtarg
+#msg "##targname## could not survive without the Monolith Armor"
+#end
+
+#newevent
+#rarity 5
+#req_pop0ok
+#nation -2
+#header 2
+#req_targnoitem 274 -- Monolith Armor
+#req_targmnr "Monolith Titan (Mindless)"
+#killtarg
+#msg "##targname## could not survive without the Monolith Armor"
+#end
+
+#selectarmor 47 --Monolith Armor
+#movepen 100
+#end
+
+#newarmor 501
+#name "Monolith Helmet"
+#type 6
+#prot 34
+#magicarmor
+#end
+
 #newmonster
 #name "Monolith Titan"
 #spr1 "mextended/monolith_titan.png"
 #drawsize 20
 #descr "A wearer has fused with the Monolith Armour. This unbelievably massive armor is crafted out of black obsidian and is so heavy that it seems immovable. Indeed, were it not for the powerful spells welded into its construction, the enormous weight would render the wearer immobile. As it is, the armour propels itself, freeing the wearer to concentrate on casting spells. The wearer will be rendered virtually impervious to any sort of harm and the wounds upon his flesh will close at awesome speed. The wearer of this massive armor is impervious to fear."
+#armor 501 --Monolith Helmet
 #hp 125
 #size 10
 #prot 0
@@ -12509,6 +12682,10 @@ mainlevel 1
 #mapmove 16
 #enc 0
 #maxage 5000
+#fireres 15
+#coldres 15
+#poisonres 25
+#shockres 15
 #pooramphibian
 #slashres
 #bluntres
@@ -12518,10 +12695,15 @@ mainlevel 1
 #heal 1
 #woundfend 2
 #humanoid
-#itemslots 852486
+#itemslots 3998214 -- No helmet/boots, 4 misc slots
 #polyimmune
 #bonusspells 1
 #stonebeing
+#siegebonus 200
+#nomovepen
+#combatcaster
+#reinvigoration 5
+#ap 18
 #end
 
 #newmonster
@@ -12560,11 +12742,14 @@ mainlevel 1
 #selectitem 279 --Flesh Ward
 #constlevel 7
 #unique
+#itemcost1 -20
 #end
 
 #selectitem 280 --Pebble Skin Suit
 #constlevel 7
 #unique
+#itemcost1 -20
+#itemcost2 -20
 #end
 
 #selectitem 304 --Boots of Antaeus
@@ -12644,9 +12829,23 @@ mainlevel 1
 #unique
 #end
 
+#newspell
+#copyspell 951 --Power of the Spheres
+#name "Breach the Spheres"
+#descr "This spell breaches the celestial sphere to unleash a vast flow of magic power. All mages on the battlefield will be infused with power."
+#details "Magic bonus: +1 for all paths except blood and holy"
+#pathlevel 0 9
+#fatiguecost 1000
+#aoe 666
+#school -1
+#researchlevel 9
+#end
+
 #selectitem 432 --Tome of High Power
 #constlevel 7
 #unique
+#autospell "Breach the Spheres"
+#descr "This ancient book is infused with the power of the Sky and enhances the use of Air and Astral magic. It can also be used to greatly extend the range of magic rituals. In battle the tome's ancient enchantments will flood the battlefield with celestial power, strengthening the powers of every mage, friend or foe."
 #end
 
 #selectitem 433 --The Magic Lamp
@@ -12723,6 +12922,8 @@ mainlevel 1
 #constlevel 7
 #itemcost1 -80
 #unique
+#autospell "Summon Lesser Water Elemental"
+#autospellrepeat 1
 #end
 
 #selectitem 444 --Dome of the Ancients
@@ -12843,6 +13044,8 @@ mainlevel 1
 #selectitem 462 --The tome of Gaia
 #constlevel 7
 #unique
+#autospell "Gaia's Blessing"
+#descr "This ancient book is infused with Gaia's power and can be a great help when using Earth and Nature magic. In battle the tome reveals its true potential as it endows an entire army with Gaia's protection from the elements."
 #end
 
 #selectitem 463 --The Protection of Geryon
@@ -12888,6 +13091,7 @@ mainlevel 1
 #constlevel 7
 #itemcost1 -12
 #unique
+#spell "Lore of Legends"
 #end
 
 #selectitem 470 --The Missing Tune
@@ -12898,8 +13102,8 @@ mainlevel 1
 
 #selectitem 471 --The Trapped Dreams of Hruvur
 #constlevel 7
-#itemcost1 -60
-#itemcost2 -60
+#itemcost1 -40
+#itemcost2 -40
 #unique
 #end
 
@@ -12930,6 +13134,7 @@ mainlevel 1
 #selectitem 476 --The Void Sphere
 #constlevel 7
 #unique
+#itemcost1 -50
 #end
 
 #selectitem 494 --Sunrise Barding
@@ -17799,7 +18004,7 @@ The additional construction costs were taken directly from the treasury."
 #name "Student of Forgotten Masonry"
 #spr1 "mextended/forgotten_mason1.png"
 #spr2 "mextended/forgotten_mason2.png"
-#gcost 10000
+#gcost 10025
 #descr "The Tome of Forgotten Masons has attracted Master Masons from far and wide. Having travelled far in search of the Tome, the students of forgotten masonry are willing to serve its master for a nominal stipend. Master Masons are highly skilled architects and masters of siege warfare. Master Masons are able to construct more advanced forts than ordinary commanders. The Masons are also invaluable when leading sieges as they know exactly where to aim the trebuchets for maximum effect."
 #end
 

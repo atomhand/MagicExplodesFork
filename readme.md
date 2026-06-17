@@ -5,12 +5,6 @@ Changes
   * Forts construction is 2 turns faster
   * If a fort is built from start to end by a Mason, pay 600 gold on completion to build a Fortress directly
   * Troll Kings gain the Mason tag
-* Removed gem costs from most non-unique items that still have them, with the following exceptions:
-  * Rod of the phoenix reduced to 10 gems (from 12)
-  * Staff of Storms reduced to 20 gems (from 40)
-  * Banner of the Northern Star reduced to 10 gems (from 12)
-  * Standard of the Damned reduced to 5 gems (from 12)
-  * Thorn Staff unchanged
 * Changes to ritual summons
   * Increased cost of all ritual summons to a minimum of 1 gem, with the following exceptions:
     * Corpse Man Construction, Awaken Vine Ogres, Cross Breeding, Infernal Breeding, Bind Calydonian Boar, Celestial Servant, Ritual of Five Gates, Bind Umbral, Infect Ghouls
@@ -97,32 +91,48 @@ Changes
     * Buff Charm, Soul Slay, Control the Dead, Dust to Dust, Wither Bones
     * Enable and buff Group Luck
 * Item changes  
-  * #Reduce cost of non-unique path-boosting items by 20%.#
-  * Ring of Sorcery and Ring of Wizardry reverted to non-unique (and benefit from the above buff)
-  * Armor of Knights: Resistance to piercing and slashing damage
-  * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
-  * God-Slayer Spear: Blesses wielder if sacred, more powerful area fatigue effect, requires size >=6 to use
-  * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Star of Darkness, Demon Whip, Star of Darkness, Evening Star, Elf Bane and Magebane area damage
-  * Moon Blade grants ethereality and Magic Power 1
-  * Fire Brand grants heat power 1 and Frost brand grants cold power 1
-  * Robe of Shadows grants invuln 20 and reverted to S2 path requirement
-  * Horned Helmet - AoE 1, armor piercing, +4 dmg
-  * Added retinue to several weaker items (Bear Claw Talisman, Cat Charm, Hell Sword, Flask of Holy Water)
-  * Bottle of Living Water retinue improved to 1 size 9 and 1d3 size 4 water elementals
-  * Soul Contract enabled. Cost 13B/3F and, in addition to the old effects, autocasts Hell Power in battle.
-  * Enable Amulet of the Dead. Added 50% chance to raise killed enemies as Soulless. Path requirement increased to 3.
-  * Enable and rework Imp Familiar. Lose research bonus, gain undead and magic command bonus.
-  * Enable LLP as a free item. (this is a test)
-  * Enable Clam of Pearls and Sanguine Dowsing Rod
-  * Disabled Protection of Geryon
-  * #nofind to Lycanthropos amulet
-  * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garments, Armor of the Five Elements
-  * Sword of the Five elements grants combat caster
+  * Reduce cost of most path-boosting items by 20% (all non-uniques, some uniques affected).
+  * Removed gem costs from most non-unique items that still have them
+    * Except for Rod of the Phoenix, Staff of Storms, Banner of the Northern Star, Standard of the Damned, and Thorn Staff (which are still cheaper)
+  * Price adjustments to many unique items
   * Add #unique to any RL7 items that lacked it (consistency + because a few were quite OP)
-  * Buffed many unique items. Nerfed one or two.
-  * Unique item reworks
+  * Specific non-unique item changes
+    * Ring of Sorcery and Ring of Wizardry reverted to non-unique (and benefit from the boosters cost reduction)
+    * Armor of Knights: Resistance to piercing and slashing damage
+    * Staff of Elemental Mastery: +1 temp Earth/Fire/Air/Water gems
+    * God-Slayer Spear: Blesses wielder, more powerful area fatigue effect, requires size >=6 to use
+    * #friendlyimmune to GSS, Bane Blade, Midget Masher, Tartarian Chains, Star of Darkness, Demon Whip, Star of Darkness, Evening Star, Elf Bane and Magebane area damage
+    * Moon Blade grants ethereality and Magic Power 1
+    * Fire Brand grants heat power 1 and Frost brand grants cold power 1
+    * Robe of Shadows grants invuln 20 and reverted to S2 path requirement
+    * Horned Helmet - AoE 1, armor piercing, +4 dmg
+    * Added retinue to several weaker items (Bear Claw Talisman, Cat Charm, Hell Sword, Flask of Holy Water)
+    * Bottle of Living Water retinue improved to 1 size 9 and 1d3 size 4 water elementals
+    * Soul Contract enabled. Cost 13B/3F and, in addition to the old effects, autocasts Hell Power in battle.
+    * Enable Amulet of the Dead. Added 50% chance to raise killed enemies as Soulless. Path requirement increased to 3.
+    * Enable and rework Imp Familiar. Lose research bonus, gain undead and magic command bonus.
+    * Enable LLP as a free item. (this is a test)
+    * Enable Clam of Pearls and Sanguine Dowsing Rod
+    * Disabled Protection of Geryon
+    * #nofind to Lycanthropos amulet
+    * Minor buffs to Silver Silk Garments, Purple Silk Garments, Salamander Silk Garments, Armor of the Five Elements
+    * Sword of the Five elements blesses the wielder if sacred
+    * Rod of the Phoenix grants flight, autocast Phoenix Power, no longer grants extra life, cost reduced to 4 gems.
+    * Fish Scale Boots grant water breathing
+    * Boots of the Messenger path requirement increased to 2N (compensation for being free)
+    * Boots of Seven Mile Strides path requirement increased to 3N, but now also grant Floating
+    * Chi Shoes grants combat caster. Chi Kick is AoE 1 and attacks twice per round.
+    * Pixie Shoes cast Group Luck at the beginning of the battle. Nature crosspath restored.
+    * Boots of Youth: Increase mapmove to 10
+    * Barkskin Amulet: Add 7 HP
+  * Specific unique item changes  
     * The Monolith Armor fuses with its wearer to become a mighty Monolith Titan
     * Tome of the Forgotten Masons - the user can build a Citadel from nothing in a single turn (deducting the 1800 extra cost). According, cost increased to 10 gems and RL increased to 7.
+    * Tome of Legends can be used to cast Lore of Legends
+    * Crown of the Fire King shifts shifts scales towards Heat, is a Fire booster, and grants the first wearer godlike mastery of Fire (raise Fire path to 3, if lower)
+    * Crown of the Frost King shifts scales towards Cold, is a Water booster, and grants the first wearer godlike mastery of Water (raise Water path to 3, if lower)
+    * Tome of High Power will breach the celestial sphere in battle, granting Power of the Spheres to everyone on the battlefield
+    * Tome of Gaia autocasts Blessing of Gaia at battle start
 * Site searching overhaul
   * Integrate Informative Search mod (site-searching notifies you if there is a higher-level site you failed to discover)
   * Standardise remote search spells at 1 gem cost and 1 level below their vanilla research level
